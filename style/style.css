@@ -80,3 +80,65 @@ button.search{
         margin-left: 0.1rem;
     }
 }
+
+/* Стили для популярных товаров */
+div.popular{
+    position: absolute;
+    margin-top: 6rem;
+}
+
+div.popular .row{
+    margin: 0 2rem;
+}
+
+div.popular > .row > .col-md{
+    border: 1px solid #DEDEDE;
+    width: max-content;
+}
+
+div.popular img {
+    width:9vw ;
+}
+
+div.row.justify-content-between {
+    white-space: nowrap;
+}
+
+div.pop_head{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+div.align-items-center > div > p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+div.align-items-center {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.align-items-center.justify-content-start > div {
+    padding-left: 0;
+    display: inline-block;;
+}
+
+p.grey {
+    color: #7D7D7D;
+}
+
+.p_pad {
+    padding-right: 1rem;
+}
+
+body > div > div.row.no-gutters.justify-content-between > .col-md
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
