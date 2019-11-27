@@ -1,140 +1,202 @@
-        body {
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 22px;
-        }
-        
-        .header {
-            background: white;
-            padding-left: 40px;
-            padding-right: 40px;
-            vertical-align: middle;
-            position: absolute;
-            width: 100%;
-            height: 85px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .navbar-nav {
-            margin-left: 8vw;
-        }
-        
-        .nav-item {
-            margin-left: 0.7vw;
-        }
-        
-        .form-control {
-            border: 1px solid #E8E8E8;
-            margin-left: 3rem;
-            height: 30px;
-            border-radius: 0px;
-        }
-        
-        input.form-control {
-            max-width: unset;
-            min-width: unset;
-            width: 180px !important;
-        }
-        
-        .form-control:focus {
-            color: #495057;
-            background-color: #fff;
-            border: 1px solid #E8E8E8;
-            outline: none;
-            box-shadow: 0 0 0 0;
-        }
-        
-        button.shop {
-            padding: 0px;
-            width: 40px;
-            height: 40px;
-            background-color: #B32020;
-            border: none;
-            border-radius: 2px;
-        }
-        
-        img.shop {
-            padding-left: 1px;
-            padding-top: 1px;
-            padding-bottom: 1px;
-            padding-right: 1px;
-        }
-        
-        button.search {
-            padding: 0px;
-            width: 30px;
-            height: 30px;
-            background-color: #E8E8E8;
-            border: none;
-        }
-        
-        .btn {
-            border-radius: 0px;
-        }
-        
-        .btn:focus {
-            box-shadow: 0 0 0 0;
-        }
-        
-        @media screen and (max-width: 1266px) and (min-width: 991px) {
-            .navbar-nav {
-                margin-left: 0.2rem;
-            }
-            .nav-item {
-                margin-left: 0.5rem;
-            }
-            .form-control {
-                margin-left: 0.1rem;
-            }
-        }
-        /* Блок_2 */
-        
-        .flex-container {
-            position: absolute;
-            width: 100%;
-            height: 232.79px;
-            left: 0px;
-            top: 85px;
-            background: #FFEFEF;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .content p {
-            margin-top: 100%;
-            padding-top: 10%;
-            font-family: Ubuntu;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 22px;
-            line-height: 25px;
-            text-align: center;
-            color: #000000;
-            
-        }
-        
-        .content {
-            width: 100px;
-            height: 101.39px;
-            left: 567px;
-            top: 128.6px;
-            background: #C4C4C4;
-            margin: 30px;
-            border-radius: 50%;
-            padding: 0px;
-            position: bottom;
-        }
-        
-        .block-vert-line {
-            border-left: 1px solid rgb(0, 0, 0);
-            height: 90px;
-            margin-top: 35px;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-.text p{
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+
+.header {
+    background: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav {
+    margin-left: 8vw;
+}
+
+.nav-item {
+    margin-left: 0.7vw;
+}
+
+.form-control {
+    border: 1px solid #E8E8E8;
+    margin-left: 3rem;
+    height: 30px;
+    border-radius: 0px;
+}
+
+input.form-control {
+    max-width: unset;
+    min-width: unset;
+    width: 180px !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    outline: none;
+    box-shadow: 0 0 0 0;
+}
+
+button.shop {
+    padding: 0px;
+    width: 45px;
+    height: 40px;
+    background-color: #B32020;
+    border: none;
+    border-radius: 2px;
+}
+
+img.shop {
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+}
+
+button.search {
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #E8E8E8;
+    border: none;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+@media screen and (max-width: 1266px) and (min-width: 991px) {
+    .navbar-nav {
+        margin-left: 0.2rem;
+    }
+
+    .nav-item {
+        margin-left: 0.5rem;
+    }
+
+    .form-control {
+        margin-left: 0.1rem;
+    }
+}
+
+/*блок фильтрации и сортировки*/
+.flex-container {
+    position: absolute;
+    width: 100%;
+    height: 232.79px;
+    left: 0px;
+    top: 85px;
+    background: #FFEFEF;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    margin-top: 100%;
+    padding-top: 10%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.content {
+    width: 100px;
+    height: 101.39px;
+    left: 567px;
+    top: 128.6px;
+    background: #C4C4C4;
+    margin: 30px;
+    border-radius: 50%;
+    padding: 0px;
+    position: bottom;
+}
+
+.block-vert-line {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 90px;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text p {
     margin-left: -13px;
-   
+}
+
+/* Стили для популярных товаров */
+div.popular {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+div.popular .row {
+    margin: 0 2rem;
+}
+
+div.popular>.row>.col-md {
+    border: 1px solid #DEDEDE;
+    width: max-content;
+}
+
+div.popular img {
+    width: 9vw;
+}
+
+div.row.justify-content-between {
+    white-space: nowrap;
+}
+
+div.pop_head {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+div.align-items-center>div>p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+div.align-items-center {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.align-items-center.justify-content-start>div {
+    padding-left: 0;
+    display: inline-block;
+}
+
+p.grey {
+    color: #7D7D7D;
+}
+
+.p_pad {
+    padding-right: 1rem;
+}
+
+body>div>div.row.no-gutters.justify-content-between>.col-md {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
