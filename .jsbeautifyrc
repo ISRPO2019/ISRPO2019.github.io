@@ -1,0 +1,12 @@
+{
+    "brace_style": "expand",
+    "selector_separator_newline": false,
+    "break_chained_methods": true,
+    "space_around_combinator": true,
+    "indent_head_inner_html": true,
+    "newline_between_rules": true,
+    "indent_size" : 4,
+    "space_before_conditional" : true,
+    "space_in_empty_paren": false,
+    "indent_level" : 0
+}
