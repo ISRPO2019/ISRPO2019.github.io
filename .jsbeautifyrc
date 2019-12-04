@@ -5,8 +5,8 @@
     "space_around_combinator": true,
     "indent_head_inner_html": true,
     "newline_between_rules": true,
-    "indent_size" : 4,
+    "indent_with_tabs" : true,
     "space_before_conditional" : true,
     "space_in_empty_paren": false,
     "indent_level" : 0
-}
+} 
