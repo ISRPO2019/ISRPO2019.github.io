@@ -297,3 +297,91 @@ body>div>div.row.no-gutters.justify-content-between>.col-md {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+/*Подвал*/
+
+footer {
+    background: #D02A2A;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+} 
+
+footer img {
+    height: 48px;
+    width: 240px;
+    background: #FFFFFF;
+    padding: 11px 40px;
+}
+
+footer a {
+    display: block;
+    color: #421D1D;
+    padding-bottom: 15px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 20px;
+
+}
+
+footer h3 {
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+footer span {
+    color: #FFFFFF;
+}
+
+.basement1 {
+    padding-left: 170px;
+}
+
+.basement1 p {
+    padding-top:15px ;
+}
+
+.basement2 {
+    padding-left: 100px;
+}
+
+.basement3 {
+    padding-right: 100px;
+}
+
+.basement3 textarea{
+    margin-top: 15px;
+    margin-bottom:15px;
+    width: 320px;
+    height: 95px;
+}
+
+.basement4 {
+    padding-right: 170px;
+}
+
+footer {
+    padding-top: 35px;
+}
+
+footer button {
+    display: block;
+    width: 135px;
+    height: 32px;
+    text-align: center;
+}
+
+.under {
+    margin-top:60px ;
+    background: #8E1F1F;
+    text-align: center;
+    color: #ffffff;
+}
+
+.under p {
+    margin-bottom: 0rem;
+}
