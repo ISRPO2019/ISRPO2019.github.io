@@ -1,6 +1,6 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 1.375rem;
 }
 
 .header {
@@ -10,7 +10,7 @@ body {
     vertical-align: middle;
     position: fixed;
     width: 100%;
-    height: 85px;
+    height: 5.313rem;
     margin-bottom: 85px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -91,54 +91,58 @@ button.search {
 }
 
 /*блок фильтрации и сортировки*/
-.flex-container {
-    position: absolute;
-    width: 100%;
-    height: 232.79px;
-    left: 0px;
-    top: 85px;
+.sort-container {
     background: #FFEFEF;
+    margin-top: 5.313rem;
+}
+
+.sort-container > .row {
+    max-width: 1290px;
+    min-width: 720px
+}
+
+.sort-container p{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.sort-container img {
+    width: 5vw;
+}
+
+.black-line{
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    border-left: 1px solid black;
+    width:100%;
+    align-items: center;
     justify-content: center;
+}
+
+.w-blckln > div {
+    padding-left: 0.9rem;
+}
+
+.w-blckln > p {
+    padding-left: 0.9rem;
+}
+
+.p-to-n-r{
+    padding-right: 0 !important;
+}
+
+.p-to-n-l{
+    padding-left: 0 !important;
+}
+
+.sort-container > .row > .col-md > .row > .col-md{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
 }
 
-.content p {
-    margin-top: 100%;
-    padding-top: 10%;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 25px;
-    text-align: center;
-    color: #000000;
-}
-
-.content {
-    width: 100px;
-    height: 101.39px;
-    left: 567px;
-    top: 128.6px;
-    background: #C4C4C4;
-    margin: 30px;
-    border-radius: 50%;
-    padding: 0px;
-    position: bottom;
-}
-
-.block-vert-line {
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 90px;
-    margin-top: 35px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.text p {
-    margin-left: -13px;
+.block-vert-line{
+    border: 1px solid black;
 }
 
 /* Список товаров */
@@ -236,43 +240,34 @@ a:hover{
     margin-left: 30px !important;
 }
 
-
-/* Стили для популярных товаров */
-div.popular {
-    position: absolute;
-    margin-top: 20rem;
+/* Стили для похожие товаров */
+div.popular .row{
+    margin: 0 calc(2rem*1.375);
 }
 
-div.popular .row {
-    margin: 0 2rem;
-}
-
-div.popular>.row>.col-md {
+div.popular > .row > .col-md{
     border: 1px solid #DEDEDE;
     width: max-content;
 }
 
 div.popular img {
-    width: 9vw;
+    width:9vw;
 }
 
 div.row.justify-content-between {
     white-space: nowrap;
 }
 
-div.pop_head {
+div.pop_head{
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
+    font-size: 3rem;
 }
 
-div.align-items-center>div>p {
+div.align-items-center > div > p {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
 }
 
 div.align-items-center {
@@ -280,9 +275,13 @@ div.align-items-center {
     margin-right: 0;
 }
 
-div.align-items-center.justify-content-start>div {
+div.align-items-center.justify-content-start > div {
     padding-left: 0;
-    display: inline-block;
+    display: inline-block;;
+}
+
+body > div.container-fluid.popular > div.row.no-gutters.justify-content-between div.d-flex:hover{
+    cursor: pointer;
 }
 
 p.grey {
@@ -290,10 +289,14 @@ p.grey {
 }
 
 .p_pad {
-    padding-right: 1rem;
+    padding-right: calc(1rem*1.375);
 }
 
-body>div>div.row.no-gutters.justify-content-between>.col-md {
+body > div > div.row.no-gutters.justify-content-between > .col-md{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.mt_pop_items{
+    margin-top: 3.356875rem;
 }
