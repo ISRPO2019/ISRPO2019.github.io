@@ -1,6 +1,15 @@
+html {
+    font-size: 22px;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
@@ -142,33 +151,33 @@ button.search {
 }
 
 /* Список товаров */
-.container{
+.container {
     max-width: 1290px;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-.card:hover { 
+.card:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 0.25s;
 }
 
-.title_product{
+.title_product {
     font-size: 22px;
     line-height: 25px;
     color: #000000;
 }
 
-.number_product{
+.number_product {
     width: 40px;
-    height: 45px;    
+    height: 45px;
     background: #B32020;
     border-radius: 2px;
 }
 
-.number{
+.number {
     width: 33px;
     height: 29px;
     font-size: 22px;
@@ -177,45 +186,45 @@ a:hover{
     color: #FFFFFF;
 }
 
-.product{
+.product {
     position: relative;
     font-size: 22px;
     text-align: center;
 }
 
-.card-deck{
+.card-deck {
     justify-content: center;
 }
 
-.card{
+.card {
     width: 580px;
     height: 620px;
     background: #FFFFFF;
     border: none;
 }
 
-.card_img{
+.card_img {
     width: 400px;
     height: 400px;
     background: #C4C4C4;
     margin: 0 auto;
 }
 
-.card_title{     
+.card_title {
     font-size: 24px;
     text-align: center;
     color: #000000;
 }
 
-.card_price{  
+.card_price {
     font-size: 24px;
     line-height: 28px;
-    text-align: center; 
+    text-align: center;
     color: #7D7D7D;
     margin-top: -10px;
 }
 
-.card_ellipse{
+.card_ellipse {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -307,7 +316,7 @@ footer {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-} 
+}
 
 footer img {
     height: 48px;
@@ -342,7 +351,7 @@ footer span {
 }
 
 .basement1 p {
-    padding-top:15px ;
+    padding-top: 15px;
 }
 
 .basement2 {
@@ -353,9 +362,9 @@ footer span {
     padding-right: 100px;
 }
 
-.basement3 textarea{
+.basement3 textarea {
     margin-top: 15px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
     width: 320px;
     height: 95px;
 }
@@ -376,7 +385,7 @@ footer button {
 }
 
 .under {
-    margin-top:60px ;
+    margin-top: 60px;
     background: #8E1F1F;
     text-align: center;
     color: #ffffff;
@@ -384,4 +393,50 @@ footer button {
 
 .under p {
     margin-bottom: 0rem;
+}
+
+/* Блок описания товара */
+
+.product-main-description-price,
+.product-main-description-desc,
+.product-main-description h1 {
+    margin-bottom: calc(1rem / (22/15));
+}
+
+.product-main-description h1 {
+    margin-top: calc(1rem / (22/36));
+    font-size: calc(1rem / (22/46));
+}
+
+.product-main-description p {
+    line-height: calc(1rem / (22/28));
+    font-size: calc(1rem / (22/24));
+    color: #737373;
+}
+
+.product-main-description .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-main-description form label {
+    line-height: calc(1rem / (22/28));
+    font-size: calc(1rem / (22/24));
+    margin-right: calc(1rem / (22/18));
+}
+
+.product-main-description form input[type="text"] {
+    margin-right: calc(1rem / (22/18));
+    height: 45px;
+    width: calc(1rem / (22/83));
+}
+
+.product-main-description form input[type="submit"] {
+    padding: 23px 30px;
+    border-radius: 60px;
+    box-shadow: none;
+    border: 0;
+    background: #B32020;
+    color: #fff;
 }
