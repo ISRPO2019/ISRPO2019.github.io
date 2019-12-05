@@ -101,13 +101,17 @@ button.search {
     min-width: 720px
 }
 
+.sort-container > .row > .col-md > .row > .col-md {
+    width: 9.5rem;
+}
+
 .sort-container p{
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
 
 .sort-container img {
-    width: 5vw;
+    width: 6vw;
 }
 
 .black-line{
@@ -118,20 +122,16 @@ button.search {
     justify-content: center;
 }
 
+.w-blckln {
+    /*width: auto !important;*/
+}
+
 .w-blckln > div {
-    padding-left: 0.9rem;
+    padding-left: 0.7rem;
 }
 
 .w-blckln > p {
-    padding-left: 0.9rem;
-}
-
-.p-to-n-r{
-    padding-right: 0 !important;
-}
-
-.p-to-n-l{
-    padding-left: 0 !important;
+    padding-left: 0.7rem;
 }
 
 .sort-container > .row > .col-md > .row > .col-md{
@@ -299,4 +299,91 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
 
 .mt_pop_items{
     margin-top: 3.356875rem;
+}
+
+/*Подвал*/
+footer {
+    background: #D02A2A;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+} 
+
+footer img {
+    height: 48px;
+    width: 240px;
+    background: #FFFFFF;
+    padding: 11px 40px;
+}
+
+footer a {
+    display: block;
+    color: #421D1D;
+    padding-bottom: 15px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 20px;
+
+}
+
+footer h3 {
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+footer span {
+    color: #FFFFFF;
+}
+
+.basement1 {
+    padding-left: 170px;
+}
+
+.basement1 p {
+    padding-top:15px ;
+}
+
+.basement2 {
+    padding-left: 100px;
+}
+
+.basement3 {
+    padding-right: 100px;
+}
+
+.basement3 textarea{
+    margin-top: 15px;
+    margin-bottom:15px;
+    width: 320px;
+    height: 95px;
+}
+
+.basement4 {
+    padding-right: 170px;
+}
+
+footer {
+    padding-top: 35px;
+}
+
+footer button {
+    display: block;
+    width: 135px;
+    height: 32px;
+    text-align: center;
+}
+
+.under {
+    margin-top:60px ;
+    background: #8E1F1F;
+    text-align: center;
+    color: #ffffff;
+}
+
+.under p {
+    margin-bottom: 0rem;
 }
