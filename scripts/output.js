@@ -20,14 +20,14 @@ function cardCreator(id)
         newCard.appendChild(card.firstElementChild.cloneNode(true));
         console.log(newCard);
 
-        newCard.getElementsByClassName("title")[0].textContent = catalog[id].name;
+        newCard.getElementsByClassName("title")[0].textContent = catalog[id].brand + " " + catalog[id].name;
         newCard.getElementsByClassName("price")[0].textContent = catalog[id].price;
         newCard.getElementsByClassName("img")[0].setAttribute("src", catalog[id].url);
         cardlist.appendChild(newCard);
         return 0;
     }
 
-    card.getElementsByClassName("title")[0].textContent = catalog[id].name;
+    card.getElementsByClassName("title")[0].textContent = catalog[id].brand + " " + catalog[id].name;
     card.getElementsByClassName("price")[0].textContent = catalog[id].price;
     card.getElementsByClassName("img")[0].setAttribute("src", catalog[id].url);
     return 0;
