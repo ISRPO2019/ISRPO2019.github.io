@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif !important;
-    font-size: 1.375rem;
 }
 .img-responsive {
     display: block;
@@ -60,6 +59,8 @@ button.shop {
     background-color: #B32020;
     border: none;
     border-radius: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 img.shop {
@@ -75,6 +76,8 @@ button.search {
     height: 30px;
     background-color: #E8E8E8;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
