@@ -8,7 +8,6 @@ include("./scripts/localStorage.js");
 
 function cardCreator(id, products) {
     var cardlist = document.getElementById("card-list");
-
     let card = document.getElementById('card-0');
     let newCard = document.createElement('a');
     newCard.setAttribute('id', 'card-' + (id + 1));
