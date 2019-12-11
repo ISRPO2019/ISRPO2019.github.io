@@ -19,8 +19,7 @@ body {
     vertical-align: middle;
     position: fixed;
     width: 100%;
-    height: 5.313rem;
-    margin-bottom: 85px;
+    height: 3.86rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -54,21 +53,18 @@ input.form-control {
 }
 
 button.shop {
+    background-color: white;
     padding: 0px;
-    width: 45px;
-    height: 40px;
-    background-color: #B32020;
-    border: none;
-    border-radius: 2px;
+    width: 2.36rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 img.shop {
-    padding-left: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
+    border:none;
+    height: 2rem;
 }
 
 button.search {
@@ -106,7 +102,6 @@ button.search {
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
-    margin-top: 5.313rem;
 }
 
 .sort-container > .row {
