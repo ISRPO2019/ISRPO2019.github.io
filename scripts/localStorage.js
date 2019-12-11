@@ -537,7 +537,7 @@ var catalog = [{
     }],
     reviews: [{
       'authors_name': 'name',
-      'assessment': 5,
+      'assessment': 4,
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
       'phone': '88005553535'
@@ -563,7 +563,7 @@ var catalog = [{
     }],
     reviews: [{
       'authors_name': 'name',
-      'assessment': 5,
+      'assessment': 3,
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
       'phone': '88005553535'
@@ -615,7 +615,7 @@ var catalog = [{
     }],
     reviews: [{
       'authors_name': 'name',
-      'assessment': 5,
+      'assessment': 1,
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
       'phone': '88005553535'
