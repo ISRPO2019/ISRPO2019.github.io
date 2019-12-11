@@ -32,6 +32,7 @@ body {
 
 .form-control {
     border: 1px solid #E8E8E8;
+    background-color: #F7F7F7;
     margin-left: 3rem;
     height: 30px;
     border-radius: 0px;
