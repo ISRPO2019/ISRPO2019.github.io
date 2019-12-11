@@ -164,11 +164,10 @@ function MergeSort(array, by, lowToHigh = true)
 	}
 
     cardList(array);//  <====  пример вызова функции вывода элементов
-    console.log(array);
 
 	return array;
 }
 
 //MergeSort(catalog, "price", false);//  <====  пример вызова функции вывода сортировки от большего к меньшему
-MergeSort(catalog, "rating");
+//MergeSort(catalog, "rating");
 //MergeSort(catalog, "name");//  <====  пример вызова функции вывода сортировки от мень
