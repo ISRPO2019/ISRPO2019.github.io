@@ -1,0 +1,107 @@
+
+body{
+    font-family: Ubuntu;
+    background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main{
+    background: #F5F5F5;
+    width: 90%;
+    margin: auto;
+}
+
+.main_card {
+    width: 1460px;
+    height: 640px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+}
+
+.nav_bar_item{
+    display: table-cell;
+    width: 486px;
+    box-sizing: border-box;
+    border-right:1px solid #DDD8D8;
+    border-bottom: 6px solid #BBBBBB;
+    background-color: #FFF5F5;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+}
+
+.nav_bar_item.active{
+    border-bottom: none;
+    border-top: 6px solid #B32020;
+}
+
+.column_content {
+    box-sizing: border-box;
+    margin: 20px;
+    position: relative;
+    height: 100%;
+  
+}
+
+.column_contents {
+    box-sizing: border-box;
+    margin: 20px;
+    position: relative;
+    height: 100%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 41px;
+    text-align: justify;
+}
+
+
+.column_content button {
+     background: #C4C4C4;
+     box-sizing: border-box;
+     border-radius: 3px;
+     position: absolute;
+     width: 626px;
+     height: 576px;
+     left: 1006px;
+     top: 1440px;
+  
+    }
+
+.column{
+    box-sizing: padding-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.rating_card {
+    width: 650px;
+    height: 485px;
+    left: 270px;
+    top: 1490px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.border_nav {
+    border: 1px solid #B32020;
+    transform: rotate(90deg);
+    
+}
