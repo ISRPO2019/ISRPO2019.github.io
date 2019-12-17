@@ -339,30 +339,30 @@ footer {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-} 
+}
+
 
 footer img {
-    height: 48px;
-    width: 240px;
+    width: calc(1rem/(22/320));
+    height: calc(1rem/(22/70));
     background: #FFFFFF;
-    padding: 11px 40px;
+    padding: calc(1rem/(22/11)) calc(1rem/(22/40));
 }
 
 footer a {
     display: block;
     color: #421D1D;
-    padding-bottom: 15px;
-    font-size: 24px;
-    line-height: 28px;
-    margin-left: 20px;
+    padding-bottom: calc(1rem/(22/15));
+    font-size: calc(1rem/(22/24));
+    line-height: calc(1rem/(22/28));
 
 }
 
 footer h3 {
     color: #ffffff;
-    padding-bottom: 20px;
-    font-size: 36px;
-    line-height: 41px;
+    padding-bottom: calc(1rem/(22/20));
+    font-size: calc(1rem/(22/36));
+    line-height: calc(1rem/(22/41));
 }
 
 footer span {
@@ -370,45 +370,56 @@ footer span {
 }
 
 .basement1 {
-    padding-left: 170px;
+    padding-left: calc(1rem/(22/170));
+    color: #FFFFFF;
 }
 
 .basement1 p {
-    padding-top: 15px;
+    padding-top: calc(1rem/(22/15)) ;
 }
 
 .basement2 {
-    padding-left: 100px;
+    padding-left: calc(1rem/(22/100));
 }
 
 .basement3 {
-    padding-right: 100px;
+    padding-right: calc(1rem/(22/100));
 }
 
-.basement3 textarea {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 320px;
-    height: 95px;
+.basement3 textarea{
+    margin-top: calc(1rem/(22/15));
+    margin-bottom: calc(1rem/(22/15));
+    height: calc(1rem/(22/95));
+    width: calc(1rem/(22/320));
+}
+
+::placeholder {
+    color: #D1CECE;
+}
+
+footer textarea::placeholder {
+    color: #D1CECE;  
 }
 
 .basement4 {
-    padding-right: 170px;
+    padding-right: calc(1rem/(22/170));
 }
 
 footer {
-    padding-top: 35px;
+    padding-top: calc(1rem/(22/35));
 }
 
 footer button {
-    display: block;
-    width: 135px;
-    height: 32px;
+    
+    width: calc(1rem/(22/135));
+    height: calc(1rem/(22/32));
     text-align: center;
+    background: #FFFFFF;
 }
 
 .under {
-    margin-top:60px ;
+    margin-top: calc(1rem/(22/60)) ;
+    height: calc(1rem/(22/40));
     background: #8E1F1F;
     text-align: center;
     color: #ffffff;
@@ -416,6 +427,185 @@ footer button {
 
 .under p {
     margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+    footer {
+        font-size: calc(1rem/(22/24));
+        line-height: calc(1rem/(22/28));   
+    }
+
+    footer img {
+        width: calc(1rem/(22/320));
+    }
+
+    footer.container {
+        padding-top: calc(1rem/(22/40));
+    }
+    
+    .basement1 {
+        padding-left: calc(1rem/(22/44));
+        padding-right: 0rem;
+        
+    }
+
+    .basement1 p {
+        width: calc(1rem/(22/320));
+        
+    }
+
+
+    .basement2 {
+        padding-bottom: calc(1rem/(22/40));
+        padding-left: calc(1rem/(22/44));
+        padding-right: calc(1rem/(22/44));
+    }
+    .basement2 a {
+        padding-right: 0rem;
+        padding-bottom: 0rem ;
+        margin-left: 0rem ;
+        text-align: center;
+    }
+
+    .basement2 h3 {
+        display: none;
+    }
+
+    .basement3 {
+        padding-left: calc(1rem/(22/44));
+        padding-right: calc(1rem/(22/44)); 
+    }
+
+    .basement3 h3 {
+        margin: 0rem;
+    }
+
+    .basement3 textarea{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        height: calc(1rem/(22/95));
+        padding: 0rem;
+        width: 100%;
+    }
+
+    .basement3 .box_textarea {
+        padding-top: calc(1rem/(22/15));
+    }
+
+    .basement3 input {
+        height: calc(1rem/(22/40));
+        width: 100%;
+
+    }
+
+    footer button {
+        width: 100%;
+        height: calc(1rem/(22/40));
+        text-align: center; 
+    }
+
+    .box_button {
+        padding-left: calc(1rem/(22/15));
+    }
+
+    .basement4 { 
+        padding-left: calc(1rem/(22/40));
+        padding-right: 0rem;
+    }
+
+    .under {
+        margin-top: calc(1rem/(22/59)) ;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    
+    footer {
+        font-size: calc(1rem/(22/36));
+        line-height: calc(1rem/(22/41));
+    }
+
+    footer h3 {
+        font-size: calc(1rem/(22/48));
+        line-height: calc(1rem/(22/55));
+    }
+    
+    footer .row div {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer a {
+        font-size: calc(1rem/(22/48)); 
+        line-height: calc(1rem/(22/55)); 
+        margin-left: calc(1rem/(22/0));
+    }
+
+    footer img {
+        width: calc(1rem/(22/488));
+        height: calc(1rem/(22/102));
+    }
+
+    .basement1 {
+        padding-right: calc(1rem/(22/44));
+        padding-left: calc(1rem/(22/44));
+        padding-bottom: calc(1rem/(22/70));
+    }
+
+    .basement1 p {
+        padding-right: calc(1rem/(22/44));
+        padding-left: calc(1rem/(22/44));
+    }
+
+    .basement3 {
+        padding-bottom: calc(1rem/(22/70));
+    }
+
+    .basement3 input {
+        height: calc(1rem/(22/56));
+        width: calc(1rem/(22/488));
+    }
+
+    .basement3 textarea{
+        height: calc(1rem/(22/154));
+        width: calc(1rem/(22/488));
+        
+    }
+
+    .basement4 p {
+        font-size: calc(1rem/(22/48));
+        line-height: calc(1rem/(22/55));
+    }
+
+    footer textarea::placeholder {  
+        font-size: 36px;
+        line-height: 41px;
+    }
+
+    footer button {
+        display: block;
+        width: calc(1rem/(22/230));
+        height: calc(1rem/(22/50));
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: calc(1rem/(22/55));
+    }
+
+    .under {
+        height: calc(1rem/(22/80));
+    }
+
+    .under p{
+        font-size: 24px;
+        line-height: 28px;
+        padding: calc(1rem/(22/10)) calc(1rem/(22/82));
+        
+    }
 }
 
 /* Блок описания товара */
