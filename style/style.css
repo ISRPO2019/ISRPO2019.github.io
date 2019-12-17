@@ -748,7 +748,7 @@ footer button {
     margin-bottom: calc(1rem / (22/23));
 }
 
-.comment-form input, textarea {
+.comment-form input, .comment-form textarea {
     color: #000;
     font-size: calc(1rem / (22/24));
     width: 100%;
