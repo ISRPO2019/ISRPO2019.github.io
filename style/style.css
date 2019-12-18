@@ -288,7 +288,7 @@ div.row.justify-content-between {
     white-space: nowrap;
 }
 
-div.pop_head{
+div.pop-head{
     font-style: normal;
     font-weight: normal;
     font-size: 3rem;
@@ -318,7 +318,7 @@ p.grey {
     color: #7D7D7D;
 }
 
-.p_pad {
+.p-pad {
     padding-right: calc(1rem*1.375);
 }
 
@@ -327,8 +327,138 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
     padding-bottom: 1%;
 }
 
-.mt_pop_items{
+.mt-pop-items{
     margin-top: 3.356875rem;
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(1)
+    {
+        margin-right: 3.5% !important;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(2)
+    {
+        margin-right: 0 !important;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(3)
+    {
+        display: none;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(4)
+    {
+        display: none;
+    }
+
+    div.popular img {
+        width:18vw;
+    }
+
+    div.pop-head{
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(1)
+    {
+        margin-right: 0 !important;
+        border: none;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(2)
+    {
+        margin-right: 0 !important;
+        border-top: none;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(3)
+    {
+        display: none;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(4)
+    {
+        display: none;
+    }
+
+    div.popular{
+        padding: 0;
+    }
+
+    div.pop-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin:0 !important;
+        border-top: 1px solid #DEDEDE;
+        background: white;
+    }
+
+    body > div.container-fluid.popular.mb-3.mt-3 > div.row.no-gutters.justify-content-between{
+        margin:0;
+    }
+
+    div.popular img {
+        width:31vw;
+        margin-right: 2.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 575px){
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(1)
+    {
+        margin-right: 0 !important;
+        border: none;
+        width: 100%;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(2)
+    {
+        margin-right: 0 !important;
+        border-top: none;
+        width: 100%;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(3)
+    {
+        display: none;
+    }
+
+    body > div.container-fluid.popular.mb-3 > div.row.no-gutters.justify-content-between > div:nth-child(4)
+    {
+        display: none;
+    }
+
+    div.popular{
+        padding: 0;
+        width: 100%;
+    }
+
+    div.pop-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin:0 !important;
+        border-top: 1px solid #DEDEDE;
+        background: white;
+    }
+
+    body > div.container-fluid.popular.mb-3.mt-3 > div.row.no-gutters.justify-content-between{
+        margin:0;
+    }
+
+    div.popular img {
+        width:31vw;
+        margin-right: 2.5rem;
+        margin-left: 2rem;
+    } 
+    
 }
 
 /*Подвал*/
