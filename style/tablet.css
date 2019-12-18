@@ -1,5 +1,5 @@
 /* Общий стиль для планшетной и мобильной версии */
-@media (max-width: 990px){
+@media (max-width: 991px){
     html{
         font-size: 36px !important;
     }
