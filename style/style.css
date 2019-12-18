@@ -759,11 +759,27 @@ footer button {
 }
 
 .product-main-description-price, .product-main-description-desc {
-    font-size: calc(1rem / (22/24));;
+    font-size: calc(1rem / (22/24));
 }
 
 .product-main-description {
-    margin-bottom: calc(1rem / (22/107));;
+    margin-bottom: calc(1rem / (22/107));
+}
+
+.arrow-carousel {
+    color: #BFBFBF;
+    width: calc(1rem / (22/30));
+}
+
+.arrow-carousel-next {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+}
+
+.arrow-carousel-prev {
+    position: absolute;
+    left: 10px;
 }
 
 .product-main-description h1 {
