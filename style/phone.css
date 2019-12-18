@@ -12,10 +12,14 @@
         margin-top: 50px !important;
     }
     img.logo{
-        height: 68px !important;
+        height: 12vw !important;
     }
     img.shop{
-        height: 63px !important;
+        height: 12vw !important;
+    }
+    button.shop{
+        height: 12vw !important;
+        width: 12vw !important;
     }
     .navbar-collapse{
         padding-left:2.97rem;
