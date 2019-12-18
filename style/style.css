@@ -122,21 +122,6 @@ img.search{
     box-shadow: 0 0 0 0;
 }
 
-@media screen and (max-width: 1266px) and (min-width: 991px) {
-    .navbar-nav {
-        margin-left: 0.2rem;
-    }
-
-    .nav-item {
-        margin-left: 0.5rem;
-    }
-
-    .form-control {
-        margin-left: 0.1rem;
-    }
-}
-
-
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
