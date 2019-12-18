@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif !important;
-    font-size: 1.375rem;
+    background: #F5F5F5;
 }
 .img-responsive {
     display: block;
@@ -17,10 +17,8 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     vertical-align: middle;
-    position: fixed;
     width: 100%;
-    height: 5.313rem;
-    margin-bottom: 85px;
+    height: 3.86rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -34,6 +32,7 @@ body {
 
 .form-control {
     border: 1px solid #E8E8E8;
+    background-color: #F7F7F7;
     margin-left: 3rem;
     height: 30px;
     border-radius: 0px;
@@ -54,19 +53,18 @@ input.form-control {
 }
 
 button.shop {
+    background-color: white;
     padding: 0px;
-    width: 45px;
-    height: 40px;
-    background-color: #B32020;
+    width: 2.36rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
     border: none;
-    border-radius: 2px;
 }
 
 img.shop {
-    padding-left: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
+    border:none;
+    height: 2rem;
 }
 
 button.search {
@@ -75,6 +73,8 @@ button.search {
     height: 30px;
     background-color: #E8E8E8;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -102,25 +102,37 @@ button.search {
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
-    margin-top: 5.313rem;
 }
 
 .sort-container > .row {
-    max-width: 1290px;
+    max-width: 1310px;
     min-width: 720px
 }
 
 .sort-container > .row > .col-md > .row > .col-md {
     width: 9.5rem;
+    
 }
 
 .sort-container p{
-    margin-top: 0.5rem;
+    margin-top: 0.55rem;
     margin-bottom: 0;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+div.align-items-center.justify-content-center.no-gutters{
+    padding-top: calc(1rem * 2.095);
+    padding-bottom: calc(1rem * 1.91);
+    
 }
 
 .sort-container img {
-    width: 6vw;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .black-line{
@@ -131,16 +143,20 @@ button.search {
     justify-content: center;
 }
 
+.black-line img{
+    border : 1px solid black;
+    background-color: #FFFFFF;
+}
 .w-blckln {
-    /*width: auto !important;*/
+    /*width: auto (!important);*/
 }
 
 .w-blckln > div {
-    padding-left: 0.7rem;
+    padding-left: 2.5rem;
 }
 
 .w-blckln > p {
-    padding-left: 0.7rem;
+    padding-left: 2.5rem;
 }
 
 .sort-container > .row > .col-md > .row > .col-md{
@@ -148,6 +164,9 @@ button.search {
     flex-direction: column;
     justify-content:center;
     align-items: center;
+}
+.sort-container > .row > .col-md > .row > .col-md:nth-child(7) {
+    padding-right: 1.14rem;
 }
 
 .block-vert-line{
@@ -198,6 +217,7 @@ a:hover {
 
 .card-deck {
     justify-content: center;
+    background: #F5F5F5;
 }
 
 .card {
@@ -257,6 +277,7 @@ div.popular .row{
 div.popular > .row > .col-md{
     border: 1px solid #DEDEDE;
     width: max-content;
+    background: white;
 }
 
 div.popular img {
@@ -405,6 +426,10 @@ footer button {
     margin-bottom: calc(1rem / (22/15));
 }
 
+.product-main-description {
+    margin-bottom: calc(1rem / (22/107));;
+}
+
 .product-main-description h1 {
     margin-top: calc(1rem / (22/36));
     font-size: calc(1rem / (22/46));
@@ -441,4 +466,134 @@ footer button {
     border: 0;
     background: #B32020;
     color: #fff;
+}
+
+/* Подробное описание */
+
+.product-about-description .second-rr {
+    padding-top: calc(1rem / (22/50));
+    padding-left: calc(1rem / (22/25));
+    padding-right: calc(1rem / (22/40));
+    border: 1px solid #bbbbbb;
+    margin: 0;
+}
+
+.about-buttons:first-child {
+    padding-right: 0;
+}
+
+.about-buttons:nth-child(2n) {
+    padding: 0;
+}
+
+.about-buttons:last-child {
+    padding-left: 0;
+}
+
+.about-buttons div {
+    background: #FFF5F5;
+    padding-top: calc(1rem / (22/25));
+    padding-bottom: calc(1rem / (22/25));
+    font-size: calc(1rem / (22/36));
+    border-bottom: calc(1rem / (22/10)) solid #BBBBBB;
+}
+
+.about-buttons.active div {
+    border-bottom: none;
+    border-top: calc(1rem / (22/10)) solid #B32020;
+}
+
+.comment {
+    position: relative;
+    border-bottom: calc(1rem / (22/1)) solid #B32020;
+    margin-bottom: calc(1rem / (22/16));
+}
+
+.author-name {
+    font-size: calc(1rem / (22/24));
+    margin-bottom: calc(1rem / (22/-9));
+}
+
+.comment-date {
+    font-size: calc(1rem / (22/18));
+    color: #7d7d7d;
+}
+
+.comment-content {
+    font-size: calc(1rem / (22/18));
+    display: inline-block;
+}
+
+.comment-content p {
+    margin-bottom: calc(1rem / (22/15));
+}
+
+.comment img {
+    float: left;
+    padding-right: calc(1rem / (22/13));
+    padding-bottom: calc(1rem / (22/13));
+}
+
+.comment button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: calc(1rem / (22/24));
+    color: #fff;
+    border: none;
+    background: #B32020;
+    border-radius: 5px;
+    padding-bottom: calc(1rem / (22/5));
+    padding-top: calc(1rem / (22/5));
+    padding-right: calc(1rem / (22/13));
+    padding-left: calc(1rem / (22/13));
+}
+
+.inner-comments {
+    padding-left: calc(1rem / (22/40));
+}
+
+.comment-form-title {
+    font-size: calc(1rem / (22/24));
+    margin-bottom: calc(1rem / (22/23));
+}
+
+.comment-form input, textarea {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+    width: 100%;
+    height: calc(1rem / (22/60));
+    border: calc(1rem / (22/1)) solid #C4C4C4;
+    margin-bottom: calc(1rem / (22/20));
+    padding-left: calc(1rem / (22/31));
+    padding-right: calc(1rem / (22/31));
+}
+
+.comment-form input::placeholder, textarea::placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form textarea {
+    height: calc(1rem / (22/130));
+    resize: none;
+}
+
+.comment-form button {
+    float: right;
+    background: #C4C4C4;
+    border-radius: calc(1rem / (22/5));
+    height: calc(1rem / (22/55));
+    width: calc(1rem / (22/290));
+    border: none;
 }
