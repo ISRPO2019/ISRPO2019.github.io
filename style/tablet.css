@@ -1,0 +1,86 @@
+/* Общий стиль для планшетной и мобильной версии */
+@media (max-width: 990px){
+    html{
+        font-size: 36px !important;
+    }
+    .navbar{
+        padding: 0px !important;
+    }
+    .nav-item {
+        margin-left: 0px !important;
+        border-bottom: 1px solid #D32424;
+    }
+    input.search{
+        
+        height: 60px !important;
+        margin-left: 0px !important;
+        width: calc(100% - 60px) !important;
+    }
+    button.search{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    img.search{
+        height: 33px !important;
+    }
+    .navbar-nav{
+        margin-left: 0px !important;
+        text-align: center;
+    }
+
+}
+
+/* Планшетная версия */
+@media (min-width: 768px) and (max-width:991px){
+    
+    .header {
+        height: 2.22rem !important;
+    }
+    img.logo{
+        height: 1.81rem !important;
+    }
+    .arrow{
+        height: 0.61rem;
+    }
+    .navbar-collapse{
+        padding-left:1.78rem;
+        padding-right:1.78rem; 
+    }
+    .navbar-nav{
+        margin-left: 0px !important;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        padding-top: unset !important;
+        padding-bottom: unset !important;
+        margin-right: unset !important;
+    }
+    form.search{
+        margin-top: 1.1rem !important;
+    }
+    input.search{
+        
+        height: 60px !important;
+        margin-left: 0px !important;
+        width: calc(100% - 60px) !important;
+    }
+    button.search{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    img.search{
+        height: 33px !important;
+    }
+    img.shop{
+        height:1.25rem !important;
+    }
+    button.shop{
+        height: 1rem !important;
+    }
+    
+
+    .form-control {
+        margin-left: 0.1rem;
+    }
+}

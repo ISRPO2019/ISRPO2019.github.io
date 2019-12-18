@@ -1,0 +1,24 @@
+@media (max-width: 767px){
+    .header{
+        height: 5.5rem !important;
+        /* padding-left: 44px !important;
+        padding-right: 44px !important; */
+        padding-top: 30px !important;
+    }
+    img.arrow{
+        height: 0.22rem !important;
+    }
+    button.arrow{
+        margin-top: 50px !important;
+    }
+    img.logo{
+        height: 68px !important;
+    }
+    img.shop{
+        height: 63px !important;
+    }
+    .navbar-collapse{
+        padding-left:2.97rem;
+        padding-right:2.97rem; 
+    }
+}
