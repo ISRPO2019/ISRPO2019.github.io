@@ -12,10 +12,10 @@ function cardCreator(id, products) {
     let newCard = document.createElement('a');
     newCard.setAttribute('id', 'card-' + (id + 1));
     newCard.appendChild(card.firstElementChild.cloneNode(true));
-
+    
     newCard.getElementsByClassName("title")[0].textContent = products[id].brand + ' ' + products[id].name;
     newCard.getElementsByClassName("price")[0].textContent = products[id].price;
-    newCard.getElementsByClassName("img")[0].setAttribute("src", products[id].url);
+    newCard.getElementsByClassName("img")[0].setAttribute("src", products[id].images[0]);
     cardlist.appendChild(newCard);
     return 0;
 }
