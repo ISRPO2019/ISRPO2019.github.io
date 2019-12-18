@@ -281,17 +281,16 @@ div.popular > .row > .col-md{
 }
 
 div.popular img {
-    width:9vw;
+    width:5.99vw;
+    height: 5.99vw;
 }
 
 div.row.justify-content-between {
     white-space: nowrap;
 }
 
-div.pop-head{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3rem;
+div.pop-head > h1{
+    font-size: 2.1818181818181817rem !important;
 }
 
 div.align-items-center > div > p {
@@ -320,6 +319,7 @@ p.grey {
 
 .p-pad {
     padding-right: calc(1rem*1.375);
+    font-size:1.0909090909090908rem;
 }
 
 body > div > div.row.no-gutters.justify-content-between > .col-md{
