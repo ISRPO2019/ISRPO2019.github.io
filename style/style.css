@@ -768,18 +768,19 @@ footer button {
 
 .arrow-carousel {
     color: #BFBFBF;
-    width: calc(1rem / (22/30));
+    width: calc(1rem / (22/60));
+	height: calc(1rem / (22/60));
 }
 
 .arrow-carousel-next {
     transform: rotate(180deg);
     position: absolute;
-    right: 10px;
+    right: 0;
 }
 
 .arrow-carousel-prev {
     position: absolute;
-    left: 10px;
+    left: 0;
 }
 
 .product-main-description h1 {
