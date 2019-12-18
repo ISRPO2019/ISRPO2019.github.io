@@ -426,6 +426,10 @@ footer button {
     margin-bottom: calc(1rem / (22/15));
 }
 
+.product-main-description {
+    margin-bottom: calc(1rem / (22/107));;
+}
+
 .product-main-description h1 {
     margin-top: calc(1rem / (22/36));
     font-size: calc(1rem / (22/46));
@@ -462,4 +466,134 @@ footer button {
     border: 0;
     background: #B32020;
     color: #fff;
+}
+
+/* Подробное описание */
+
+.product-about-description .second-rr {
+    padding-top: calc(1rem / (22/50));
+    padding-left: calc(1rem / (22/25));
+    padding-right: calc(1rem / (22/40));
+    border: 1px solid #bbbbbb;
+    margin: 0;
+}
+
+.about-buttons:first-child {
+    padding-right: 0;
+}
+
+.about-buttons:nth-child(2n) {
+    padding: 0;
+}
+
+.about-buttons:last-child {
+    padding-left: 0;
+}
+
+.about-buttons div {
+    background: #FFF5F5;
+    padding-top: calc(1rem / (22/25));
+    padding-bottom: calc(1rem / (22/25));
+    font-size: calc(1rem / (22/36));
+    border-bottom: calc(1rem / (22/10)) solid #BBBBBB;
+}
+
+.about-buttons.active div {
+    border-bottom: none;
+    border-top: calc(1rem / (22/10)) solid #B32020;
+}
+
+.comment {
+    position: relative;
+    border-bottom: calc(1rem / (22/1)) solid #B32020;
+    margin-bottom: calc(1rem / (22/16));
+}
+
+.author-name {
+    font-size: calc(1rem / (22/24));
+    margin-bottom: calc(1rem / (22/-9));
+}
+
+.comment-date {
+    font-size: calc(1rem / (22/18));
+    color: #7d7d7d;
+}
+
+.comment-content {
+    font-size: calc(1rem / (22/18));
+    display: inline-block;
+}
+
+.comment-content p {
+    margin-bottom: calc(1rem / (22/15));
+}
+
+.comment img {
+    float: left;
+    padding-right: calc(1rem / (22/13));
+    padding-bottom: calc(1rem / (22/13));
+}
+
+.comment button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: calc(1rem / (22/24));
+    color: #fff;
+    border: none;
+    background: #B32020;
+    border-radius: 5px;
+    padding-bottom: calc(1rem / (22/5));
+    padding-top: calc(1rem / (22/5));
+    padding-right: calc(1rem / (22/13));
+    padding-left: calc(1rem / (22/13));
+}
+
+.inner-comments {
+    padding-left: calc(1rem / (22/40));
+}
+
+.comment-form-title {
+    font-size: calc(1rem / (22/24));
+    margin-bottom: calc(1rem / (22/23));
+}
+
+.comment-form input, textarea {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+    width: 100%;
+    height: calc(1rem / (22/60));
+    border: calc(1rem / (22/1)) solid #C4C4C4;
+    margin-bottom: calc(1rem / (22/20));
+    padding-left: calc(1rem / (22/31));
+    padding-right: calc(1rem / (22/31));
+}
+
+.comment-form input::placeholder, textarea::placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #000;
+    font-size: calc(1rem / (22/24));
+}
+
+.comment-form textarea {
+    height: calc(1rem / (22/130));
+    resize: none;
+}
+
+.comment-form button {
+    float: right;
+    background: #C4C4C4;
+    border-radius: calc(1rem / (22/5));
+    height: calc(1rem / (22/55));
+    width: calc(1rem / (22/290));
+    border: none;
 }
