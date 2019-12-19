@@ -332,6 +332,7 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
 }
 
 /*Подвал*/
+/*Подвал*/
 footer {
     background: #D02A2A;
     font-family: Ubuntu;
@@ -375,6 +376,7 @@ footer span {
 }
 
 .basement1 p {
+    width: calc(1rem/(22/320)) ;
     padding-top: calc(1rem/(22/15)) ;
 }
 
@@ -429,7 +431,39 @@ footer button {
     margin-bottom: 0rem;
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1686px) {
+    
+    .basement1 {
+        padding-left: calc(1rem/(22/50));
+        color: #FFFFFF;
+    }
+    
+    .basement2 {
+        padding-left: calc(1rem/(22/100));
+        
+    }
+    
+    .basement3 {
+        padding-right: calc(1rem/(22/10));
+    }
+
+    .basement4 {
+        padding-left: calc(1rem/(22/50));
+        padding-right: calc(1rem/(22/50));
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1240px) {
+    .basement3 textarea {
+        width: calc(1rem/(22/270));
+    }
+
+    footer input {
+        width: calc(1rem/(22/270));
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1199px) {
     
     footer {
         font-size: calc(1rem/(22/24));
@@ -437,7 +471,7 @@ footer button {
     }
 
     footer img {
-        width: calc(1rem/(22/320));
+        width: 100%;
     }
 
     footer.container {
@@ -451,7 +485,7 @@ footer button {
     }
 
     .basement1 p {
-        width: calc(1rem/(22/320));
+        width: 100%;
         
     }
 
@@ -519,6 +553,24 @@ footer button {
     }
 }
 
+@media screen and (min-width: 575px) and (max-width: 718px) {
+    footer button {
+        font-size: calc(1rem/(22/20));
+        line-height: calc(1rem/(22/25));
+    }
+
+    footer .box_input {
+        padding-right: 0rem;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 641px) {
+    footer button {
+        font-size: calc(1rem/(22/17));
+        line-height: calc(1rem/(22/23));
+    }
+}
+
 @media screen and (max-width: 574px) {
     
     footer {
@@ -559,6 +611,7 @@ footer button {
     .basement1 p {
         padding-right: calc(1rem/(22/44));
         padding-left: calc(1rem/(22/44));
+        width: 100%;
     }
 
     .basement3 {
