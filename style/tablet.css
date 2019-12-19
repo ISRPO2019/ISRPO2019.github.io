@@ -27,7 +27,9 @@
         margin-left: 0px !important;
         text-align: center;
     }
-
+    svg.arrow-header{
+        transform: rotate(270deg);
+    }
 }
 
 /* Планшетная версия */
@@ -40,7 +42,7 @@
         height: 1.81rem !important;
     }
     .arrow-header{
-        height: 0.61rem;
+        height: 50px !important;
     }
     .navbar-collapse{
         padding-left:1.78rem;

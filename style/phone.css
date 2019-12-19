@@ -5,8 +5,8 @@
         padding-right: 44px !important; */
         padding-top: 30px !important;
     }
-    img.arrow-header{
-        height: 0.22rem !important;
+    .arrow-header{
+        height: 20px !important;
     }
     button.arrow-header{
         margin-top: 50px !important;
