@@ -47,61 +47,102 @@
 
   <!-- Подробное описание -->
 
+  
+  
   <section class="product-about-description">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 about-buttons text-center">
-          <div>
-              Описание
-          </div>
-        </div>
-        <div class="col-md-4 about-buttons active text-center">
-          <div>
-              Комментарии
-          </div>
-        </div>
-        <div class="col-md-4 about-buttons text-center">
-          <div>
-              Обзоры
-          </div>
-        </div>
-      </div>
-      <div class="row second-rr">
-        <div class="col-md-6">
-          <div class="comment">
-            <img class="img-responsive" src="http://placehold.it/80x80/">
-            <div class="author-name">Имя автора</div>
-            <div class="comment-date">01.01.2000</div>
-            <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-            <button>Ответить</button>
-          </div>
-          <div class="inner-comments">
-              <div class="comment">
-                  <img class="img-responsive" src="http://placehold.it/80x80/">
-                  <div class="author-name">Имя автора</div>
-                  <div class="comment-date">01.01.2000</div>
-                  <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-                  <button>Ответить</button>
+        <div class="row">
+            <div class="col-md-4 about-buttons text-center">
+              <div>
+                  Описание
               </div>
-              <div class="comment">
-                  <img class="img-responsive" src="http://placehold.it/80x80/">
-                  <div class="author-name">Имя автора</div>
-                  <div class="comment-date">01.01.2000</div>
-                  <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-                  <button>Ответить</button>
+            </div>
+            <div class="col-md-4 about-buttons active text-center">
+              <div>
+                  Комментарии
               </div>
+            </div>
+            <div class="col-md-4 about-buttons text-center">
+              <div>
+                  Обзоры
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="comment-form-title">Написать комментарий</div>
-          <form class="comment-form" method="GET">
-            <input type="text" name="name" placeholder="Полное имя">
-            <input type="tel" name="tel" placeholder="Номер телефона">
-            <textarea name="text" placeholder="Сообщение"></textarea>
-            <button>Отправить</button>
-          </form>
-        </div>
-      </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Обзоры</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row info-block">
+                <div class="col-md-5 col-1">
+                  <div class="info">
+                  <h1>Описание</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                <div class="col-md-7 col-2">
+                  <h1>Характеристика</h1>
+                  <p>Ширина ..................................................... 128мм <br>
+                     Высота ....................................................... 508мм <br>
+                      Глубина ...................................................... 85мм<br>
+                       Вес .............................................................. 52гм<br>
+                        Материал .................................................. золото<br>
+                         Цвет ............................................................ белый<br>
+                          Пол ............................................................. женский<br> 
+                          Механизм ................................................. ручной подзавод<br> 
+                          Страна производителя ......................... Швеция<br></p>
+                          
+                </div>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><div class="row second-rr">
+                <div class="col-md-6">
+                  <div class="comment">
+                    <img class="img-responsive" src="http://placehold.it/80x80/">
+                    <div class="author-name">Имя автора</div>
+                    <div class="comment-date">01.01.2000</div>
+                    <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                    <button>Ответить</button>
+                  </div>
+                  <div class="inner-comments">
+                      <div class="comment">
+                          <img class="img-responsive" src="http://placehold.it/80x80/">
+                          <div class="author-name">Имя автора</div>
+                          <div class="comment-date">01.01.2000</div>
+                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                          <button>Ответить</button>
+                      </div>
+                      <div class="comment">
+                          <img class="img-responsive" src="http://placehold.it/80x80/">
+                          <div class="author-name">Имя автора</div>
+                          <div class="comment-date">01.01.2000</div>
+                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                          <button>Ответить</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="comment-form-title">Написать комментарий</div>
+                  <form class="comment-form" method="GET">
+                    <input type="text" name="name" placeholder="Полное имя">
+                    <input type="tel" name="tel" placeholder="Номер телефона">
+                    <textarea name="text" placeholder="Сообщение"></textarea>
+                    <button>Отправить</button>
+                  </form>
+                </div>
+              </div></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+          </div>
+      
+      
     </div>
   </section>
 
