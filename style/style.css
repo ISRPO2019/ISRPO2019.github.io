@@ -798,7 +798,6 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
 }
 
 /*Подвал*/
-/*Подвал*/
 footer {
     background: #D02A2A;
     font-family: Ubuntu;
@@ -807,10 +806,6 @@ footer {
     font-size: 24px;
     line-height: 28px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> e5737031166d5c3922692f4d6936721ffaf01e83
 
 footer img {
     width: calc(1rem/(22/320));
@@ -940,6 +935,7 @@ footer button {
     }
 
     footer img {
+        max-width: calc(1rem/(22/320));
         width: 100%;
     }
 
@@ -954,6 +950,7 @@ footer button {
     }
 
     .basement1 p {
+        max-width: calc(1rem/(22/320));
         width: 100%;
         
     }
