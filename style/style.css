@@ -1075,6 +1075,7 @@ footer button {
 .col-2, .col-1 {
     padding-left: 40px;
     padding-top: 35px;
+    line-height: 41px;
 }
 
 #home > div > div.col-md-6.col-1 > div > h1, #home > div > div.col-md-6.col-2 > h1 {
@@ -1082,7 +1083,7 @@ footer button {
 }
 
 .param {
-    line-height: 1.4;
+    line-height: 41px;
 }
     
 .param__prop {
@@ -1095,7 +1096,7 @@ footer button {
     content: '';
     position: absolute;
     margin-left: .3em;
-    bottom: .35em;
+    bottom: .49em;
     width: 100%;
     border-bottom: .1em dotted;
 }
@@ -1119,7 +1120,15 @@ footer button {
 }
 
 .param--align .param__value {
-    float: right;
     width: 30%;
     box-sizing: border-box;
+}
+#home{
+    background-color: #FFFFFF;
+}
+.col-2 {
+    padding-right: 3rem;
+}
+.col-1{
+    padding-left: 40px;
 }
