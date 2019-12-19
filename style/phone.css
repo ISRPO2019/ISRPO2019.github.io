@@ -1,15 +1,22 @@
 @media (max-width: 767px){
     .header{
-        height: 5.5rem !important;
+        height: 40vw !important;
         /* padding-left: 44px !important;
         padding-right: 44px !important; */
-        padding-top: 30px !important;
+        padding-top: 2vw !important;
     }
-    .arrow-header{
-        height: 20px !important;
+    svg.arrow-header{
+        height: 3vw !important;
+        width: 3vw !important;
     }
     button.arrow-header{
-        margin-top: 50px !important;
+        height: 40px !important;
+        margin-top: auto !important; 
+    }
+    a.logo{
+        max-height: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     img.logo{
         height: 12vw !important;
@@ -22,7 +29,7 @@
         width: 12vw !important;
     }
     .navbar-collapse{
-        padding-left:2.97rem;
-        padding-right:2.97rem; 
+        padding-left: 10vw;
+        padding-right: 10vw; 
     }
 }
