@@ -1080,7 +1080,46 @@ footer button {
 #home > div > div.col-md-6.col-1 > div > h1, #home > div > div.col-md-6.col-2 > h1 {
     font-size: 36px;
 }
-.info-block {
-    font-size: 24px;
+
+.param {
+    line-height: 1.4;
+}
+    
+.param__prop {
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
 
+.param__prop:after {
+    content: '';
+    position: absolute;
+    margin-left: .3em;
+    bottom: .35em;
+    width: 100%;
+    border-bottom: .1em dotted;
+}
+    
+.param__value {
+    float: right;
+    padding-left: .2em;
+    padding-right: 1.4em;
+}
+    
+/* Modify */
+.param--align:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.param--align .param__prop {
+    float: left;
+    width: 70%;
+}
+
+.param--align .param__value {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+}
