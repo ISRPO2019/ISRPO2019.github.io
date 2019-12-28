@@ -689,6 +689,44 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
     div.pop-head > h1{
         font-size: 1.6363636363636365rem !important;
     }
+
+    .t-n {
+        display: none;
+    }
+
+    .product-main-description .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .product-main-description .carousel .carousel-item img {
+        width: 100%;
+    }
+
+    .product-main-description h1 {
+        font-size: calc(1rem / (22/36)) !important;
+    }
+
+    .product-main-description-price, .product-main-description-desc {
+        font-size: calc(1rem / (22/30)) !important;
+    }
+
+    .product-main-description form label {
+        font-size: calc(1rem / (22/30)) !important;
+    }
+
+    .product-main-description form input[type="text"] {
+        width: 19% !important;
+        margin-right: 0 !important;
+    }
+
+    .product-main-description form {
+        margin-top: calc(1rem / (22/70));
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 @media(min-width: 576px) and (max-width: 767px){
@@ -738,6 +776,51 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
         height:36.113vw;
         margin-right: 2.5rem;
         margin-left: 2rem;
+    }
+
+    .product-main-description .carousel .carousel-item img {
+        width: 100%;
+    }
+
+    .product-main-description h1 {
+        font-size: calc(1rem / (22/36)) !important;
+    }
+
+    .product-main-description-price, .product-main-description-desc {
+        font-size: calc(1rem / (22/25)) !important;
+    }
+
+    .product-main-description p {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .product-main-description form {
+        margin-top: calc(1rem / (22/70));
+    }
+
+    .product-main-description form label {
+        font-size: calc(1rem / (22/24)) !important;
+    }
+
+    .product-main-description form input[type="text"] {
+        width: calc(1rem / (22/168)) !important;
+        margin-right: 0 !important;
+    }
+
+    .product-main-description form button {
+        font-size: calc(1rem / (22/36)) !important;
+        display: block;
+        margin: 0 auto;
+        margin-top: calc(1rem / (22/63));
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: calc(1rem / (22/85)) !important;
+        padding-right: calc(1rem / (22/85)) !important;
+        line-height: 1.2;
+    }
+
+    .product-main-description form button br {
+        display: block !important;
     }
 }
 
@@ -796,6 +879,46 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
         margin-left: 1.3rem;
     } 
     
+    .product-main-description h1 {
+        font-size: calc(1rem / (22/36)) !important;
+    }
+
+    .product-main-description-price, .product-main-description-desc {
+        font-size: calc(1rem / (22/25)) !important;
+    }
+
+    .product-main-description p {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .product-main-description form {
+        margin-top: calc(1rem / (22/70));
+    }
+
+    .product-main-description form label {
+        font-size: calc(1rem / (22/24)) !important;
+    }
+
+    .product-main-description form input[type="text"] {
+        width: 40% !important;
+        margin-right: 0 !important;
+    }
+
+    .product-main-description form button {
+        font-size: calc(1rem / (22/36)) !important;
+        display: block;
+        margin: 0 auto;
+        margin-top: calc(1rem / (22/63));
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: calc(1rem / (22/85)) !important;
+        padding-right: calc(1rem / (22/85)) !important;
+        line-height: 1.2;
+    }
+
+    .product-main-description form button br {
+        display: block !important;
+    }
 }
 
 /*Подвал*/
@@ -951,7 +1074,7 @@ footer button {
     width: calc(1rem / (22/83));
 }
 
-.product-main-description form input[type="submit"] {
+.product-main-description form button {
     padding: 23px 30px;
     border-radius: 60px;
     box-shadow: none;
@@ -959,6 +1082,10 @@ footer button {
     background: #fff;
     border: 4px solid #B32020;
     color: #000;
+}
+
+.product-main-description form button br {
+    display: none;
 }
 
 /* Подробное описание */
