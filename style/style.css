@@ -1006,6 +1006,10 @@ footer span {
     width: calc(1rem/(22/320));
 }
 
+.basement3 input{
+    width: calc(1rem/(22/320));
+}
+
 ::placeholder {
     color: #D1CECE;
 }
@@ -1024,8 +1028,8 @@ footer {
 
 footer button {
     
-    width: calc(1rem/(22/135));
-    height: calc(1rem/(22/32));
+    
+    
     text-align: center;
     background: #FFFFFF;
 }
@@ -1069,15 +1073,17 @@ footer button {
         width: calc(1rem/(22/270));
     }
 
-    footer input {
+    .basement3 input {
         width: calc(1rem/(22/270));
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1199px) {
     
+    
+
     footer {
-        font-size: calc(1rem/(22/24));
+        font-size: 22px !important;
         line-height: calc(1rem/(22/28));   
     }
 
