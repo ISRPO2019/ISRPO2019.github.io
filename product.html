@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+
+  <link rel="icon" href="assets/HandsomeWatch.png">
+  <title>Главная - Hand Some Watch</title>
+</head>
+
+<body>
+  <!-- Шапка сайта -->
+  <nav class="header navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="d-none d-lg-block d-md-none float-right p-2 navbar-brand logo my-auto" href="#">
+      <img class="logo" src="./assets/logo.png" alt="">
+    </a>
+    <div class="sm-md-header d-lg-none row w-100 mx-2">
+      <div class="col-md-8 col-10 float-sm-left ">
+        <a class="float-md-right float-sm-left navbar-brand logo my-auto" href="#">
+          <img class="logo" src="./assets/logo.png" alt="">
+        </a>
+  
+      </div>
+      <div class="col-md-2 col-2  align-self-center">
+        <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
+      </div>
+      <button class="d-none d-md-block arrow-header mx-auto mt-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg class="float-md-right icon arrow-header "> 
+            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+        </svg>     
+      </button>
+  
+    </div>
+    <button class="d-flex align-items-end d-block d-md-none arrow-header mx-auto mt-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg class="float-md-right icon arrow-header "> 
+            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+        </svg>     
+      </button>
+    <div class="w-100 collapse navbar-collapse bg-white" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Магазин</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Страницы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+      </ul>
+     
+      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
+      <form class="form-inline my-2 my-lg-0 search">
+        <input class="form-control search" type="search" placeholder="Поиск" aria-label="Search">
+        <button class="btn my-2 my-sm-0 search" type="submit"><img class="search" src="./assets/search.png"
+              alt=""></button>
+      </form>
+
+  
+      
+    </div>
+  </nav>
+    
+  <!-- Описание продукта с картинкой -->
+  <section class="product-main-description">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-responsive" src="http://placehold.it/650x650/">
+              </div>
+              <div class="carousel-item">
+                <img class="img-responsive" src="http://placehold.it/650x650/">
+              </div>
+              <div class="carousel-item">
+                <img class="img-responsive" src="http://placehold.it/650x650/">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <svg class="icon arrow-carousel arrow-carousel-prev"> 
+                <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+              </svg>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <svg class="icon arrow-carousel arrow-carousel-next"> 
+                <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+              </svg>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!--<img class="img-responsive" src="http://placehold.it/650x650/">-->
+        </div>
+        <div class="col-md-1 d-sm-none t-n"></div>
+        <div class="col-md-6 col-sm-12">
+          <div>
+            <h1>Название модели</h1>
+            <div class="product-main-description-price">Цена: 10000</div>
+            <div class="product-main-description-desc">Описание:</div>
+            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+              стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          </div>
+          <div>
+            <form method="GET">
+              <label for="amount">Количество:</label>
+              <input type="text" name="amount" id="amount">
+              <button type="submit">Добавить в<br>корзину</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подробное описание -->
+
+  
+  
+  <section class="product-about-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 about-buttons text-center">
+              <div>
+                  Описание
+              </div>
+            </div>
+            <div class="col-md-4 about-buttons active text-center">
+              <div>
+                  Комментарии
+              </div>
+            </div>
+            <div class="col-md-4 about-buttons text-center">
+              <div>
+                  Обзоры
+              </div>
+            </div>
+          </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Обзоры</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row info-block">
+                <div class="col-md-6 col-1">
+                  <div class="info">
+                  <h1>Описание</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                <div class="col-md-6 col-2">
+                  <h1>Характеристика</h1>
+                  <div class="param">
+                    <span class="param__value">128мм</span>
+                    <span class="param__prop">Ширина</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">508мм</span>
+                    <span class="param__prop">Высота</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">85мм</span>
+                    <span class="param__prop">Глубина</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">52гм</span>
+                    <span class="param__prop">Вес</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">золото</span>
+                    <span class="param__prop">Материал</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">белый</span>
+                    <span class="param__prop">Цвет</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">женский</span>
+                    <span class="param__prop">Пол</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">ручной подзавод</span>
+                    <span class="param__prop">Механизм</span>
+                  </div>
+                  <div class="param">
+                    <span class="param__value">Швеция</span>
+                    <span class="param__prop">Страна производителя</span>
+                  </div>  
+                </div>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row second-rr">
+                <div class="show-add-com col-md-12 col-sm-12">
+                  <button data-toggle="collapse" href="#addcom-col" role="button" aria-expanded="false" aria-controls="addcom-col">Написать комментарий</button>
+                </div>
+                <div class="col-md-6 col-sm-12 com-col">
+                  <div class="comment">
+                    <img class="img-responsive" src="http://placehold.it/80x80/">
+                    <div class="author-name">Имя автора</div>
+                    <div class="comment-date">01.01.2000</div>
+                    <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                    <button>Ответить</button>
+                  </div>
+                  <div class="inner-comments">
+                      <div class="comment">
+                          <img class="img-responsive" src="http://placehold.it/80x80/">
+                          <div class="author-name">Имя автора</div>
+                          <div class="comment-date">01.01.2000</div>
+                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                          <button>Ответить</button>
+                      </div>
+                      <div class="comment">
+                          <img class="img-responsive" src="http://placehold.it/80x80/">
+                          <div class="author-name">Имя автора</div>
+                          <div class="comment-date">01.01.2000</div>
+                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
+                          <button>Ответить</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 addcom-col" id="addcom-col">
+                  <div class="comment-form-title">Написать комментарий</div>
+                  <form class="comment-form" method="GET">
+                    <input type="text" name="name" placeholder="Полное имя">
+                    <input type="tel" name="tel" placeholder="Номер телефона">
+                    <textarea name="text" placeholder="Сообщение"></textarea>
+                    <button>Отправить</button>
+                  </form>
+                </div>
+              </div></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+          </div>
+      
+      
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

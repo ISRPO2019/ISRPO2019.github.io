@@ -1,0 +1,15 @@
+{
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "for-direction": 2,
+        "no-constant-condition": 2,
+        "no-empty": 2,
+        "no-func-assign": 2,
+        "no-invalid-regexp": 2,
+        "valid-typeof": 2,
+        "no-ex-assign": 2,
+        "no-dupe-keys": 2,
+        "no-empty-function": "error"
+    }
+}
