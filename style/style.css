@@ -1490,3 +1490,169 @@ footer button {
 .show {
     display: block !important;
 }
+/*блок отзывы*/
+.main {
+    background: #F5F5F5;
+    width: 90%;
+    margin: 0;
+    height: 100%;
+}
+
+.main_card {
+    width: 1460px;
+    height: 640px;
+    left: 230px;
+    top: 1410px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.nav_bar {
+    height: 100px;
+}
+
+.nav_bar_item {
+    display: table-cell;
+    width: 486px;
+    box-sizing: border-box;
+    border-right: 1px solid #DDD8D8;
+    border-bottom: 10px solid #BBBBBB;
+    background-color: #FFF5F5;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+.nav_bar_item.active {
+    width: 486px;
+    height: 100px;
+    border-bottom: none;
+    border-top: 10px solid #B32020;
+}
+
+.column_content {
+    box-sizing: border-box;
+    margin: 20px;
+    position: relative;
+    height: 100%;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+}
+
+.column_content input {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 6px;
+
+    width: 600px;
+    height: 60px;
+}
+
+.column_content textarea {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 6px;
+    width: 100%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.column_content button {
+    background: #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 40px;
+    width: 145px;
+    height: 30px;
+    border: none;
+    right: 0;
+    float: left;
+}
+
+.column {
+    box-sizing: padding-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.rating_card {
+    width: 300px;
+    height: 220px;
+    background-color: #E0E0E0;
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+}
+
+.description {
+    float: left;
+    margin-top: 28px;
+}
+
+.img_block {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 72px;
+    height: 80px;
+    background-color: #C4C4C4;
+}
+
+.author_block {
+    display: table-cell;
+    padding-left: 10px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+}
+
+.description_text {
+    margin-top: 10px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.nav_bar_item:last-child {
+    border-right: none;
+}
+
+.review_card {
+    width: 1460px;
+    height: 640px;
+    left: 230px;
+    top: 1410px;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    background: white;
+}
+
+.rating {
+    color: #EED345;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: #6E6E6E 0 0 5px;
+}
+
+.column_content textarea{
+    width:600px;
+    height: 130px;
+}
