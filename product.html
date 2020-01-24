@@ -211,8 +211,12 @@
                 </div>
             </div>
             </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><div class="row second-rr">
-                <div class="col-md-6">
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row second-rr">
+                <div class="show-add-com col-md-12 col-sm-12">
+                  <button data-toggle="collapse" href="#addcom-col" role="button" aria-expanded="false" aria-controls="addcom-col">Написать комментарий</button>
+                </div>
+                <div class="col-md-6 col-sm-12 com-col">
                   <div class="comment">
                     <img class="img-responsive" src="http://placehold.it/80x80/">
                     <div class="author-name">Имя автора</div>
@@ -237,7 +241,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12 addcom-col" id="addcom-col">
                   <div class="comment-form-title">Написать комментарий</div>
                   <form class="comment-form" method="GET">
                     <input type="text" name="name" placeholder="Полное имя">
