@@ -125,6 +125,7 @@ img.search{
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
+    padding-bottom: 30px;
 }
 
 .sort-container > .row {
@@ -135,6 +136,89 @@ img.search{
 .sort-container > .row > .col-md > .row > .col-md {
     width: 9.5rem;
 
+}
+
+.filters-row {
+    margin: 0 auto;
+}
+
+.filters-row form {
+    display: flex;
+    justify-content: center;
+}
+
+.check-cont {
+    margin-right: calc(1rem / (22/15));
+    margin-left: calc(1rem / (22/15));
+    display: block;
+    position: relative;
+    padding-left: calc(1rem / (22/50));
+    cursor: pointer;
+    font-size: calc(1rem / (22/22));
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-cont.radio {
+    padding-left: calc(1rem / (22/28));
+}
+
+.check-cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(1rem / (22/-2));
+    left: 0;
+    height: calc(1rem / (22/40));
+    width: calc(1rem / (22/40));
+    background-color: #fff;
+    border: 1px solid #B32020;
+    border-radius: 3px;
+}
+
+.check-cont.radio .checkmark {
+    height: calc(1rem / (22/18));
+    width: calc(1rem / (22/18));
+    top: calc(1rem / (22/8));
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.check-cont:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    display: none;
+}
+
+.check-cont input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-cont .checkmark:after {
+    width: calc(1rem / (22/24));
+    height: calc(1rem / (22/24));
+    background: red;
+    border-radius: 3px;
+}
+
+.check-cont.radio .checkmark:after {
+    width: calc(1rem / (22/8));
+    height: calc(1rem / (22/8));
+    border-radius: 50%;
 }
 
 .sort-container p{
@@ -156,6 +240,10 @@ div.align-items-center.justify-content-center.no-gutters{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.sort-container img:hover {
+    cursor: pointer;
 }
 
 .black-line{
