@@ -1490,6 +1490,7 @@ footer button {
 .show {
     display: block !important;
 }
+
 /*блок отзывы*/
 .main {
     background: #F5F5F5;
@@ -1499,68 +1500,68 @@ footer button {
 }
 
 .main_card {
-    width: 1460px;
-    height: 640px;
-    left: 230px;
-    top: 1410px;
+    width: 91.25rem;
+    height: 40rem;
+    left: 14.375rem;
+    top: 88.125rem;
     background-color: #FFFFFF;
     margin: auto;
 }
 
 .nav_bar {
-    height: 100px;
+    height: 6.25rem;
 }
 
 .nav_bar_item {
     display: table-cell;
-    width: 486px;
+    width: 30.375rem;
     box-sizing: border-box;
-    border-right: 1px solid #DDD8D8;
-    border-bottom: 10px solid #BBBBBB;
+    border-right: 0.0625rem solid #DDD8D8;
+    border-bottom: 0.625rem solid #BBBBBB;
     background-color: #FFF5F5;
-    height: 100px;
+    height: 6.25rem;
     text-align: center;
     vertical-align: middle;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
+    font-size: 2.25rem;
+    line-height: 2.5625rem;
 }
 
 .nav_bar_item.active {
-    width: 486px;
-    height: 100px;
+    width: 30.375rem;
+    height: 6.25rem;
     border-bottom: none;
-    border-top: 10px solid #B32020;
+    border-top: 0.625rem solid #B32020;
 }
 
 .column_content {
     box-sizing: border-box;
-    margin: 20px;
+    margin: 1.25rem;
     position: relative;
     height: 100%;
 
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
 .column_content input {
     box-sizing: border-box;
-    margin-top: 10px;
-    padding: 6px;
+    margin-top: 0.625rem;
+    padding: 0.375rem;
 
-    width: 600px;
-    height: 60px;
+    width: 37.5rem;
+    height: 3.75rem;
 }
 
 .column_content textarea {
     box-sizing: border-box;
-    margin-top: 10px;
-    padding: 6px;
+    margin-top: 0.625rem;
+    padding: 0.375rem;
     width: 100%;
     font-family: Ubuntu;
     font-style: normal;
@@ -1570,11 +1571,11 @@ footer button {
 .column_content button {
     background: #C4C4C4;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     position: absolute;
-    bottom: 40px;
-    width: 145px;
-    height: 30px;
+    bottom: 2.5rem;
+    width: 9.0625rem;
+    height: 1.875rem;
     border: none;
     right: 0;
     float: left;
@@ -1588,12 +1589,12 @@ footer button {
 
     font-family: Ubuntu;
     font-style: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .rating_card {
-    width: 300px;
-    height: 220px;
+    width: 18.75rem;
+    height: 13.75rem;
     background-color: #E0E0E0;
     text-align: center;
     font-family: Ubuntu;
@@ -1602,33 +1603,33 @@ footer button {
 
 .description {
     float: left;
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 
 .img_block {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    width: 72px;
-    height: 80px;
+    width: 4.5rem;
+    height: 5rem;
     background-color: #C4C4C4;
 }
 
 .author_block {
     display: table-cell;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 
     font-family: Ubuntu;
     font-style: normal;
 }
 
 .description_text {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
 }
 
 .nav_bar_item:last-child {
@@ -1636,11 +1637,11 @@ footer button {
 }
 
 .review_card {
-    width: 1460px;
-    height: 640px;
-    left: 230px;
-    top: 1410px;
-    border: 1px solid #BBBBBB;
+    width: 91.25rem;
+    height: 40rem;
+    left: 14.375rem;
+    top: 88.125rem;
+    border: 0.0625rem solid #BBBBBB;
     box-sizing: border-box;
     background: white;
 }
@@ -1648,11 +1649,11 @@ footer button {
 .rating {
     color: #EED345;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5625rem;
     text-shadow: #6E6E6E 0 0 5px;
 }
 
 .column_content textarea{
-    width:600px;
-    height: 130px;
+    width: 37.5rem;
+    height: 8.125rem;
 }
