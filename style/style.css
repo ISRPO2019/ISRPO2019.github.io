@@ -125,6 +125,7 @@ img.search{
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
+    padding-bottom: 30px;
 }
 
 .sort-container > .row {
@@ -135,6 +136,89 @@ img.search{
 .sort-container > .row > .col-md > .row > .col-md {
     width: 9.5rem;
 
+}
+
+.filters-row {
+    margin: 0 auto;
+}
+
+.filters-row form {
+    display: flex;
+    justify-content: center;
+}
+
+.check-cont {
+    margin-right: calc(1rem / (22/15));
+    margin-left: calc(1rem / (22/15));
+    display: block;
+    position: relative;
+    padding-left: calc(1rem / (22/50));
+    cursor: pointer;
+    font-size: calc(1rem / (22/22));
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-cont.radio {
+    padding-left: calc(1rem / (22/28));
+}
+
+.check-cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(1rem / (22/-2));
+    left: 0;
+    height: calc(1rem / (22/40));
+    width: calc(1rem / (22/40));
+    background-color: #fff;
+    border: 1px solid #B32020;
+    border-radius: 3px;
+}
+
+.check-cont.radio .checkmark {
+    height: calc(1rem / (22/18));
+    width: calc(1rem / (22/18));
+    top: calc(1rem / (22/8));
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.check-cont:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    display: none;
+}
+
+.check-cont input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-cont .checkmark:after {
+    width: calc(1rem / (22/24));
+    height: calc(1rem / (22/24));
+    background: red;
+    border-radius: 3px;
+}
+
+.check-cont.radio .checkmark:after {
+    width: calc(1rem / (22/8));
+    height: calc(1rem / (22/8));
+    border-radius: 50%;
 }
 
 .sort-container p{
@@ -156,6 +240,10 @@ div.align-items-center.justify-content-center.no-gutters{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.sort-container img:hover {
+    cursor: pointer;
 }
 
 .black-line{
@@ -750,6 +838,44 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
         align-items: center;
         justify-content: space-between;
     }
+
+    .com-col, .addcom-col {
+        width: 100%;
+        max-width: unset;
+        flex: unset;
+    }
+
+    .addcom-col {
+        margin-bottom: calc(1rem / (22/60));
+    }
+
+    .comment-form button {
+        width: calc(1rem / (22/288)) !important;
+    }
+
+    .author-name, .comment button {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .product-about-description .second-rr {
+        display: flex;
+    }
+
+    .product-about-description .second-rr .com-col {
+        order: 2;
+    }
+
+    .product-about-description .second-rr .addcom-col {
+        order: 1;
+    }
+
+    .product-about-description .second-rr {
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border: none !important;
+    }
 }
 
 @media(min-width: 576px) and (max-width: 767px){
@@ -844,6 +970,69 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
 
     .product-main-description form button br {
         display: block !important;
+    }
+
+    .com-col, .addcom-col {
+        width: 100%;
+        max-width: unset;
+        flex: unset;
+    }
+
+    .addcom-col {
+        margin-bottom: calc(1rem / (22/60));
+    }
+
+    .comment-form button {
+        width: calc(1rem / (22/288)) !important;
+    }
+
+    .author-name, .comment button {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .product-about-description .second-rr {
+        display: flex;
+    }
+
+    .product-about-description .second-rr .com-col {
+        order: 2;
+    }
+
+    .product-about-description .second-rr .addcom-col {
+        order: 1;
+    }
+
+    .addcom-col {
+        display: none;
+    }
+
+    .show-add-com {
+        display: block !important;
+    }
+
+    .comment-content {
+        padding-bottom: calc(1rem / (22/20)) !important;
+    }
+
+    .comment-content p {
+        margin-bottom: calc(1rem / (22/30)) !important;
+    }
+
+    .show-add-com button {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .comment button {
+        top: unset !important;
+        bottom: calc(1rem / (22/7)) !important
+    }
+
+    .product-about-description .second-rr {
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border: none !important;
     }
 }
 
@@ -941,6 +1130,69 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
 
     .product-main-description form button br {
         display: block !important;
+    }
+
+    .com-col, .addcom-col {
+        width: 100%;
+        max-width: unset;
+        flex: unset;
+    }
+
+    .addcom-col {
+        margin-bottom: calc(1rem / (22/60));
+    }
+
+    .comment-form button {
+        width: calc(1rem / (22/288)) !important;
+    }
+
+    .author-name, .comment button {
+        font-size: calc(1rem / (22/22)) !important;
+    }
+
+    .product-about-description .second-rr {
+        display: flex;
+    }
+
+    .product-about-description .second-rr .com-col {
+        order: 2;
+    }
+
+    .product-about-description .second-rr .addcom-col {
+        order: 1;
+    }
+
+    .show-add-com {
+        display: block !important;
+    }
+
+    .comment-content {
+        padding-bottom: calc(1rem / (22/20)) !important;
+    }
+
+    .comment-content p {
+        margin-bottom: calc(1rem / (22/30)) !important;
+    }
+
+    .addcom-col {
+        display: none;
+    }
+
+    .show-add-com button {
+        font-size: calc(1rem / (22/20)) !important;
+    }
+
+    .comment button {
+        top: unset !important;
+        bottom: calc(1rem / (22/7)) !important
+    }
+
+    .product-about-description .second-rr {
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border: none !important;
     }
 }
 
@@ -1395,6 +1647,20 @@ footer button {
     border-top: calc(1rem / (22/10)) solid #B32020;
 }
 
+.show-add-com {
+    display: none;
+}
+
+.show-add-com button {
+    width: 100%;
+    background: #B32020;
+    font-size: calc(1rem / (22/30));
+    padding: 24px 42px;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: calc(1rem / (22/30));
+}
+
 .comment {
     position: relative;
     border-bottom: calc(1rem / (22/1)) solid #B32020;
@@ -1556,4 +1822,8 @@ footer button {
 }
 .col-1{
     padding-left: 40px;
+}
+
+.show {
+    display: block !important;
 }
