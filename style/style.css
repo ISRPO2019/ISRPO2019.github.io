@@ -1217,7 +1217,7 @@ footer a {
     display: block;
     color: #421D1D;
     padding-bottom: calc(1rem/(22/15));
-    font-size: calc(1rem/(22/24));
+    font-size: calc(1rem/(22/28));
     line-height: calc(1rem/(22/28));
 
 }
@@ -1340,9 +1340,10 @@ footer button {
     }
 
     footer img {
-        max-width: calc(1rem/(22/320));
-        width: 100%;
+        width: calc(1rem/(22/320));
+        height: calc(1rem/(22/80));
     }
+
 
     footer.container {
         padding-top: calc(1rem/(22/40));
@@ -1424,10 +1425,42 @@ footer button {
     }
 }
 
+@media screen and (max-width: 749px) {
+    footer img {
+        width: 100%;
+        height: calc(1rem/(22/30));
+        padding: calc(1rem/(22/11)) calc(1rem/(22/20));
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    footer img {
+        width: 100%;
+        height: calc(1rem/(22/60));
+        padding: calc(1rem/(22/11)) calc(1rem/(22/20));
+    }
+}
+
+@media screen and (max-width: 990px) {
+    footer h3 {
+        color: #ffffff;
+        padding-bottom: calc(1rem/(22/20));
+        font-size: calc(1rem/(22/30));
+        line-height: calc(1rem/(22/41));
+    }
+}
+
 @media screen and (min-width: 575px) and (max-width: 718px) {
-    footer button {
-        font-size: calc(1rem/(22/20));
-        line-height: calc(1rem/(22/25));
+    footer button{
+        font-size: calc(1rem/(22/10));
+        line-height: calc(1rem/(22/20));
+    }
+
+    footer a{
+        font-size: calc(1rem/(22/17));
+        line-height: calc(1rem/(22/20));
     }
 
     footer .box_input {
@@ -1463,14 +1496,14 @@ footer button {
         margin-right: auto;
     }
     footer a {
-        font-size: calc(1rem/(22/48)); 
-        line-height: calc(1rem/(22/55)); 
+        font-size: calc(1rem/(22/17)); 
+        line-height: calc(1rem/(22/20)); 
         margin-left: calc(1rem/(22/0));
     }
 
     footer img {
-        width: calc(1rem/(22/488));
-        height: calc(1rem/(22/102));
+        width: calc(1rem/(22/300));
+        height: calc(1rem/(22/80));
     }
 
     .basement1 {
@@ -1480,8 +1513,8 @@ footer button {
     }
 
     .basement1 p {
-        padding-right: calc(1rem/(22/44));
-        padding-left: calc(1rem/(22/44));
+        padding-right: calc(1rem/(22/25));
+        padding-left: calc(1rem/(22/20));
         width: 100%;
     }
 
@@ -1491,18 +1524,18 @@ footer button {
 
     .basement3 input {
         height: calc(1rem/(22/56));
-        width: calc(1rem/(22/488));
+
     }
 
     .basement3 textarea{
         height: calc(1rem/(22/154));
-        width: calc(1rem/(22/488));
+
         
     }
 
     .basement4 p {
-        font-size: calc(1rem/(22/48));
-        line-height: calc(1rem/(22/55));
+        font-size: calc(1rem/(22/25));
+        line-height: calc(1rem/(22/20));
     }
 
     footer textarea::placeholder {  
