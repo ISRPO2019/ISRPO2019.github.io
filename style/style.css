@@ -1855,10 +1855,10 @@ footer button {
 #home, #contact{
     background-color: #FFFFFF;
 }
-.col-2 {
+#info-block .col-2 {
     padding-right: 3rem;
 }
-.col-1{
+#info-block .col-1{
     padding-left: 40px;
 }
 
