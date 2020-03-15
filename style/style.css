@@ -1441,6 +1441,11 @@ footer button {
         height: calc(1rem/(22/60));
         padding: calc(1rem/(22/11)) calc(1rem/(22/20));
     }
+
+    footer a {
+        font-size: calc(1rem/(22/20));
+        line-height: calc(1rem/(22/41));
+    }
 }
 
 @media screen and (max-width: 990px) {
