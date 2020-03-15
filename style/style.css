@@ -1789,14 +1789,14 @@ footer button {
     border: none;
 }
 
-.col-1{
+#info-block .col-1{
     box-shadow: inset -1px 0 0 red;
     
 }
-#home{
+#home, #contact{
     border: 1px solid #bbbbbb;
 }
-.col-2, .col-1 {
+#info-block .col-2, #info-block .col-1 {
     padding-left: 40px;
     padding-top: 35px;
     line-height: 41px;
@@ -1847,7 +1847,7 @@ footer button {
     width: 30%;
     box-sizing: border-box;
 }
-#home{
+#home, #contact{
     background-color: #FFFFFF;
 }
 .col-2 {
@@ -1859,4 +1859,208 @@ footer button {
 
 .show {
     display: block !important;
+}
+
+.rating_card {
+    width: 13.637rem;
+    height:12rem;
+    background-color: #E0E0E0;
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    margin-top: 0rem;
+    margin-left: 0.1667rem;
+    margin-right: 0.9933rem;
+}
+
+#estimation-text {
+    font-weight: normal;
+    line-height: 41px; 
+    font-size: 36px;
+}
+#estimation {
+    font-weight: bold; 
+    font-size: 64px; 
+    color: #B32020;
+}
+#review {
+    font-weight: normal; 
+    font-size: 24px; 
+    line-height: 1.1667rem;
+     color: #A1A1A1;
+}
+
+.test {
+    margin-top: 0rem;
+    line-height: 1.157rem;
+    margin-right: 0rem;
+    box-sizing: padding-box;
+    float: left;
+    height: 100%;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.column {
+    box-sizing: padding-box;
+    float: left;
+    height: 100%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 24px;
+}
+
+
+.img_block {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 3.4818rem;
+    height: 2.4242rem;
+    background-color: #C4C4C4;
+}
+
+.author_block {
+    display: table-cell;
+
+    font-family: Ubuntu;
+    font-style: normal;
+}
+
+.description_text {
+    margin-top: 0.5556rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.1667rem;
+}
+
+.nav_bar_item:last-child {
+    border-right: none;
+}
+
+.review_card {
+    width: 66.3636rem;
+    height: 29.0909rem;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    background: white;
+}
+
+
+.head-review {
+padding-bottom: 0.8333rem;
+font-size: 1.1rem;
+}
+
+.description {
+    float: left;
+    margin-top: 1.75rem;
+    margin-left : 1.666666rem;
+}
+
+
+.author_block {
+    display: table-cell;
+    padding-left: 0.625rem;
+
+    font-family: Ubuntu;
+    font-style: normal;
+}
+
+.description_text {
+    margin-top: 0.625rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+}
+
+.nav_bar_item:last-child {
+    border-right: none;
+}
+
+.review_card {
+    width: 100%;
+    left: 14.375rem;
+    top: 88.125rem;
+    border: 0.0625rem solid #BBBBBB;
+    box-sizing: border-box;
+    background: white;
+}
+
+.rating, .rating-test {
+    color: #EED345;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-shadow: #6E6E6E 0 0 5px;
+}
+.rating-test {
+    border-bottom: 1px solid #D3D2CB;
+}
+
+.estimation-text {
+    background-color:#BBBBBB ;
+}
+
+.column_content {
+    box-sizing: border-box;
+    margin: 1.25rem;
+    position: relative;
+    height: 100%;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+}
+
+.column_content input {
+    box-sizing: border-box;
+    margin-top: 0.625rem;
+    padding: 0.375rem;
+}
+
+.column_content textarea {
+    box-sizing: border-box;
+    margin-top: 0.625rem;
+    padding: 0.375rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    width: 27.28rem;
+    height: 8.125rem;
+
+}
+
+.column_content button {
+    background: #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 0.1875rem;
+    position: absolute;
+    bottom: 2.5rem;
+    width: 9.0625rem;
+    height: 1.875rem;
+    border: none;
+    right: 1rem;
+    float: left;
+}
+.add_review {
+    font-size: 22px;
+}
+.inputrewiew {
+    width:  27.28rem;
+    height: 2.5rem;
+border-radius: 0.2083rem;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+}
+.titleView {
+    font-size: 1.64rem;
 }
