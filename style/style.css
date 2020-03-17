@@ -875,7 +875,7 @@ body > div > div.row.no-gutters.justify-content-between > .col-md{
         padding-left: 0 !important;
         padding-right: 0 !important;
         border: none !important;
-    }
+    }        
 }
 
 @media(min-width: 576px) and (max-width: 767px){
@@ -1660,27 +1660,29 @@ footer button {
     margin: 0;
 }
 
-.about-buttons:first-child {
-    padding-right: 0;
-}
-
-.about-buttons:nth-child(2n) {
-    padding: 0;
-}
-
-.about-buttons:last-child {
-    padding-left: 0;
-}
-
-.about-buttons div {
+.about-buttons {
     background: #FFF5F5;
     padding-top: calc(1rem / (22/25));
     padding-bottom: calc(1rem / (22/25));
     font-size: calc(1rem / (22/36));
+    color: #000000;
     border-bottom: calc(1rem / (22/10)) solid #BBBBBB;
 }
 
-.about-buttons.active div {
+.first-button{
+    padding-left: calc(1rem / (22/16)) !important;
+}
+
+.middle-button{
+    border-left: calc(1rem / (22/1)) solid #BBBBBB;
+    border-right: calc(1rem / (22/1)) solid #BBBBBB;
+}
+
+.last-button{
+  padding-right: calc(1rem / (22/16)) !important;  
+}
+
+.about-buttons.active {
     border-bottom: none;
     border-top: calc(1rem / (22/10)) solid #B32020;
 }
