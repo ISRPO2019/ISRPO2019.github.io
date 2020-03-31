@@ -29,7 +29,7 @@
         </a>
   
       </div>
-      <div class="col-md-2 col-2  align-self-center">
+      <div class="col-md-2 col-2 align-self-center">
         <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
       </div>
       <button class="d-none d-md-block arrow-header mx-auto mt-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -129,41 +129,22 @@
 
   <!-- Подробное описание -->
 
-  
-  
   <section class="product-about-description">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 about-buttons text-center">
-              <div>
-                  Описание
-              </div>
-            </div>
-            <div class="col-md-4 about-buttons active text-center">
-              <div>
-                  Комментарии
-              </div>
-            </div>
-            <div class="col-md-4 about-buttons text-center">
-              <div>
-                  Обзоры
-              </div>
-            </div>
-          </div>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
+          <ul class="nav row " id="myTab" role="tablist">
+            <li class="col-md-4 text-center p-0 first-button">
+              <a class="nav-link active about-buttons" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
+            <li class="col-md-4 text-center p-0">
+              <a class="nav-link about-buttons middle-button" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Обзоры</a>
+            <li class="col-md-4 text-center p-0 last-button">
+              <a class="nav-link about-buttons" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Обзоры</a>
             </li>
-          </ul>
+          </ul>    
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <div class="row info-block">
+              <div class="row" id="info-block">
                 <div class="col-md-6 col-1">
                   <div class="info">
                   <h1>Описание</h1>
@@ -251,10 +232,66 @@
                   </form>
                 </div>
               </div></div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="review_card">
+                  <div class="column col-md-7">
+                    <div class="column_content">
+                      <div>
+                          <div class="column">
+                              <div class="rating_card">
+                                <span id="estimation-text">Средняя<br>
+                                оценка
+                                </span>
+                                  <br>
+                                  <span id="estimation">
+                                    4
+                                </span>
+                                  <br>
+                                  <span id="review">
+                                    (Обзоров: 1)
+                                </span>
+                              </div>
+                          </div> 
+                          <div class="column">
+                                    <div class="test">
+                                        <div class="head-review">Основано на 1 обзоре</div>
+                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733★&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 01</div>
+                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="description" >
+                                <div class="img_block">img</div>
+                                <div class="author_block">
+                                    <span style="font-weight: normal; font-size: 24px; line-height: 28px;">Имя автора </span><span class="rating">&#9733&#9733&#9733&#9733</span>
+                                    <p style="font-size: 18px">
+                                        01. 01. 2000
+                                    </p>
+                                </div>
+                                <div class="description_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="column col-md-5">
+                    <div class="column_content add_review">
+                        <span class="titleView">Добавить обзор</span>
+                        <br>
+                        <span>Ваша оценка:</span> <span class="rating">&#9733&#9733&#9733&#9733&#9733</span>
+                        <br>
+                        <input class="inputrewiew" type="text" value="Полное имя">
+                        <input class="inputrewiew" type="text" value="Номер телефона">
+                        <textarea rows="3">Сообщение</textarea>
+                        <button style="width: 290px; height: 55px;">Отправить</button>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
-      
-      
     </div>
   </section>
 

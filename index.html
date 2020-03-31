@@ -30,7 +30,7 @@
         </a>
   
       </div>
-      <div class="col-md-2 col-2  align-self-center">
+      <div class="col-md-2 col-2 align-self-center">
         <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
       </div>
       <button class="d-none d-md-block my-auto arrow-header mx-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -76,43 +76,221 @@
   </nav>
 
   <!--блок фильтрации и сортировки-->
-  <div class="container-fluid pl-0 sort-container d-flex align-items-center justify-content-center">
-    <div class="row ">
+  <div class="container-fluid pl-0 sort-container">
+    <div class="row d-flex align-items-center justify-content-center" style="margin: 0 auto">
       <div class="col-md pr-0 pl-0">
         <div class="row align-items-center justify-content-center no-gutters">
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <img src="./assets/filtr_sort/1.jpg">
             <p>Пол</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             <img src="./assets/filtr_sort/2.jpg">
             <p>Страна</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#brand" aria-expanded="true" aria-controls="brand">
             <img src="./assets/filtr_sort/3.jpg">
             <p>Бренд</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#mehanizm" aria-expanded="true" aria-controls="mehanizm">
             <img src="./assets/filtr_sort/4.jpg">
             <p>Механизм</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#materials" aria-expanded="true" aria-controls="materials">
             <img src="./assets/filtr_sort/5.jpg">
             <p>Материалы</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#colorchik" aria-expanded="true" aria-controls="colorchik">
             <img src="./assets/filtr_sort/6.jpg">
             <p>Цвет</p>
           </div>
-          <div class="col-md">
+          <div class="col-md" data-toggle="collapse" data-target="#priceik" aria-expanded="true" aria-controls="priceik">
             <img src="./assets/filtr_sort/7.jpg">
             <p>Цена</p>
           </div>
-          <div class="col-md w-blckln">
+          <div class="col-md w-blckln" data-toggle="collapse" data-target="#sortirovchik" aria-expanded="true" aria-controls="sortirovchik">
             <div class="black-line"><img src="./assets/filtr_sort/8.png"></div>
             <p>Сортировать</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row-fluid filters-row" id="accordionExample">
+      <div class="col-md-12 collapse" id="collapseOne" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Женские
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Мужские
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Унисекс
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="collapseTwo" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Швейцария
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Япония
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Германия
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Великобритания
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Италия
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">США
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Россия
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Другое
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="brand" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Rolex
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Casio
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Diesel
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Fossil
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Michael Kors
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Orient
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Seiko
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Другое
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="mehanizm" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Аналоговые
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Цифровые
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="materials" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Серебро
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Золото
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Платина
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Сталь
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Алюминий
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Керамика
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Другое
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="colorchik" data-parent="#accordionExample">
+        <form method="post">
+          <label class="check-cont">
+            <input type="checkbox">Синий
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Розовый
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Серебряный
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Коричневый
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Черный
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-cont">
+            <input type="checkbox">Другое
+            <span class="checkmark"></span>
+          </label>
+         </form>
+      </div>
+      <div class="col-md-12 collapse" id="sortirovchik" data-parent="#accordionExample">
+        <form method="post">
+          <label class="radio check-cont">
+            <input type="radio" name="gg">Синий
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio check-cont">
+            <input type="radio" name="gg">Розовый
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio check-cont">
+            <input type="radio" name="gg">Серебряный
+            <span class="checkmark"></span>
+          </label>
+         </form>
       </div>
     </div>
   </div>
@@ -454,25 +632,29 @@
 
   <footer class="container" style="max-width: 100%;">
     <div class="row">
-      <div class="col-md-3 basement1">
+      <div class="col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 order-md-2 col-sm-6 order-sm-2 order-1 basement1">
         <img src="./assets/logo.png">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua.</p>
       </div>
-      <div class="col-md-3 basement2">
+      <div class="col-xl-3 order-xl-2 col-lg-12 order-lg-1 col-md-12  order-md-1 col-sm-12 order-sm-1 order-2 basement2">
         <h3>Разделы</h3>
-        <a href="#">Главная</a>
-        <a href="#">Магазин</a>
-        <a href="#">Страницы</a>
-        <a href="#">Контакты</a>
+        <div class="row ">
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Главная</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Магазин</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Страницы</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Контакты</a></div>
       </div>
-      <div class="col-md-3 basement3">
-        <h3>Обратная связь</h3>
-        <input name="Email" placeholder="Email" style="max-width: 320px;">
-        <textarea rows="2"></textarea>
-        <button>Отправить</button>
       </div>
-      <div class="col-md-3 basement4">
+      <div class="col-xl-3 order-xl-3 col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 order-3 basement3">
+        <div class="row ">
+          <div class="col-xl-12 col-lg-12 col-md-12 order-md-1"><h3>Обратная связь</h3></div>
+          <div class="col-xl-12 order-xl-1 col-lg-9 order-lg-2 col-md-9 order-md-2 pr-md-0 col-sm-9 order-sm-2 box_input"><input  name="Email" placeholder="Email"></div>
+          <div class="col-xl-12 order-xl-2  col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 box_textarea"><textarea  rows="2" placeholder="Текст сообщения"></textarea></div>
+          <div class="col-xl-12 order-xl-3  col-lg-3 order-lg-3 col-md-3  order-md-3 col-sm-3 order-sm-3  ml-md-auto  box_button "><button >Отправить</button></div>
+          </div>
+      </div>
+      <div class="col-xl-3 order-xl-4 col-lg-6 order-lg-3 col-md-6 order-md-3 col-sm-6 order-sm-3 order-4 basement4">
         <h3>Контакты</h3>
         <p><span>Email</span> fffff@gmail.com</p>
         <p><span>Номер телефона</span> <br>8-800-555-35-35</p>
