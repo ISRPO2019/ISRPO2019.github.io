@@ -125,12 +125,13 @@ img.search{
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
-    padding-bottom: 30px;
+    
 }
+
 
 .sort-container > .row {
     max-width: 1310px;
-    min-width: 720px
+  
 }
 
 .sort-container > .row > .col-md > .row > .col-md {
