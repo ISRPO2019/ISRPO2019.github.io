@@ -32,4 +32,69 @@
         padding-left: 10vw;
         padding-right: 10vw; 
     }
+
+/* блок фильтрации и сортировки */
+
+    div.align-items-center.justify-content-center.no-gutters{
+        display: none;
+          
+      }
+      .container-fluid {
+          padding:0 0 0 0;
+      }
+      .sort-container {
+          width: 100%;
+          background: #FFEFEF;
+          height: 5.5rem;
+          padding: calc(1rem + 5px) 0 calc(1rem + 5px) 0 ;
+      }
+      .sort-container > .row{
+       
+          min-width: auto;
+      }
+        
+  .sort-container > .row >.col-md-6 > .block p{
+     
+    line-height: calc(1rem - 1px);
+    margin: 0;
+    height: calc(1rem + 3px);
+    color: #FFFFFF;
+          
+}
+  .sort-container > .row {
+      background: #FFEFEF;
+      max-width: 100%;
+      padding: 0;
+      justify-content: center;
+  }
+  .sort-container > .row > .col-md-6  {
+      width: 16rem !important;
+      height: calc(2rem - 16px);
+      background: #D32424;
+      padding: 0;
+  }
+  .sort-container > .row >.col-md-6:nth-child(1) {
+      margin:0 0 0.1rem 0 ;
+  }
+  
+  .sort-container > .row > .col-md-6 > .block{
+      width:calc(14rem + 16px) !important;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      
+   }
+  .sort-container > .row > .col-md-6 > .str {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:calc(1rem + 20px);
+      height: calc(1rem + 20px);    
+      background: #B32020;
+      
+      }
+      .sort-container img {
+          width: calc(1rem - 6px)!important;
+          height: calc(1rem - 13px)!important;  
+      }
 }
