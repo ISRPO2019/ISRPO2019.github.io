@@ -119,13 +119,13 @@ img.search{
 /*блок фильтрации и сортировки*/
 .sort-container {
     background: #FFEFEF;
-    
+
 }
 
 
 .sort-container > .row {
     max-width: 1310px;
-  
+
 }
 
 .sort-container > .row > .col-md > .row > .col-md {
@@ -304,7 +304,7 @@ div.container.container_products  div.dropdown.d-flex.align-items-start.show > b
 
 .drop2{
     box-sizing: content-box;
-    min-width: auto !important; 
+    min-width: auto !important;
 }
 a:hover {
     text-decoration: none;
@@ -427,7 +427,7 @@ body > div.d-flex.flex-row.m-5{
     color: #FFFFFF;
 }
 
-div.page>:active{ 
+div.page>:active{
     background: #B32020;
     box-sizing: border-box;
 }
@@ -456,9 +456,9 @@ body > div.container.container_products > div.row.justify-content-center > div >
 }
 
 .icon {
-    display: inline-block; 
-    stroke-width: 0; 
-    max-width: 100%; 
+    display: inline-block;
+    stroke-width: 0;
+    max-width: 100%;
 }
 
 .card_package > svg{
@@ -514,7 +514,7 @@ button:active > .arrow1{
         position: relative;
         margin-left: -570%;
     }
-    
+
 
     .dropdown > button{
         height: 1rem;
@@ -531,7 +531,7 @@ button:active > .arrow1{
 
     .card_img {
         background: #C4C4C4;
-        width: 6.7rem;
+        width: calc(1rem / (22/195));
     }
 
     .card-title{
@@ -608,7 +608,7 @@ button:active > .arrow1{
         fill:currentColor;
         max-height: 1.5rem;
     }
-    
+
     .arrow1{
         color: #B32020;
         fill:currentColor;
@@ -616,7 +616,48 @@ button:active > .arrow1{
         max-height: 1.5rem;
     }
 
+    /* My element */
+    /*  //////////////////////////
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+    .about-buttons {
+        background: #FFF5F5;
+        padding-top: calc(1rem / (22/15)) !important;
+        padding-bottom: calc(1rem / (22/15)) !important;
+        font-size: calc(1rem / (22/26)) !important;
+        color: #000000 !important;
+        border-bottom: calc(1rem / (22/6)) solid #BBBBBB !important;
+    }
+    
+    .about-buttons:hover{
+        color: #B32020 !important;
+    }
+    
+    .about-buttons.active {
+        border-bottom: none !important;
+        border-top: calc(1rem / (22/6)) solid #B32020 !important;
+    }    
+
+    .first-button{
+        padding-left: calc(1rem / (22/15)) !important;
+    }
+    
+    .middle-button{
+        border-left: calc(1rem / (22/1)) solid #BBBBBB !important;
+        border-right: calc(1rem / (22/1)) solid #BBBBBB !important;
+    }
+    
+    .last-button{
+      padding-right: calc(1rem / (22/15)) !important;
+    }
+    #accordion{
+        display: none;        
+    }
+
+    /* Close my element */
+
 }
+
+@media screen and (min-width:767px)and (max-width:5000px) {#accordion{display: none;}}
 
 @media screen and (max-width: 767px) and (min-width: 567px) {
     .filters{
@@ -647,7 +688,7 @@ button:active > .arrow1{
     .card:hover {
         box-shadow: none;
     }
-    
+
 
     .card_icon{
         padding-left: 88%;
@@ -663,11 +704,11 @@ button:active > .arrow1{
     }
 
     body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
-        width: fit-content !important   
+        width: fit-content !important
     }
 
     body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
-        width: fit-content !important; 
+        width: fit-content !important;
     }
 
     body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
@@ -758,9 +799,71 @@ button:active > .arrow1{
     .show_next{
         display: flex !important;
     }
+
+        /* My element */
+    /*  //////////////////////////
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+    .about-buttons {
+        display: none;
+    }
+    
+    .card-header{
+        background: #FFF5F5;
+        border-top: calc(1rem / (22/2)) solid #454545 !important;
+        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
+        border-radius: 0px !important;
+    }
+    
+    .card-body {
+        background: #FFFFFF;
+    }
+
+    .text-col{
+        font-size: calc(1rem / (22/36));
+        color: #454545;
+        text-decoration: none !important;
+    }
+
+    .text-col:hover{
+        color: #B32020;
+    }
+    .text-col:active{
+        color: #B32020 !important;
+    }
+
+    .container{
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    img.col.imc.mt-3{
+        max-width: 10.5% !important;
+        height: 18px !important;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
+        transform: rotate(0deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
+        transform: rotate(180deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
+        color: #B32020;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
+        color: #454545;
+    }
+
+
+    /* Close my element */
+
 }
 
-@media screen and (max-width: 575px) {
+@media(min-width: 486px) and (max-width: 575px) {
     .filters{
         display: none;
     }
@@ -805,11 +908,11 @@ button:active > .arrow1{
     }
 
     body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
-        width: fit-content !important   
+        width: fit-content !important
     }
 
     body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
-        width: fit-content !important; 
+        width: fit-content !important;
     }
 
     body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
@@ -896,6 +999,443 @@ button:active > .arrow1{
     .show_next{
         display: flex !important;
     }
+
+    .about-buttons {
+        display: none;
+    }
+    
+    .card-header{
+        background: #FFF5F5;
+        border-top: calc(1rem / (22/2)) solid #454545 !important;
+        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
+        border-radius: 0px !important;
+    }
+    
+    .card-body {
+        background: #FFFFFF;
+    }
+
+    .text-col{
+        font-size: calc(1rem / (22/26));
+        color: #454545;
+        text-decoration: none !important;
+    }
+
+    .text-col:active{
+        color: #B32020 !important;
+    }
+
+    .container{
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    img.col.imc{
+        max-width: 12% !important;
+        height: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
+        transform: rotate(0deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
+        transform: rotate(180deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
+        color: #B32020;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
+        color: #454545;
+    }
+
+}
+
+@media(min-width: 386px) and (max-width: 485px){
+    .filters{
+        display: none;
+    }
+
+    .page-selection{
+        display: none !important;
+    }
+
+    .title_product {
+      display: none;
+    }
+
+    .number_product {
+        display: none;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .card {
+        background: none;
+        padding: 0;
+    }
+
+    .card:hover {
+        box-shadow: none;
+    }
+
+    .card_icon{
+        padding-left: 75%;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
+        justify-content: space-between !important;
+        padding-bottom: 7%;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
+        margin: 0 !important;
+        padding-left: 10%;
+    }
+
+    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
+        width: fit-content !important
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
+        width: fit-content !important;
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
+        display: none;
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
+        width: fit-content !important;
+        align-items: flex-start !important;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
+        align-items: unset !important;
+        text-align: unset !important;
+    }
+
+    .card_icon{
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .card_img {
+        width: 84.66vw;
+        background: #C4C4C4;
+        margin-top: 0;
+    }
+
+    .card-title{
+        font-size: 24px;
+        color: #000000;
+    }
+
+    .card-price{
+        font-size: 24px;
+        line-height: 21px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .card_package{
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+        color:#B32020;
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .card_package > svg{
+        height: 2rem !important;
+        width: 80%;
+    }
+
+    .page{
+        display: none;
+    }
+
+    .number_btn{
+        display: none;
+    }
+
+    .show_btn{
+    width: 488px;
+    height: 80px;
+    background: #FFEFEF;
+    border: 1px solid #9E0808;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 36px;
+    }
+
+    div>button.show_btn>:active{
+        width: 488px;
+        height: 80px;
+        background: #EC8A8A;
+        border: 1px solid #9E0808;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 36px;
+    }
+
+    .show_next{
+        display: flex !important;
+    }
+
+    .about-buttons {
+        display: none;
+    }
+    
+    .card-header{
+        background: #FFF5F5;
+        border-top: calc(1rem / (22/2)) solid #454545 !important;
+        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
+        border-radius: 0px !important;
+    }
+    
+    .card-body {
+        background: #FFFFFF;
+    }
+
+    .text-col{
+        font-size: calc(1rem / (22/26));
+        color: #454545;
+        text-decoration: none !important;
+    }
+
+    .text-col:active{
+        color: #B32020 !important;
+    }
+
+    .container{
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    img.col.imc{
+        max-width: 15% !important;
+        height: 15px !important;
+        margin-top: 18px !important;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
+        transform: rotate(0deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
+        transform: rotate(180deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
+        color: #B32020;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
+        color: #454545;
+    }
+}
+
+@media(max-width: 385px){
+    .filters{
+        display: none;
+    }
+
+    .page-selection{
+        display: none !important;
+    }
+
+    .title_product {
+      display: none;
+    }
+
+    .number_product {
+        display: none;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .card {
+        background: none;
+        padding: 0;
+    }
+
+    .card:hover {
+        box-shadow: none;
+    }
+
+    .card_icon{
+        padding-left: 75%;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
+        justify-content: space-between !important;
+        padding-bottom: 7%;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
+        margin: 0 !important;
+        padding-left: 10%;
+    }
+
+    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
+        width: fit-content !important
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
+        width: fit-content !important;
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
+        display: none;
+    }
+
+    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
+        width: fit-content !important;
+        align-items: flex-start !important;
+    }
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
+        align-items: unset !important;
+        text-align: unset !important;
+    }
+
+    .card_icon{
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .card_img {
+        width: 84.66vw;
+        background: #C4C4C4;
+        margin-top: 0;
+    }
+
+    .card-title{
+        font-size: 24px;
+        color: #000000;
+    }
+
+    .card-price{
+        font-size: 24px;
+        line-height: 21px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .card_package{
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+        color:#B32020;
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .card_package > svg{
+        height: 2rem !important;
+        width: 80%;
+    }
+
+    .page{
+        display: none;
+    }
+
+    .number_btn{
+        display: none;
+    }
+
+    .show_btn{
+    width: 488px;
+    height: 80px;
+    background: #FFEFEF;
+    border: 1px solid #9E0808;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 36px;
+    }
+
+    div>button.show_btn>:active{
+        width: 488px;
+        height: 80px;
+        background: #EC8A8A;
+        border: 1px solid #9E0808;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 36px;
+    }
+
+    .show_next{
+        display: flex !important;
+    }
+
+    .about-buttons {
+        display: none;
+    }
+    
+    .card-header{
+        background: #FFF5F5;
+        border-top: calc(1rem / (22/2)) solid #454545 !important;
+        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
+        border-radius: 0px !important;
+    }
+    
+    .card-body {
+        background: #FFFFFF;
+    }
+
+    .text-col{
+        font-size: calc(1rem / (22/22));
+        color: #454545;
+        text-decoration: none !important;
+    }
+
+    .text-col:active{
+        color: #B32020 !important;
+    }
+
+    .container{
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    img.col.imc.mt-3{
+        max-width: 17% !important;
+        height: 17px !important;
+        margin-top: 15px !important;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
+        transform: rotate(0deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
+        transform: rotate(180deg);
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
+        color: #B32020;
+    }
+
+    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
+        color: #454545;
+    }
+
 }
 
 /* Стили для похожие товаров */
@@ -1176,7 +1716,7 @@ p.grey {
         background: white;
         padding-left: 3%;
     }
-    
+
     .p-pad{
         font-size: 0.85rem;
         padding: 0;
@@ -1372,7 +1912,7 @@ p.grey {
         background: white;
         padding-left: 3%;
     }
-    
+
     .p-pad{
         font-size: 0.85rem;
         padding: 0;
@@ -1395,7 +1935,7 @@ p.grey {
     .mt-pop-items {
         margin-top: 1rem;
     }
-    
+
     .product-main-description h1 {
         font-size: calc(1rem / (22/36)) !important;
     }
@@ -1572,7 +2112,7 @@ footer span {
 }
 
 footer textarea::placeholder {
-    color: #D1CECE;  
+    color: #D1CECE;
 }
 
 .basement4 {
@@ -1584,9 +2124,9 @@ footer {
 }
 
 footer button {
-    
-    
-    
+
+
+
     text-align: center;
     background: #FFFFFF;
 }
@@ -1604,17 +2144,17 @@ footer button {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1686px) {
-    
+
     .basement1 {
         padding-left: calc(1rem/(22/50));
         color: #FFFFFF;
     }
-    
+
     .basement2 {
         padding-left: calc(1rem/(22/100));
-        
+
     }
-    
+
     .basement3 {
         padding-right: calc(1rem/(22/10));
     }
@@ -1636,12 +2176,12 @@ footer button {
 }
 
 @media screen and (min-width: 576px) and (max-width: 1199px) {
-    
-    
+
+
 
     footer {
         font-size: 22px !important;
-        line-height: calc(1rem/(22/28));   
+        line-height: calc(1rem/(22/28));
     }
 
     footer img {
@@ -1653,17 +2193,17 @@ footer button {
     footer.container {
         padding-top: calc(1rem/(22/40));
     }
-    
+
     .basement1 {
         padding-left: calc(1rem/(22/44));
         padding-right: 0rem;
-        
+
     }
 
     .basement1 p {
         max-width: calc(1rem/(22/320));
         width: 100%;
-        
+
     }
 
 
@@ -1685,7 +2225,7 @@ footer button {
 
     .basement3 {
         padding-left: calc(1rem/(22/44));
-        padding-right: calc(1rem/(22/44)); 
+        padding-right: calc(1rem/(22/44));
     }
 
     .basement3 h3 {
@@ -1713,14 +2253,14 @@ footer button {
     footer button {
         width: 100%;
         height: calc(1rem/(22/40));
-        text-align: center; 
+        text-align: center;
     }
 
     .box_button {
         padding-left: calc(1rem/(22/15));
     }
 
-    .basement4 { 
+    .basement4 {
         padding-left: calc(1rem/(22/40));
         padding-right: 0rem;
     }
@@ -1786,7 +2326,7 @@ footer button {
 }
 
 @media screen and (max-width: 574px) {
-    
+
     footer {
         font-size: calc(1rem/(22/36));
         line-height: calc(1rem/(22/41));
@@ -1796,7 +2336,7 @@ footer button {
         font-size: calc(1rem/(22/48));
         line-height: calc(1rem/(22/55));
     }
-    
+
     footer .row div {
         padding-right: 0px;
         padding-left: 0px;
@@ -1806,8 +2346,8 @@ footer button {
         margin-right: auto;
     }
     footer a {
-        font-size: calc(1rem/(22/17)); 
-        line-height: calc(1rem/(22/20)); 
+        font-size: calc(1rem/(22/17));
+        line-height: calc(1rem/(22/20));
         margin-left: calc(1rem/(22/0));
     }
 
@@ -1840,7 +2380,7 @@ footer button {
     .basement3 textarea{
         height: calc(1rem/(22/154));
 
-        
+
     }
 
     .basement4 p {
@@ -1848,7 +2388,7 @@ footer button {
         line-height: calc(1rem/(22/20));
     }
 
-    footer textarea::placeholder {  
+    footer textarea::placeholder {
         font-size: 36px;
         line-height: 41px;
     }
@@ -1871,7 +2411,7 @@ footer button {
         font-size: 24px;
         line-height: 28px;
         padding: calc(1rem/(22/10)) calc(1rem/(22/82));
-        
+
     }
 }
 
@@ -1974,8 +2514,13 @@ footer button {
     border-bottom: calc(1rem / (22/10)) solid #BBBBBB;
 }
 
+.about-buttons:hover{
+    color: #B32020;
+}
+
 .first-button{
-    padding-left: calc(1rem / (22/16)) !important;
+    padding-left: calc(1rem / (22/16));
+    font-size: calc(1rem / (22/36));
 }
 
 .middle-button{
@@ -1984,7 +2529,7 @@ footer button {
 }
 
 .last-button{
-  padding-right: calc(1rem / (22/16)) !important;  
+  padding-right: calc(1rem / (22/16));
 }
 
 .about-buttons.active {
@@ -2103,7 +2648,7 @@ footer button {
 
 #info-block .col-1{
     box-shadow: inset -1px 0 0 red;
-    
+
 }
 #home, #contact{
     border: 1px solid #bbbbbb;
@@ -2121,7 +2666,7 @@ footer button {
 .param {
     line-height: 41px;
 }
-    
+
 .param__prop {
     position: relative;
     display: block;
@@ -2136,13 +2681,13 @@ footer button {
     width: 100%;
     border-bottom: .1em dotted;
 }
-    
+
 .param__value {
     float: right;
     padding-left: .2em;
     padding-right: 1.4em;
 }
-    
+
 /* Modify */
 .param--align:after {
     content: '';
@@ -2187,17 +2732,17 @@ footer button {
 
 #estimation-text {
     font-weight: normal;
-    line-height: 41px; 
+    line-height: 41px;
     font-size: 36px;
 }
 #estimation {
-    font-weight: bold; 
-    font-size: 64px; 
+    font-weight: bold;
+    font-size: 64px;
     color: #B32020;
 }
 #review {
-    font-weight: normal; 
-    font-size: 24px; 
+    font-weight: normal;
+    font-size: 24px;
     line-height: 1.1667rem;
      color: #A1A1A1;
 }

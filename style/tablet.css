@@ -1,7 +1,7 @@
 /* Общий стиль для планшетной и мобильной версии */
 @media (max-width: 991px){
     html{
-        font-size: 36px !important;
+        font-size: 26px !important;
     }
     .navbar{
         padding: 0px !important;
@@ -11,7 +11,7 @@
         border-bottom: 1px solid #D32424;
     }
     input.search{
-        
+
         height: 60px !important;
         margin-left: 0px !important;
         width: calc(100% - 60px) !important;
@@ -30,12 +30,12 @@
     svg.arrow-header{
         transform: rotate(270deg);
     }
-     
+
 }
 
 /* Планшетная версия */
 @media (min-width: 768px) and (max-width:991px){
-    
+
     .header {
         height: 2.22rem !important;
     }
@@ -47,7 +47,7 @@
     }
     .navbar-collapse{
         padding-left:1.78rem;
-        padding-right:1.78rem; 
+        padding-right:1.78rem;
     }
     .navbar-nav{
         margin-left: 0px !important;
@@ -63,7 +63,7 @@
         margin-top: 1.1rem !important;
     }
     input.search{
-        
+
         height: 60px !important;
         margin-left: 0px !important;
         width: calc(100% - 60px) !important;
@@ -89,7 +89,7 @@
     /* Блок фильтрации и сортировки */
     div.align-items-center.justify-content-center.no-gutters{
         display: none;
-          
+
       }
       .container-fluid {
           padding-right: 0;
@@ -112,45 +112,45 @@
   }
 
   .sort-container > .row >.col-md-6 {
-    
+
     padding-right: .5rem!important;
-          
+
 }
   .sort-container > .row >.col-md-6 > .block {
       width: calc(8rem - 8px);
       height: calc(1rem + 4px);
       background: #D32424;
   }
-  
+
   .sort-container > .row >.col-md-6 > .block p{
-     
+
       line-height: calc(1rem - 1px);
       margin: 0;
       height: calc(1rem + 3px);
       color: #FFFFFF;
-            
+
   }
   .sort-container > .row >.col-md-6 > .str {
       display: flex;
       justify-content: center;
       align-items: center;
       width: calc(1rem + 4px);
-      height: calc(1rem + 4px);    
+      height: calc(1rem + 4px);
       background: #B32020;
-      
+
       }
       .sort-container > .row >.col-md-6 >.str >img {
-       
+
           width: calc(1rem - 20px);
-          height: calc(1rem - 27px);  
+          height: calc(1rem - 27px);
       }
-  
+
   .sort-container > .row > .col-md-6 > .block {
       display: flex;
       flex-direction: column;
       justify-content:center;
       align-items: center;
-     
+
    }
 
 }
