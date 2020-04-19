@@ -139,11 +139,7 @@
       background: #B32020;
 
       }
-      .sort-container > .row >.col-md-6 >.str >img {
-
-          width: calc(1rem - 20px);
-          height: calc(1rem - 27px);
-      }
+    
 
   .sort-container > .row > .col-md-6 > .block {
       display: flex;
@@ -152,5 +148,94 @@
       align-items: center;
 
    }
+
+    /*обзоры*/
+
+.review_card{
+    display: flex;
+    flex-flow: column-reverse;
+    height: auto!important;
+  }
+  .review_card > .column{
+      float: none;
+      padding: 0 0 0 0!important;
+  } 
+  
+  .inputrewiew{
+      height: calc(2rem + 3px)!important;
+  }
+ .column_content button{
+    bottom: -1.38rem !important;
+    float: right !important;
+    position: static !important;
+  }
+  .column_content textarea{
+   width: 100% !important;
+   height: calc(5rem - 12px) !important;
+  
+  }
+  .column_content input{
+    width: 100%;
+  }
+  .rating_card {
+     margin: 0!important;
+     height:calc(8rem + 12px)!important;
+     width: calc(12rem - 12px)!important;
+  }
+ 
+  .column > .column_content button{
+     width:calc(11rem + 2px)!important;
+     height: calc(2rem + 3px)!important;
+     padding: 0!important;
+     margin-top: calc(2rem - 2px)!important;
+  }
+  .column_content > .description {
+      margin-left: 0;
+  }
+  .description {
+    margin-top: calc(2rem - 4px)!important;
+ }
+  .column_content > .titleView {
+      font-size: 1rem;
+      line-height: calc(1rem + 5px) ;
+  }
+  .rating, .rating-test  {
+     font-size: calc(1rem - 1px)!important;
+      }
+  .head-review, .test{
+    font-size: calc(1rem - 12px)!important;
+    line-height: calc(1rem - 8px)!important;
+  }
+  #estimation-text{
+    font-size: calc(1rem + 10px)!important;
+    line-height: calc(1rem + 5px)!important;
+  }
+  .img_block{
+    widows: 73px!important;
+    height:64px!important;
+    font-size: unset!important;
+  }
+  .test{
+    margin-top:1rem !important;
+    float: right!important;
+    font-size: calc(1rem - 12px)!important;
+    line-height: calc(1rem - 8px)!important;
+  }
+  .description_text{
+    font-size: calc(1rem - 4px)!important;
+    line-height: calc(1rem - 1px)!important;
+    padding: 0 0 1rem 0;
+  }
+  .head-review{
+     font-size: calc(1rem - 2px)!important;
+     line-height: calc(1rem + 2px)!important;
+     text-align: center;
+  }
+ 
+
+
+
+
+
 
 }
