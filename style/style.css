@@ -655,6 +655,33 @@ button:active > .arrow1{
 
     /* Close my element */
 
+    .fon{
+        font-size: 22px;
+    }
+
+    .har{
+        display: inline !important;
+    }
+
+    .wig{
+        max-width: 100% !important;
+        font-size: calc(1rem / (22/19));
+        margin-bottom: calc(1rem / (22/80)) !important;
+    }
+
+    .param{
+        font-size: calc(1rem / (22/19));
+    }
+
+    .lin{
+        border: 1px solid #B32020;
+
+    }
+    
+    #info-block .col-1{
+        box-shadow: 0 0 0 0 !important;
+    }
+
 }
 
 @media screen and (min-width:767px)and (max-width:5000px) {#accordion{display: none;}}
@@ -861,6 +888,60 @@ button:active > .arrow1{
 
     /* Close my element */
 
+    .fon{
+        font-size: 22px;
+        margin-bottom: calc(1rem / (22/120));
+    }
+
+    .har{
+        display: inline !important;
+    }
+
+    .wig{
+        max-width: 100% !important;
+        font-size: calc(1rem / (22/19));
+        margin-bottom: calc(1rem / (22/80)) !important;
+    }
+
+    .param{
+        font-size: calc(1rem / (22/19));
+    }
+
+    .lin{
+        border: 1px solid #B32020;
+        width: 90%;
+    }
+
+    .lik{
+        border: 1px solid #B32020;
+        margin-bottom: 0px !important;
+        width: 50%;
+        margin-left: 1px;
+        padding-right: 20px;
+    }
+        
+    #info-block .col-1{
+        box-shadow: 0 0 0 0 !important;
+        padding-top: 0px !important;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+
+    .gl{
+        font-size: 48px;
+    }
+
+    .param__prop:after {
+        border-bottom: none !important;
+    }
+
+    .ophar{
+        display: none !important;
+    }
+
+
 }
 
 @media(min-width: 486px) and (max-width: 575px) {
@@ -1051,6 +1132,60 @@ button:active > .arrow1{
 
     div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
         color: #454545;
+    }
+
+
+    .fon{
+        font-size: 22px;
+        margin-bottom: calc(1rem / (22/120));
+    }
+
+    .har{
+        display: inline !important;
+    }
+
+    .wig{
+        max-width: 100% !important;
+        font-size: calc(1rem / (22/19));
+        margin-bottom: calc(1rem / (22/80)) !important;
+    }
+
+    .param{
+        font-size: calc(1rem / (22/19));
+    }
+
+    .lin{
+        border: 1px solid #B32020;
+        width: 90%;
+    }
+
+    .lik{
+        border: 1px solid #B32020;
+        margin-bottom: 0px !important;
+        width: 50%;
+        margin-left: 1px;
+        padding-right: 20px;
+    }
+        
+    #info-block .col-1{
+        box-shadow: 0 0 0 0 !important;
+        padding-top: 0px !important;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+
+    .gl{
+        font-size: 48px;
+    }
+
+    .param__prop:after {
+        border-bottom: none !important;
+    }
+
+    .ophar{
+        display: none !important;
     }
 
 }
@@ -1244,6 +1379,60 @@ button:active > .arrow1{
     div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
         color: #454545;
     }
+
+    .fon{
+        font-size: 22px;
+        margin-bottom: calc(1rem / (22/120));
+    }
+
+    .har{
+        display: inline !important;
+    }
+
+    .wig{
+        max-width: 100% !important;
+        font-size: calc(1rem / (22/19));
+        margin-bottom: calc(1rem / (22/80)) !important;
+    }
+
+    .param{
+        font-size: calc(1rem / (22/19));
+    }
+
+    .lin{
+        border: 1px solid #B32020;
+        width: 90%;
+    }
+
+    .lik{
+        border: 1px solid #B32020;
+        margin-bottom: 0px !important;
+        width: 40%;
+        margin-left: 1px;
+        padding-right: 20px;
+    }
+        
+    #info-block .col-1{
+        box-shadow: 0 0 0 0 !important;
+        padding-top: 0px !important;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+
+    .gl{
+        font-size: 30px;
+    }
+
+    .param__prop:after {
+        border-bottom: none !important;
+    }
+
+    .ophar{
+        display: none !important;
+    }
+
 }
 
 @media(max-width: 385px){
@@ -1435,6 +1624,61 @@ button:active > .arrow1{
     div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
         color: #454545;
     }
+
+    .fon{
+        font-size: 22px;
+        margin-bottom: calc(1rem / (22/60));
+    }
+
+    .har{
+        display: inline !important;
+    }
+
+    .wig{
+        max-width: 100% !important;
+        font-size: calc(1rem / (22/19));
+        margin-bottom: calc(1rem / (22/20)) !important;
+    }
+
+    .param{
+        font-size: calc(1rem / (22/12));
+    }
+
+    .lin{
+        border: 1px solid #B32020;
+        width: 90%;
+    }
+
+    .lik{
+        border: 1px solid #B32020;
+        margin-bottom: 0px !important;
+        width: 50%;
+        margin-left: 1px;
+        padding-right: 20px;
+        margin-top: 0px;
+    }
+        
+    #info-block .col-1{
+        box-shadow: 0 0 0 0 !important;
+        padding-top: 0px !important;
+    }
+    
+    .card-body{
+        padding: 0px;
+    }
+
+    .gl{
+        font-size: 30px;
+    }
+
+    .param__prop:after {
+        border-bottom: none !important;
+    }
+
+    .ophar{
+        display: none !important;
+    }
+
 
 }
 
