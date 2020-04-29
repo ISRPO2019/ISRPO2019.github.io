@@ -30,7 +30,7 @@
         </a>
   
       </div>
-      <div class="col-md-2 col-2  align-self-center">
+      <div class="col-md-2 col-2 align-self-center">
         <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
       </div>
       <button class="d-none d-md-block my-auto arrow-header mx-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -76,8 +76,20 @@
   </nav>
 
   <!--блок фильтрации и сортировки-->
-  <div class="container-fluid pl-0 sort-container">
-    <div class="row d-flex align-items-center justify-content-center" style="margin: 0 auto">
+  <div class="container-fluid sort-container">
+    <div class="row two_blocks align-items-center justify-content-center" style="margin: 0 auto">
+        <div class="col-md-6 d-flex d-lg-none pr-md-2">
+           <div class="block"> 
+               <p> Сортировать по..</p>
+             </div>
+             <div class="str"><img src="./assets/arrow.png"> </div>
+        </div>
+      <div class="col-md-6 d-flex d-lg-none pl-md-2 ">
+         <div class="block ">
+            <p> Выбор категории</p> 
+         </div>
+         <div class="str"><img src="./assets/arrow.png"> </div>
+       </div>
       <div class="col-md pr-0 pl-0">
         <div class="row align-items-center justify-content-center no-gutters">
           <div class="col-md" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -297,360 +309,367 @@
 
   <!-- Список товаров -->
 
-  <div class="container">
+  <div class="container container_products">
 
-  <div class="d-flex justify-content-end col-md-11 mt-5">
-    <div class="title_product p-2">
-      <p>Фильтры</p>
-    </div>
-    <div class="number_product p-1">
-      <div class="number">
-        <p>0</p>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button type="button" class="btn" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false" data-offset="10,20">
-        <img src="assets/Arrow 1.png" alt="">
-      </button>
-      <div class="dropdown-menu drop" aria-labelledby="dropdownMenuOffset">
-        <div class="d-flex">
-          <div class="ml-2">
-            <img src="assets/cross.png" class="cross" alt="">
-          </div>
-          <div class="ml-3">
-            <p>Великобритания</p>
-          </div>
+    <div class="row filters justify-content-end align-items-center pr-3">
+      <div class="d-flex flex-row align-items-center pr-2">
+        <div class="title_product p-2">
+          <p>Фильтры</p>
         </div>
-        <div class="d-flex">
-          <div class="ml-2">
-            <img src="assets/cross.png" class="cross" alt="">
-          </div>
-          <div class="ml-3">
-            <p>Michael Kors</p>
-          </div>
+        <div class="number_product p-1">
+            <p>0</p>
         </div>
-        <div class="d-flex">
-          <div class="ml-2">
-            <img src="assets/cross.png" class="cross" alt="">
-          </div>
-          <div class="ml-3">
-            <p>Алюминий</p>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="ml-2">
-            <img src="assets/cross.png" class="cross" alt="">
-          </div>
-          <div class="ml-3">
-            <p>Серебряный</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="title_product p-2">
-      <p>Товаров</p>
-    </div>
-    <div class="number_product p-1">
-      <div class="number">
-        <p>12</p>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button type="button" class="btn" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false" data-offset="10,20">
-        <img src="assets/Arrow 1.png" alt="">
-      </button>
-      <div class="dropdown-menu drop2" aria-labelledby="dropdownMenuOffset">
-        <div class="d-flex">
-          <div class="ml-3 nc">
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-              <label class="custom-control-label" for="customRadio1">6</label>
+        <div class="dropdown d-flex align-items-start">
+          <button type="button" class="btn d-flex align-items-start" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" data-offset="10,20">
+            <img src="assets/Arrow 1.png" alt="">
+          </button>
+          <div class="dropdown-menu drop pr-2" aria-labelledby="dropdownMenuOffset">
+            <div class="d-flex">
+              <div class="ml-2">
+                <img src="assets/cross.png" class="cross" alt="">
+              </div>
+              <div class="ml-3">
+                <p>Великобритания</p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="ml-3 nc mt-2">
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-              <label class="custom-control-label" for="customRadio2">12</label>
+            <div class="d-flex">
+              <div class="ml-2">
+                <img src="assets/cross.png" class="cross" alt="">
+              </div>
+              <div class="ml-3">
+                <p>Michael Kors</p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="ml-3 nc mt-2">
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-              <label class="custom-control-label" for="customRadio3">24</label>
+            <div class="d-flex">
+              <div class="ml-2">
+                <img src="assets/cross.png" class="cross" alt="">
+              </div>
+              <div class="ml-3">
+                <p>Алюминий</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="ml-2">
+                <img src="assets/cross.png" class="cross" alt="">
+              </div>
+              <div class="ml-3">
+                <p>Серебряный</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="row">
+      
+      <div class="d-flex flex-row align-items-center">
+        <div class="title_product p-2">
+          <p>Товаров</p>
+        </div>
+        <div class="number_product p-1">
+            <p>12</p>
+        </div>
+        <div class="dropdown d-flex align-items-start">
+          <button type="button" class="btn d-flex align-items-start" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" data-offset="10,20">
+            <img src="assets/Arrow 1.png" alt="">
+          </button>
+          <div class="dropdown-menu drop2 pl-2 pr-2" aria-labelledby="dropdownMenuOffset">
+            <div class="d-flex">
+              <div class="nc">
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio1">6</label>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="nc mt-2">
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio2">12</label>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="nc mt-2">
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio3">24</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+  
+    <div class="row justify-content-center">
+  
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="d-flex justify-content-center">
+            <a href="#">
+              <img
+                src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
+                class="card_img" alt="">
+            </a>
+          </div>
+          <div class="d-flex align-items-center flex-row text-center">
+                <div class="mx-auto">
+                  <a href="#">
+                    <p class="card-title">Название</p>             
+                    <p class="card-price">цена</p>
+                  </a>
+              </div>
+              <div class="card_icon">
+                <a class="card_package">
+                  <svg class="icon icon-package"> 
+                    <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
+                  </svg>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="d-flex justify-content-center">
+            <a href="#">
+              <img
+                src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
+                class="card_img" alt="">
+            </a>
+          </div>
+          <div class="d-flex align-items-center flex-row text-center">
+                <div class="mx-auto">
+                  <a href="#">
+                    <p class="card-title">Название</p>             
+                    <p class="card-price">цена</p>
+                  </a>
+              </div>
+              <div class="card_icon">
+                <a class="card_package">
+                  <svg class="icon icon-package"> 
+                    <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
+                  </svg>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <div class="card">
-        <div class="">
+        <div class="d-flex justify-content-center">
           <a href="#">
             <img
               src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
               class="card_img" alt="">
           </a>
         </div>
-        <div class="d-flex flex-row py-3 ">
-          <div class="ml-auto w-75 d-flex flex-column align-items-center">
-            <div class="ml-3">
-              <div class="card_title">
-                <a href="#" class="title">
-                  <p class="text-center">Название</p>
+        <div class="d-flex align-items-center flex-row text-center">
+              <div class="mx-auto">
+                <a href="#">
+                  <p class="card-title">Название</p>             
+                  <p class="card-price">цена</p>
                 </a>
-              </div>
-              <div class="card_price">
-                <a href="#" class="price">
-                  <p>цена</p>
-                </a>
-              </div>
             </div>
-          </div>
-          <div>
-            <div class="mt-1 ml-auto">
-              <a href="" class="card_package">
-                <svg class="icon icon-package card_package"> 
-                  <use xlink:href="assets/symbol-defs.svg#icon-package"></use> 
+            <div class="card_icon">
+              <a class="card_package">
+                <svg class="icon icon-package"> 
+                  <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
                 </svg>
               </a>
             </div>
-          </div>
         </div>
       </div>
     </div>
+  
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <div class="card">
-        <div>
+        <div class="d-flex justify-content-center">
           <a href="#">
             <img
               src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
               class="card_img" alt="">
           </a>
         </div>
-        <div class="d-flex flex-row py-3">
-          <div class="ml-auto w-75 d-flex flex-column align-items-center">
-            <div>
-              <div class="card_title">
-                <a href="#" class="title">
-                  <p class="text-center">Название</p>
+        <div class="d-flex align-items-center flex-row text-center">
+              <div class="mx-auto">
+                <a href="#">
+                  <p class="card-title">Название</p>             
+                  <p class="card-price">цена</p>
                 </a>
-              </div>
-              <div class="card_price">
-                <a href="#" class="price">
-                  <p>цена</p>
-                </a>
-              </div>
             </div>
-          </div>
-          <div>
-            <div class="mt-1 ml-auto">
-              <a href="" class="card_package">
-                <svg class="icon icon-package card_package"> 
-                  <use xlink:href="assets/symbol-defs.svg#icon-package"></use> 
+            <div class="card_icon">
+              <a class="card_package">
+                <svg class="icon icon-package"> 
+                  <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
                 </svg>
               </a>
             </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="d-flex flex-row m-5">
-  <div class="page ml-5">
-    <button class="btn">
-      <svg class="icon icon-package arrow"> 
-        <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
-      </svg>
-    </button>
-  </div>
-  <div>
-    <button type="button" class="btn number_btn">1</button>
-    <button type="button" class="btn number_btn">2</button>
-  </div>
-  <div class="page">
-    <button class="btn">
-      <svg class="icon icon-package arrow1"> 
-        <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
-      </svg>
-    </button>
-  </div>
-</div>
-
-  <!-- <div class="">
-  <div class="page justify-content-between">
-    <button class="btn">
-      <svg class="icon icon-package arrow"> 
-        <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
-      </svg>
-    </button>
-    <button class="btn ">
-      <svg class="icon icon-package arrow1"> 
-        <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
-      </svg>
-    </button>
-  </div>
-  <div class="d-flex align-items-center justify-content-center">
-    <button type="button" class="btn number_btn">1</button>
-    <button type="button" class="btn number_btn">2</button>  
-  </div>
-  </div> -->
-
-
-<!-- <div class="d-flex align-items-center justify-content-center">
-  <div class="page mr-5">
-    <button class="btn p-2">
-      <img src="assets/Arrow 3.png" alt="">
-    </button>
-  </div>
-  <button type="button" class="btn number_btn mr-2">1</button>
-  <button type="button" class="btn number_btn">2</button>
-  <div class="page ml-5">
-    <button class="btn p-2">
-      <img src="assets/Arrow 2.png" alt="">
-    </button>
-  </div>
-</div> -->
-
-<div class="show_next">
-  <button type="button" class="btn show_btn">
-    <p>Показать еще</p>
-  </button>
-</div>
-
-  <!-- Популярные товары -->
-  <div class="container-fluid popular mb-3 mt-3">
-    <div class="row pop-head pt-3">
-      <h1>Популярные товары</h1>
+  
+    <div class="d-flex w-100 pagination page-selection flex-row mb-3 align-items-center">
+      <div class="page-item page d-flex align-items-center justify-content-center">
+        <button class="btn">
+          <svg class="icon icon-package arrow"> 
+            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+          </svg>
+        </button>
+      </div>
+      <div>
+        <button type="button" class="btn number_btn page-item">1</button>
+        <button type="button" class="btn number_btn page-item">2</button>
+      </div>
+      <div class="page-item page d-flex align-items-center justify-content-center">
+        <button class="btn">
+          <svg class="icon icon-package arrow1"> 
+            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+          </svg>
+        </button>
+      </div>
     </div>
-    <div class="row no-gutters justify-content-between">
-      <div class="col-md col-sm-12 mr-4">
-        <div class="d-flex align-items-center justify-content-start">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
+  
+  </div>
+  
+  <div class="show_next d-flex w-100 justify-content-center mt-4">
+    <button type="button" class="btn show_btn">
+      <p>Показать еще</p>
+    </button>
+  </div>
+  
+    <!-- Популярные товары -->
+    <div class="container-fluid popular">
+      <div class="pop-head pt-3">
+        <h1>Популярные товары</h1>
       </div>
-      <div class="col-md col-sm-12  mr-4">
-        <div class="d-flex align-items-center justify-content-start">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+      <div class="row no-gutters justify-content-between">
+        <div class="col-md col-sm-12 col-xs-12 mr-4">
+          <div class="d-flex align-items-center justify-content-start">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
         </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+        <div class="col-md  col-sm-12 col-xs-12 mr-4">
+          <div class="d-flex align-items-center justify-content-start">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
         </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+        <div class="col-md mr-4">
+          <div class="d-flex align-items-center justify-content-start">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="col-md mr-4">
-        <div class="d-flex align-items-center justify-content-start">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+        <div class="col-md">
+          <div class="d-flex align-items-center justify-content-start">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="d-flex align-items-center justify-content-start">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-start mt-pop-items">
-          <div><img src="./assets/watch-default.jpg"></div>
-          <div class="p-pad">
-            <p class="mb-0">Название</p>
-            <p class="grey mb-0">Цена</p>
+          <div class="d-flex align-items-center justify-content-start mt-pop-items">
+            <div><img src="./assets/watch-default.jpg"></div>
+            <a class="p-pad">
+              <p class="mb-0">Название</p>
+              <p class="grey mb-0">Цена</p>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
   <footer class="container" style="max-width: 100%;">
     <div class="row">
-      <div class="col-md-3 basement1">
+      <div class="col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 order-md-2 col-sm-6 order-sm-2 order-1 basement1">
         <img src="./assets/logo.png">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua.</p>
       </div>
-      <div class="col-md-3 basement2">
+      <div class="col-xl-3 order-xl-2 col-lg-12 order-lg-1 col-md-12  order-md-1 col-sm-12 order-sm-1 order-2 basement2">
         <h3>Разделы</h3>
-        <a href="#">Главная</a>
-        <a href="#">Магазин</a>
-        <a href="#">Страницы</a>
-        <a href="#">Контакты</a>
+        <div class="row ">
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Главная</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Магазин</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Страницы</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Контакты</a></div>
       </div>
-      <div class="col-md-3 basement3">
-        <h3>Обратная связь</h3>
-        <input name="Email" placeholder="Email" style="max-width: 320px;">
-        <textarea rows="2"></textarea>
-        <button>Отправить</button>
       </div>
-      <div class="col-md-3 basement4">
+      <div class="col-xl-3 order-xl-3 col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 order-3 basement3">
+        <div class="row ">
+          <div class="col-xl-12 col-lg-12 col-md-12 order-md-1"><h3>Обратная связь</h3></div>
+          <div class="col-xl-12 order-xl-1 col-lg-9 order-lg-2 col-md-9 order-md-2 pr-md-0 col-sm-9 order-sm-2 box_input"><input  name="Email" placeholder="Email"></div>
+          <div class="col-xl-12 order-xl-2  col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 box_textarea"><textarea  rows="2" placeholder="Текст сообщения"></textarea></div>
+          <div class="col-xl-12 order-xl-3  col-lg-3 order-lg-3 col-md-3  order-md-3 col-sm-3 order-sm-3  ml-md-auto  box_button "><button >Отправить</button></div>
+          </div>
+      </div>
+      <div class="col-xl-3 order-xl-4 col-lg-6 order-lg-3 col-md-6 order-md-3 col-sm-6 order-sm-3 order-4 basement4">
         <h3>Контакты</h3>
         <p><span>Email</span> fffff@gmail.com</p>
         <p><span>Номер телефона</span> <br>8-800-555-35-35</p>
