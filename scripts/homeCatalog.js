@@ -53,7 +53,15 @@ function productCreate(id, products, mainDiv) {
 	cardListDiv.appendChild(cardDiv);
 }
 
+function removeList(mainDiv) {
+	var cardListDiv = document.getElementById(mainDiv);
+	while (cardListDiv.firstChild) {
+		cardListDiv.removeChild(cardListDiv.firstChild);
+	}
+}
+
 function cardListCreate(products, mainDiv) {
+	removeList(mainDiv);
 	for (var i = 0; i < products.length; i++) {
 		productCreate(i, products, mainDiv);
 	}
