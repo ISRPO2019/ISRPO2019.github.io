@@ -1,9 +1,10 @@
 @media (max-width: 767px){
     .header{
-        height: 40vw !important;
+        min-height: 22vw !important;
         /* padding-left: 44px !important;
         padding-right: 44px !important; */
-        padding-top: 2vw !important;
+        padding-top: 7vw !important;
+        padding-bottom: 1vw !important;
     }
     svg.arrow-header{
         height: 3vw !important;
@@ -31,6 +32,9 @@
     .navbar-collapse{
         padding-left: 10vw;
         padding-right: 10vw; 
+    }
+    .arrow-header{
+        margin-top: 3vw;
     }
 
 /* блок фильтрации и сортировки */
