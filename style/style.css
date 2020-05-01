@@ -461,6 +461,8 @@ body > div.container.container_products > div.row.justify-content-center > div >
 .icon {
     display: inline-block;
     stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
     max-width: 100%;
 }
 
@@ -482,7 +484,6 @@ a:active > svg.icon-package{
     height: 3rem;
     width: 2.75rem;
     color: #B32020;
-    fill:currentColor;
     transition: color 2s;
 }
 
@@ -494,7 +495,6 @@ button:active > .arrow{
 .arrow{
     height: 100%;
     color: #B32020;
-    fill:currentColor;
 }
 
 button:active > .arrow1{
@@ -505,7 +505,6 @@ button:active > .arrow1{
 .arrow1{
     height: 100%;
     color: #B32020;
-    fill:currentColor;
     transition: color 2s;
     transform: scaleX(-1);
 }
@@ -551,8 +550,6 @@ button:active > .arrow1{
     .card_package{
         display: inline-block;
         stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
         width: 1rem;
         height: 1rem;
         color:#B32020;
@@ -608,13 +605,11 @@ button:active > .arrow1{
 
     .arrow{
         color: #B32020;
-        fill:currentColor;
         max-height: 1.5rem;
     }
 
     .arrow1{
         color: #B32020;
-        fill:currentColor;
         transform: scaleX(-1);
         max-height: 1.5rem;
     }
@@ -786,8 +781,6 @@ button:active > .arrow1{
     .card_package{
         display: inline-block;
         stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
         color:#B32020;
         width: 2.2rem;
         height: 2.2rem;
@@ -1040,8 +1033,6 @@ button:active > .arrow1{
     .card_package{
         display: inline-block;
         stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
         color:#B32020;
         width: 2.2rem;
         height: 2.2rem;
@@ -1286,8 +1277,6 @@ button:active > .arrow1{
     .card_package{
         display: inline-block;
         stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
         color:#B32020;
         width: 2.2rem;
         height: 2.2rem;
@@ -1531,8 +1520,6 @@ button:active > .arrow1{
     .card_package{
         display: inline-block;
         stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
         color:#B32020;
         width: 2.2rem;
         height: 2.2rem;
