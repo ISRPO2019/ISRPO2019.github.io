@@ -462,6 +462,7 @@ body > div.container.container_products > div.row.justify-content-center > div >
     display: inline-block;
     stroke-width: 0;
     stroke: currentColor;
+    fill: currentColor;
     max-width: 100%;
 }
 
