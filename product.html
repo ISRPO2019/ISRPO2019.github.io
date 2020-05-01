@@ -131,27 +131,139 @@
 
   <section class="product-about-description">
     <div class="container">
-          <ul class="nav row " id="myTab" role="tablist">
-            <li class="col-md-4 text-center p-0 first-button">
+          <ul class="nav row" id="myTab" role="tablist">
+            <li class="col-md-4 text-center pr-0 first-button">
               <a class="nav-link active about-buttons" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
             </li>
-            <li class="col-md-4 text-center p-0">
-              <a class="nav-link about-buttons middle-button" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
+            <li class="col-md-4 text-center pr-0 pl-0 middle-button">
+              <a class="nav-link about-buttons" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Комментарии</a>
             </li>
-            <li class="col-md-4 text-center p-0 last-button">
+            <li class="col-md-4 text-center pl-0 last-button">
               <a class="nav-link about-buttons" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Обзоры</a>
             </li>
-          </ul>    
+          </ul>
+
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="col-12 btn btn-link text-col tcolot collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <div class="row"> 
+                      <div class="col">Описание</div>
+                      <img src="assets/Arrow 4.png" alt="" class="col imc mt-3">
+                    </div>
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row har" id="info-block">
+                    <div class="col-md-6 col-1 wig">
+                      <div class="info">
+                      <h1 class="gl">Описание</h1>
+                      <p class="fon">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    </div>
+                    <hr class="lin">
+                    <div class="col-md-6 col-2 wig mb-5">
+                      <h1 class="gl">Характеристика</h1>
+                      <div class="param">
+                        <span class="param__value">128мм</span>
+                        <span class="param__prop">Ширина</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">508мм</span>
+                        <span class="param__prop">Высота</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">85мм</span>
+                        <span class="param__prop">Глубина</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">52гм</span>
+                        <span class="param__prop">Вес</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">золото</span>
+                        <span class="param__prop">Материал</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">белый</span>
+                        <span class="param__prop">Цвет</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">женский</span>
+                        <span class="param__prop">Пол</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">ручной подзавод</span>
+                        <span class="param__prop">Механизм</span>
+                      </div>
+                      <hr class="lik">
+                      <div class="param">
+                        <span class="param__value">Швеция</span>
+                        <span class="param__prop">Страна производителя</span>
+                      </div>  
+                    </div>
+                    </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0 text-center">
+                  <button class="col-12 btn btn-link text-col tcolot collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="row"> 
+                      <div class="col">Комментарии</div>
+                      <img src="assets/Arrow 4.png" alt="" class="col imc mt-3">  
+                    </div>                    
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0 text-center">
+                  <button class="col-12 btn btn-link text-col tcolot collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="row"> 
+                      <div class="col">Обзоры</div>
+                      <img src="assets/Arrow 4.png" alt="" class="col imc mt-3">  
+                    </div>                    
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <div class="row" id="info-block">
-                <div class="col-md-6 col-1">
+              <div class="row har ophar" id="info-block">
+                <div class="col-md-6 col-1 wig">
                   <div class="info">
                   <h1>Описание</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="fon">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 </div>
-                <div class="col-md-6 col-2">
+                <hr class="lin">
+                <div class="col-md-6 col-2 wig mb-5">
                   <h1>Характеристика</h1>
                   <div class="param">
                     <span class="param__value">128мм</span>
@@ -232,65 +344,87 @@
                   </form>
                 </div>
               </div></div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-              <div class="review_card">
-                  <div class="column col-md-7">
-                    <div class="column_content">
-                      <div>
-                          <div class="column">
-                              <div class="rating_card">
-                                <span id="estimation-text">Средняя<br>
-                                оценка
-                                </span>
-                                  <br>
-                                  <span id="estimation">
-                                    4
-                                </span>
-                                  <br>
-                                  <span id="review">
-                                    (Обзоров: 1)
-                                </span>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="review_card">
+                    <div class="column col-lg-7 col-md-12 ">
+                      <div class="column_content">
+                            <div class="column col-md-6 col-sm-12 px-0">
+                                <div class="rating_card">
+                                  <span id="estimation-text">Средняя<br>
+                                  оценка
+                                  </span>
+                                    <br>
+                                    <span id="estimation">
+                                      4
+                                  </span>
+                                    <br>
+                                    <span id="review">
+                                      (Обзоров: 1)
+                                  </span>
+                                </div>
+                            </div> 
+                            <div class="column col-md-6 col-sm-12">
+                                      <div class="test">
+                                          <div class="head-review">Основано на 1 обзоре</div>
+                                          <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                          <div><span class="rating-test">&#9733&#9733&#9733&#9733★&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 01</div>
+                                          <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                          <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                          <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
+                                      </div>
+                                  </div>
+                                <div class="description col-md-12 col-sm-12 px-0 " >
+                                  <div class="img_block"> img </div>
+                                  <div class="author_block">
+                                      <span style="font-weight: normal; font-size: 24px; line-height: 28px;">Имя автора </span><span class="rating">&#9733&#9733&#9733&#9733</span>
+                                      <p style="font-size: 18px">
+                                          01. 01. 2000
+                                      </p>
+                                  </div>
+                                  <div class="description_text ">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  </div>
                               </div>
-                          </div> 
-                          <div class="column">
-                                    <div class="test">
-                                        <div class="head-review">Основано на 1 обзоре</div>
-                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
-                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733★&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 01</div>
-                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
-                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
-                                        <div><span class="rating-test">&#9733&#9733&#9733&#9733&#9733&#160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 00</div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+  
+                    <button type="button" class="btn btn-primary d-lg-none d-md-none d-xl-none" data-toggle="modal" data-target="#myModal">
+                      Добавить обзор
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                              <div class="column_content add_review">
+                                  <span class="titleView text-center">Добавить обзор</span>
+                                  <br>
+                                  <span>Ваша оценка:</span> <span class="rating">&#9733&#9733&#9733&#9733&#9733</span>
+                                  <br>
+                                  <input class="inputrewiew" type="text" value="Полное имя">
+                                  <input class="inputrewiew" type="text" value="Номер телефона">
+                                  <textarea rows="3">Сообщение</textarea>
+                                  <button >Отправить</button>
                               </div>
-                              <div class="description" >
-                                <div class="img_block">img</div>
-                                <div class="author_block">
-                                    <span style="font-weight: normal; font-size: 24px; line-height: 28px;">Имя автора </span><span class="rating">&#9733&#9733&#9733&#9733</span>
-                                    <p style="font-size: 18px">
-                                        01. 01. 2000
-                                    </p>
-                                </div>
-                                <div class="description_text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                </div>
-                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column col-lg-5 col-md-12">
+                      <div class="column_content add_review">
+                          <span class="titleView text-center">Добавить обзор</span>
+                          <br>
+                          <span>Ваша оценка:</span> <span class="rating">&#9733&#9733&#9733&#9733&#9733</span>
+                          <br>
+                          <input class="inputrewiew" type="text" value="Полное имя">
+                          <input class="inputrewiew" type="text" value="Номер телефона">
+                          <textarea rows="3">Сообщение</textarea>
+                          <button>Отправить</button>
                       </div>
                   </div>
-                  <div class="column col-md-5">
-                    <div class="column_content add_review">
-                        <span class="titleView">Добавить обзор</span>
-                        <br>
-                        <span>Ваша оценка:</span> <span class="rating">&#9733&#9733&#9733&#9733&#9733</span>
-                        <br>
-                        <input class="inputrewiew" type="text" value="Полное имя">
-                        <input class="inputrewiew" type="text" value="Номер телефона">
-                        <textarea rows="3">Сообщение</textarea>
-                        <button style="width: 290px; height: 55px;">Отправить</button>
-                    </div>
                 </div>
               </div>
-            </div>
           </div>
     </div>
   </section>
@@ -395,6 +529,44 @@
       </div>
     </div>
   </div>
+
+  <footer class="container" style="max-width: 100%;">
+    <div class="row">
+      <div class="col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 order-md-2 col-sm-6 order-sm-2 order-1 basement1">
+        <img src="./assets/logo.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+      <div class="col-xl-3 order-xl-2 col-lg-12 order-lg-1 col-md-12  order-md-1 col-sm-12 order-sm-1 order-2 basement2">
+        <h3>Разделы</h3>
+        <div class="row ">
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Главная</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Магазин</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Страницы</a></div>
+        <div class="col-xl-12 col-lg-3 col-md-3 col-sm-3"><a href="#">Контакты</a></div>
+      </div>
+      </div>
+      <div class="col-xl-3 order-xl-3 col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 order-3 basement3">
+        <div class="row ">
+          <div class="col-xl-12 col-lg-12 col-md-12 order-md-1"><h3>Обратная связь</h3></div>
+          <div class="col-xl-12 order-xl-1 col-lg-9 order-lg-2 col-md-9 order-md-2 pr-md-0 col-sm-9 order-sm-2 box_input"><input  name="Email" placeholder="Email"></div>
+          <div class="col-xl-12 order-xl-2  col-lg-12 order-lg-4 col-md-12 order-md-4 col-sm-12 order-sm-4 box_textarea"><textarea  rows="2" placeholder="Текст сообщения"></textarea></div>
+          <div class="col-xl-12 order-xl-3  col-lg-3 order-lg-3 col-md-3  order-md-3 col-sm-3 order-sm-3  ml-md-auto  box_button "><button >Отправить</button></div>
+          </div>
+      </div>
+      <div class="col-xl-3 order-xl-4 col-lg-6 order-lg-3 col-md-6 order-md-3 col-sm-6 order-sm-3 order-4 basement4">
+        <h3>Контакты</h3>
+        <p><span>Email</span> fffff@gmail.com</p>
+        <p><span>Номер телефона</span> <br>8-800-555-35-35</p>
+        <p><span>Адрес</span> г. Ижевск, <br> ул. Студенческая, 42</p>
+      </div>
+    </div>
+    <div class="row under">
+      <div class="col-md-12">
+        <p>© Hand Some Watch, 2019. Все права защищены</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

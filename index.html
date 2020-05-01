@@ -76,8 +76,20 @@
   </nav>
 
   <!--блок фильтрации и сортировки-->
-  <div class="container-fluid pl-0 sort-container">
-    <div class="row d-flex align-items-center justify-content-center" style="margin: 0 auto">
+  <div class="container-fluid sort-container">
+    <div class="row two_blocks align-items-center justify-content-center" style="margin: 0 auto">
+        <div class="col-md-6 d-flex d-lg-none pr-md-2">
+           <div class="block"> 
+               <p> Сортировать по..</p>
+             </div>
+             <div class="str"><img src="./assets/arrow.png"> </div>
+        </div>
+      <div class="col-md-6 d-flex d-lg-none pl-md-2 ">
+         <div class="block ">
+            <p> Выбор категории</p> 
+         </div>
+         <div class="str"><img src="./assets/arrow.png"> </div>
+       </div>
       <div class="col-md pr-0 pl-0">
         <div class="row align-items-center justify-content-center no-gutters">
           <div class="col-md" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -119,15 +131,15 @@
       <div class="col-md-12 collapse" id="collapseOne" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Женские
+            <input value="женский" class="checkbox" name="gender[]" type="checkbox">Женские
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Мужские
+            <input value="мужской" class="checkbox" name="gender[]" type="checkbox">Мужские
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Унисекс
+            <input value="унисекс" class="checkbox" name="gender[]" type="checkbox">Унисекс
             <span class="checkmark"></span>
           </label>
          </form>
@@ -135,35 +147,35 @@
       <div class="col-md-12 collapse" id="collapseTwo" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Швейцария
+            <input value="Швейцария" class="checkbox" name="country[]" type="checkbox">Швейцария
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Япония
+            <input value="Япония" class="checkbox" name="country[]" type="checkbox">Япония
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Германия
+            <input value="Германия" class="checkbox" name="country[]" type="checkbox">Германия
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Великобритания
+            <input value="Великобритания" class="checkbox" name="country[]" type="checkbox">Великобритания
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Италия
+            <input value="Италия" class="checkbox" name="country[]" type="checkbox">Италия
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">США
+            <input value="США" class="checkbox" name="country[]" type="checkbox">США
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Россия
+            <input value="Россия" class="checkbox" name="country[]" type="checkbox">Россия
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Другое
+            <input value="Другое" class="checkbox" name="country[]" type="checkbox">Другое
             <span class="checkmark"></span>
           </label>
          </form>
@@ -171,35 +183,35 @@
       <div class="col-md-12 collapse" id="brand" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Rolex
+            <input value="Rolex" class="checkbox" name="brand[]" type="checkbox">Rolex
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Casio
+            <input value="Casio" class="checkbox" name="brand[]" type="checkbox">Casio
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Diesel
+            <input value="Diesel" class="checkbox" name="brand[]" type="checkbox">Diesel
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Fossil
+            <input value="Fossil" class="checkbox" name="brand[]" type="checkbox">Fossil
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Michael Kors
+            <input value="Michael Kors" class="checkbox" name="brand[]" type="checkbox">Michael Kors
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Orient
+            <input value="Orient" class="checkbox" name="brand[]" type="checkbox">Orient
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Seiko
+            <input value="Seiko" class="checkbox" name="brand[]" type="checkbox">Seiko
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Другое
+            <input value="другое" class="checkbox" name="brand[]" type="checkbox">Другое
             <span class="checkmark"></span>
           </label>
          </form>
@@ -207,11 +219,11 @@
       <div class="col-md-12 collapse" id="mehanizm" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Аналоговые
+            <input value="аналоговый" class="checkbox" name="mechanism[]" type="checkbox">Аналоговые
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Цифровые
+            <input value="цифровой" class="checkbox" name="mechanism[]" type="checkbox">Цифровые
             <span class="checkmark"></span>
           </label>
          </form>
@@ -219,31 +231,31 @@
       <div class="col-md-12 collapse" id="materials" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Серебро
+            <input value="серебро" class="checkbox" name="material[]" type="checkbox">Серебро
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Золото
+            <input value="золото" class="checkbox" name="material[]" type="checkbox">Золото
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Платина
+            <input value="платина" class="checkbox" name="material[]" type="checkbox">Платина
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Сталь
+            <input value="сталь" class="checkbox" name="material[]" type="checkbox">Сталь
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Алюминий
+            <input value="алюминий" class="checkbox" name="material[]" type="checkbox">Алюминий
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Керамика
+            <input value="керамика" class="checkbox" name="material[]" type="checkbox">Керамика
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Другое
+            <input value="другое" class="checkbox" name="material[]" type="checkbox">Другое
             <span class="checkmark"></span>
           </label>
          </form>
@@ -251,27 +263,27 @@
       <div class="col-md-12 collapse" id="colorchik" data-parent="#accordionExample">
         <form method="post">
           <label class="check-cont">
-            <input type="checkbox">Синий
+            <input value="синий" class="checkbox" name="colour[]" type="checkbox">Синий
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Розовый
+            <input value="розовый" class="checkbox" name="colour[]" type="checkbox">Розовый
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Серебряный
+            <input value="серебряный" class="checkbox" name="colour[]" type="checkbox">Серебряный
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Коричневый
+            <input value="коричневый" class="checkbox" name="colour[]" type="checkbox">Коричневый
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Черный
+            <input value="черный" class="checkbox" name="colour[]" type="checkbox">Черный
             <span class="checkmark"></span>
           </label>
           <label class="check-cont">
-            <input type="checkbox">Другое
+            <input value="другое" class="checkbox" name="colour[]" type="checkbox">Другое
             <span class="checkmark"></span>
           </label>
          </form>
@@ -279,15 +291,15 @@
       <div class="col-md-12 collapse" id="sortirovchik" data-parent="#accordionExample">
         <form method="post">
           <label class="radio check-cont">
-            <input type="radio" name="gg">Синий
+            <input type="radio" id="sort1" name="gg" value="asc">По возрастанию цены
             <span class="checkmark"></span>
           </label>
           <label class="radio check-cont">
-            <input type="radio" name="gg">Розовый
+            <input type="radio" id="sort2" name="gg" value="desc">По убыванию цены
             <span class="checkmark"></span>
           </label>
           <label class="radio check-cont">
-            <input type="radio" name="gg">Серебряный
+            <input type="radio" id="sort3" name="gg" value="brand">По производителю
             <span class="checkmark"></span>
           </label>
          </form>
@@ -304,7 +316,7 @@
         <div class="title_product p-2">
           <p>Фильтры</p>
         </div>
-        <div class="number_product p-1">
+        <div class="number_product p-1 filter_count">
             <p>0</p>
         </div>
         <div class="dropdown d-flex align-items-start">
@@ -312,39 +324,7 @@
             aria-expanded="false" data-offset="10,20">
             <img src="assets/Arrow 1.png" alt="">
           </button>
-          <div class="dropdown-menu drop pr-2" aria-labelledby="dropdownMenuOffset">
-            <div class="d-flex">
-              <div class="ml-2">
-                <img src="assets/cross.png" class="cross" alt="">
-              </div>
-              <div class="ml-3">
-                <p>Великобритания</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <div class="ml-2">
-                <img src="assets/cross.png" class="cross" alt="">
-              </div>
-              <div class="ml-3">
-                <p>Michael Kors</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <div class="ml-2">
-                <img src="assets/cross.png" class="cross" alt="">
-              </div>
-              <div class="ml-3">
-                <p>Алюминий</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <div class="ml-2">
-                <img src="assets/cross.png" class="cross" alt="">
-              </div>
-              <div class="ml-3">
-                <p>Серебряный</p>
-              </div>
-            </div>
+          <div class="dropdown-menu drop pr-2" id="filters-dropdown-menu" aria-labelledby="dropdownMenuOffset">
           </div>
         </div>
       </div>
@@ -392,116 +372,8 @@
       </div>
       
   
-    <div class="row justify-content-center">
-  
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="card">
-          <div class="d-flex justify-content-center">
-            <a href="#">
-              <img
-                src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
-                class="card_img" alt="">
-            </a>
-          </div>
-          <div class="d-flex align-items-center flex-row text-center">
-                <div class="mx-auto">
-                  <a href="#">
-                    <p class="card-title">Название</p>             
-                    <p class="card-price">цена</p>
-                  </a>
-              </div>
-              <div class="card_icon">
-                <a class="card_package">
-                  <svg class="icon icon-package"> 
-                    <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
-                  </svg>
-                </a>
-              </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="card">
-          <div class="d-flex justify-content-center">
-            <a href="#">
-              <img
-                src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
-                class="card_img" alt="">
-            </a>
-          </div>
-          <div class="d-flex align-items-center flex-row text-center">
-                <div class="mx-auto">
-                  <a href="#">
-                    <p class="card-title">Название</p>             
-                    <p class="card-price">цена</p>
-                  </a>
-              </div>
-              <div class="card_icon">
-                <a class="card_package">
-                  <svg class="icon icon-package"> 
-                    <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
-                  </svg>
-                </a>
-              </div>
-          </div>
-        </div>
-      </div>
-  
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="card">
-        <div class="d-flex justify-content-center">
-          <a href="#">
-            <img
-              src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
-              class="card_img" alt="">
-          </a>
-        </div>
-        <div class="d-flex align-items-center flex-row text-center">
-              <div class="mx-auto">
-                <a href="#">
-                  <p class="card-title">Название</p>             
-                  <p class="card-price">цена</p>
-                </a>
-            </div>
-            <div class="card_icon">
-              <a class="card_package">
-                <svg class="icon icon-package"> 
-                  <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
-                </svg>
-              </a>
-            </div>
-        </div>
-      </div>
+    <div class="row justify-content-center" id="productCard">
     </div>
-  
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="card">
-        <div class="d-flex justify-content-center">
-          <a href="#">
-            <img
-              src="https://images.rolex.com/2019/catalogue/images/upright-bba-with-shadow/m228238-0042.png?impolicy=upright-grid-card&imwidth=585"
-              class="card_img" alt="">
-          </a>
-        </div>
-        <div class="d-flex align-items-center flex-row text-center">
-              <div class="mx-auto">
-                <a href="#">
-                  <p class="card-title">Название</p>             
-                  <p class="card-price">цена</p>
-                </a>
-            </div>
-            <div class="card_icon">
-              <a class="card_package">
-                <svg class="icon icon-package"> 
-                  <use xlink:href="assets/square-shopping-bag-with-handle.svg#Capa_1"></use> 
-                </svg>
-              </a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
   
     <div class="d-flex w-100 pagination page-selection flex-row mb-3 align-items-center">
       <div class="page-item page d-flex align-items-center justify-content-center">
@@ -683,6 +555,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="scripts/localStorage.js"></script>
+  <script src="scripts/homeCatalog.js"></script>
   <script src="scripts/output.js"></script>
   <script src="scripts/sortProduct.js"></script>
 <script src="scripts/filters.js"></script>
