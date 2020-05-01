@@ -146,10 +146,11 @@ $('#sort1, #sort2, #sort3').on('click', function() {
 });
 
 $('#cardLength1, #cardLength2, #cardLength3').on('click', function() {
-    productsOnPage = parseInt($(this).val());
-    $('.productsOnPage p').text(productsOnPage);
-    
-    filtering(productFilters, filteredArr);
+    if (parseInt($(this).val()) != productsOnPage) {
+        productsOnPage = parseInt($(this).val());
+        $('.productsOnPage p').text(productsOnPage);
+        filtering(productFilters, filteredArr);
+    }
 });
 
 $('.checkbox').on('click', function() {
