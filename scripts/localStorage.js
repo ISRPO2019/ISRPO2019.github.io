@@ -1,3 +1,4 @@
+
 var catalog = [{
     'id': '1',
     'brand': 'Rolex',
@@ -911,3 +912,13 @@ var filters = {
 
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
 else localStorage.setItem('catalog', JSON.stringify(catalog));
+
+var elem = document.getElementById('add_num'), num = +elem.innerHTML;
+ 
+function addNum()
+{
+   elem.innerHTML = num++;
+   var i = num;	
+}
+
+

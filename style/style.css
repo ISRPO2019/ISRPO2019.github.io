@@ -77,6 +77,7 @@ button.shop {
 img.shop {
     border:none;
     height: 2rem;
+	position: relative; /*это написал reptiloid*/
 }
 
 input.search{
@@ -3167,3 +3168,19 @@ box-sizing: border-box;
 .titleView {
     font-size: 1.64rem;
 }
+
+#add_num {
+	text-align: center;
+	font-size: 0.7rem;
+	border-radius: 50%;
+	background-color: #3D3A3A;
+	padding: .1rem .4rem;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0.2rem;
+	margin-left: 0.6rem
+	
+}
+
+
+
