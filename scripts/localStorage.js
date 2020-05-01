@@ -910,15 +910,14 @@ var filters = {
   'country': []
 }
 
-if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
-else localStorage.setItem('catalog', JSON.stringify(catalog));
-
-var elem = document.getElementById('add_num'), num = +elem.innerHTML;
- 
+var elem = document.getElementById('add_num');
 function addNum()
 {
-   elem.innerHTML = num++;
-   var i = num;	
+	var count = 1;
+	if(document.getElementById('amount') != null) {count = parseInt(document.getElementById('amount').value);}
+   elem.innerHTML = parseInt( elem.innerHTML ) + count;
 }
 
 
+if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
+else localStorage.setItem('catalog', JSON.stringify(catalog));

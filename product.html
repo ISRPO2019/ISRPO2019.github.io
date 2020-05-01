@@ -50,11 +50,7 @@
     <div class="w-100 collapse navbar-collapse bg-white" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item active">
-<<<<<<< HEAD
-          <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>			
-=======
           <a class="nav-link" href="/index.html">Главная <span class="sr-only">(current)</span></a>
->>>>>>> dcb840366e2a7ebf792454901e403178bf5fa2e7
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Магазин</a>
@@ -67,7 +63,9 @@
         </li>
       </ul>
      
-      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt=""> <span id="add_num">0</span>	</button>		
+      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt="">
+		  <span id="add_num">0</span>	
+		</button>		
       <form class="form-inline my-2 my-lg-0 search">
         <input class="form-control search" type="search" placeholder="Поиск" aria-label="Search">
         <button class="btn my-2 my-sm-0 search" type="submit"><img class="search" src="./assets/search.png"
@@ -123,7 +121,7 @@
           <div>
             <form method="GET">
               <label for="amount">Количество:</label>
-              <input type="text" name="amount" id="amount">
+              <input type="text" name="amount" id="amount" value="1" class="add_col">
               <button  type="button" value="+1" onclick="addNum()">Добавить в<br> корзину</button>
             </form>
           </div>
