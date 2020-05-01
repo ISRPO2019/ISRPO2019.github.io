@@ -106,7 +106,7 @@
 
       
        /*обзоры*/
-    .btn {
+    .btn_obz {
         width: calc(20rem - 4px)!important;
         height: 3.5rem !important;
         color: #fff!important;
@@ -120,7 +120,7 @@
         margin-top: calc(2rem + 4px);
         outline: none !important;
     }
-    .btn:hover{
+    .btn_obz:hover{
         color: #fff!important;
         background-color: #8E1F1F!important;
         border-color:  #8E1F1F!important;
