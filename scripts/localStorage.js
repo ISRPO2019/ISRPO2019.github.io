@@ -924,8 +924,8 @@ function addNum()
 	for (var i = 0; i < elem.length; i++) {	
 		if(isNaN(count)) {count = 0;}
 		buyCount = parseInt( elem[i].innerHTML ) + count;
-		elem[0].innerHTML = buyCount;
-		elem[1].innerHTML = buyCount;
+		elem[i].innerHTML = buyCount;
+		//elem[].innerHTML = buyCount;
 		if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
 	localStorage.setItem('buyCount', buyCount);	
 	}
