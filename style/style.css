@@ -3178,8 +3178,8 @@ box-sizing: border-box;
 
 @media screen and (max-width: 767px) {
 	.add_num {
-		font-size: 1.8vw;
-		padding: 0.1vw 0.8vw;
+		font-size: 2.6vw;
+		padding: 0.3vw 0.7vw;
 		top: auto;
 		margin-left: 0vw;
 		margin-right: 1vw;
