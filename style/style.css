@@ -2735,7 +2735,7 @@ footer button {
 .product-about-description .second-rr {
     padding-top: calc(1rem / (22/50));
     padding-left: calc(1rem / (22/25));
-    padding-right: calc(1rem / (22/40));
+    padding-right: calc(1rem / (22/25));
     border: 1px solid #bbbbbb;
     margin: 0;
 }
@@ -2879,6 +2879,7 @@ footer button {
     height: calc(1rem / (22/55));
     width: calc(1rem / (22/290));
     border: none;
+    margin-bottom: calc(1rem / (22/40));
 }
 
 #info-block .col-1{

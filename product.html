@@ -312,37 +312,15 @@
                 <div class="show-add-com col-md-12 col-sm-12">
                   <button data-toggle="collapse" href="#addcom-col" role="button" aria-expanded="false" aria-controls="addcom-col">Написать комментарий</button>
                 </div>
-                <div class="col-md-6 col-sm-12 com-col">
-                  <div class="comment">
-                    <img class="img-responsive" src="http://placehold.it/80x80/">
-                    <div class="author-name">Имя автора</div>
-                    <div class="comment-date">01.01.2000</div>
-                    <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-                    <button>Ответить</button>
-                  </div>
-                  <div class="inner-comments">
-                      <div class="comment">
-                          <img class="img-responsive" src="http://placehold.it/80x80/">
-                          <div class="author-name">Имя автора</div>
-                          <div class="comment-date">01.01.2000</div>
-                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-                          <button>Ответить</button>
-                      </div>
-                      <div class="comment">
-                          <img class="img-responsive" src="http://placehold.it/80x80/">
-                          <div class="author-name">Имя автора</div>
-                          <div class="comment-date">01.01.2000</div>
-                          <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</p></div>
-                          <button>Ответить</button>
-                      </div>
-                  </div>
+                <div class="col-md-6 col-sm-12 com-col" id="main-comments-div">
                 </div>
                 <div class="col-md-6 col-sm-12 addcom-col" id="addcom-col">
                   <div class="comment-form-title">Написать комментарий</div>
-                  <form class="comment-form" method="GET">
-                    <input type="text" name="name" placeholder="Полное имя">
-                    <input type="tel" name="tel" placeholder="Номер телефона">
-                    <textarea name="text" placeholder="Сообщение"></textarea>
+                  <form class="comment-form" name="comment_form" onsubmit="addComment(this);return false">
+                    <input type="text" name="name" placeholder="Полное имя" required="">
+                    <input type="tel" name="tel" placeholder="Номер телефона" required="">
+                    <textarea name="text" placeholder="Сообщение" required=""></textarea>
+                    <input type="hidden" name="replyTo" value="">
                     <button>Отправить</button>
                   </form>
                 </div>
@@ -582,7 +560,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
 	<script src="scripts/localStorage.js"></script>
+  <script type="text/javascript" src="scripts/localStorage.js"></script>
+  <script type="text/javascript" src="scripts/productComments.js"></script>
+
 </body>
 
 </html>

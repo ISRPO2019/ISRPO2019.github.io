@@ -23,7 +23,14 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
+    },{
+      'authors_name': 'name',
+      'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'date': '01.01.2000',
+      'phone': '88005553535',
+      'reply_to': 0
     }],
     reviews: [{
       'authors_name': 'name',
@@ -60,7 +67,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -95,7 +103,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -131,7 +140,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -167,7 +177,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -203,7 +214,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -239,7 +251,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -275,7 +288,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -311,7 +325,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -347,7 +362,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -383,7 +399,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -419,7 +436,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -455,7 +473,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -490,7 +509,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -526,7 +546,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -562,7 +583,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -598,7 +620,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -634,7 +657,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -670,7 +694,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -706,7 +731,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -742,7 +768,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -777,7 +804,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -812,7 +840,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -849,7 +878,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -885,7 +915,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -910,6 +941,7 @@ var filters = {
   'country': []
 }
 
+
 var buyCount = 0;
 var elem = document.getElementsByClassName('add_num');
 if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}
@@ -927,6 +959,24 @@ function addNum()
 		localStorage.setItem('buyCount', buyCount);	
 	}		
 }
+=======
+var params = window
+  .location
+  .search
+  .replace('?','')
+  .split('&')
+  .reduce(
+      function(p,e){
+          var a = e.split('=');
+          p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+          return p;
+      },
+      {}
+);
+
+// Отдельный открытый товар
+//var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
+
 
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
 else localStorage.setItem('catalog', JSON.stringify(catalog));
