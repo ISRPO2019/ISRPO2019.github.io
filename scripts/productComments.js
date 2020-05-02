@@ -31,6 +31,7 @@ function commentCreate(id, product) {
 	commentWrapper.appendChild(commentButton);
 
 	if (product.comments[id].reply_to != null) {
+		commentP.textContent = product.comments[product.comments[id].reply_to].authors_name + ', ' + commentP.textContent;
 		var replyComment = document.createElement('div');
 		replyComment.className = "inner-comments";
 		commentMainDiv = document.getElementById(product.comments[id].reply_to);
