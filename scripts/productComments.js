@@ -61,7 +61,8 @@ function addComment(form) {
 	let tel = form.elements.tel.value;
 	let text = form.elements.text.value;
 	var replyCom = form.elements.replyTo.value == ""? null : form.elements.replyTo.value;
-	let date = new Date().getDay() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
+	var month = new Date().getMonth() + 1;
+	let date = new Date().getDate() + '.' + month + '.' + new Date().getFullYear();
 
 	var newComment = {
 		'authors_name': name,
