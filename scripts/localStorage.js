@@ -927,21 +927,6 @@ var catalog = [{
     }]
   }
 ]
-
-// filteredArr - массив для вывода отсортированных и/или отфильтрованных значений
-var filteredArr = catalog;
-//filters - пример обьекта фильтров, который должен создаваться при изменении любого элемента фильтрации на странице
-var filters = {
-  'brand': ['Rolex', 'Orient', 'Fossil'],
-  'gender': ['женский', 'мужской', 'унисекс'],
-  'mechanism': [],
-  'colour': ['серебряный', 'синий'],
-  'material': [],
-  'price': [9000, 30000],
-  'country': []
-}
-
-
 var buyCount = 0;
 var elem = document.getElementsByClassName('add_num');
 if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}
@@ -959,7 +944,20 @@ function addNum()
 		localStorage.setItem('buyCount', buyCount);	
 	}		
 }
-=======
+
+// filteredArr - массив для вывода отсортированных и/или отфильтрованных значений
+var filteredArr = catalog;
+//filters - пример обьекта фильтров, который должен создаваться при изменении любого элемента фильтрации на странице
+var filters = {
+  'brand': ['Rolex', 'Orient', 'Fossil'],
+  'gender': ['женский', 'мужской', 'унисекс'],
+  'mechanism': [],
+  'colour': ['серебряный', 'синий'],
+  'material': [],
+  'price': [9000, 30000],
+  'country': []
+}
+
 var params = window
   .location
   .search
@@ -973,6 +971,8 @@ var params = window
       },
       {}
 );
+
+
 
 // Отдельный открытый товар
 //var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
