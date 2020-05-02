@@ -3158,31 +3158,32 @@ box-sizing: border-box;
 
 .add_num {
 	text-align: center;
-	font-size: 0.7rem;
+	font-size: 0.8vw;
 	border-radius: 50%;
 	background-color: #3D3A3A;
-	padding: .1rem .4rem;
+	padding: 0.1vw 0.5vw;
 	color: #FFFFFF;
 	position: absolute;
-	top: 0.2rem;
-	margin-left: 0.6rem;	
+	top: 0.8vw;
+	margin-left: 1vw;	
 }
 
 @media screen and (max-width: 991px) {
 	.add_num {
-		font-size: 0.4rem;
 		padding: .05rem .18rem;
-		top: 0.01rem;
+		top: 0.0009vw;
+		margin-left: 1.7vw;
 	}	
 }
 
 @media screen and (max-width: 767px) {
 	.add_num {
-		font-size: 0.7rem;
-		padding: .1rem .3rem;
-		top: 0.0001rem;
-		margin-left: 1.8rem;
+		font-size: 1.8vw;
+		padding: 0.1vw 0.8vw;
+		top: auto;
+		margin-left: 0vw;
+		margin-right: 1vw;
+		position: relative;
 	}	
 }
-
 
