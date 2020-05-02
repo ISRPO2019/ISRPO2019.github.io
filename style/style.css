@@ -3156,7 +3156,7 @@ box-sizing: border-box;
     font-size: 1.64rem;
 }
 
-#add_num {
+.add_num {
 	text-align: center;
 	font-size: 0.7rem;
 	border-radius: 50%;
@@ -3165,9 +3165,24 @@ box-sizing: border-box;
 	color: #FFFFFF;
 	position: absolute;
 	top: 0.2rem;
-	margin-left: 0.6rem
-	
+	margin-left: 0.6rem;	
 }
 
+@media screen and (max-width: 991px) {
+	.add_num {
+		font-size: 0.4rem;
+		padding: .05rem .23rem;
+		top: 0.01rem;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.add_num {
+		font-size: 0.7rem;
+		padding: .1rem .4rem;
+		top: 0.0001rem;
+		margin-left: 1.8rem;
+	}	
+}
 
 

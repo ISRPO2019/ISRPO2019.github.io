@@ -910,14 +910,32 @@ var filters = {
   'country': []
 }
 
-var elem = document.getElementById('add_num');
+var buyCount = 0;
+var elem = document.getElementsByClassName('add_num');
+
+
 function addNum()
 {
 	var count = 1;
-	if(document.getElementById('amount') != null) {count = parseInt(document.getElementById('amount').value);}
-   elem.innerHTML = parseInt( elem.innerHTML ) + count;
+	if(document.getElementById('amount') != null ) {count = parseInt(document.getElementById('amount').value);}
+	if(isNaN(parseInt(document.getElementById('amount').value))) {count =0;}
+	
+	for (var i = 0; i < elem.length; i++) {
+		
+		buyCount = parseInt( elem[i].innerHTML ) + count;
+		elem[i].innerHTML = buyCount;
+	}
+   	//if(buyCount != 0) {document.getElementsByClassName('add_num')[1].style.display = "flex";}
+	
+	localStorage.setItem('buyCount', buyCount);		
+	if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}	
 }
-
 
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
 else localStorage.setItem('catalog', JSON.stringify(catalog));
+if (localStorage.getItem('buyCount')) buyCount = localStorage.getItem('buyCount');
+
+for (var i = 0; i < elem.length; i++) {
+	elem[i].innerHTML = buyCount;
+	if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}	
+}
