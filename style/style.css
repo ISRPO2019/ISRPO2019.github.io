@@ -3171,7 +3171,7 @@ box-sizing: border-box;
 @media screen and (max-width: 991px) {
 	.add_num {
 		font-size: 0.4rem;
-		padding: .05rem .23rem;
+		padding: .05rem .18rem;
 		top: 0.01rem;
 	}	
 }
@@ -3179,7 +3179,7 @@ box-sizing: border-box;
 @media screen and (max-width: 767px) {
 	.add_num {
 		font-size: 0.7rem;
-		padding: .1rem .4rem;
+		padding: .1rem .3rem;
 		top: 0.0001rem;
 		margin-left: 1.8rem;
 	}	
