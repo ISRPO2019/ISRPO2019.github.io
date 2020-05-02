@@ -918,20 +918,14 @@ function addNum()
 {
 	var count = 1;
 	if(document.getElementById('amount') != null ) {count = parseInt(document.getElementById('amount').value);}
-	//if(isNaN(parseInt(document.getElementById('amount').value)) && $('input').is('#amount')) {count = 0;}
-	//else if (document.getElementById('amount') == null) {count++;}
 	
 	for (var i = 0; i < elem.length; i++) {	
 		if(isNaN(count)) {count = 0;}
 		buyCount = parseInt( elem[i].innerHTML ) + count;
 		elem[i].innerHTML = buyCount;
-		//elem[].innerHTML = buyCount;
 		if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
-	localStorage.setItem('buyCount', buyCount);	
-	}
-   	//if(buyCount != 0) {document.getElementsByClassName('add_num')[1].style.display = "flex";}
-		
-		
+		localStorage.setItem('buyCount', buyCount);	
+	}		
 }
 
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
