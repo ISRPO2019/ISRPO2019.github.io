@@ -36,7 +36,7 @@
       <button class="d-none d-md-block my-auto arrow-header mx-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <svg class="float-md-right icon arrow-header "> 
-            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use> 
         </svg>     
       </button>
   
@@ -44,7 +44,7 @@
     <button class="d-flex align-items-end d-block d-md-none arrow-header mx-auto mt-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <svg class="float-md-right icon arrow-header "> 
-            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use> 
         </svg>     
       </button>
     <div class="w-100 collapse navbar-collapse bg-white" id="navbarSupportedContent">
@@ -85,13 +85,21 @@
            <div class="block"> 
                <p> Сортировать по..</p>
              </div>
-             <div class="str"><img src="./assets/arrow.png"> </div>
+             <div class="str">
+               <svg class="icon arrow-sort">
+                 <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+               </svg>
+             </div>
         </div>
       <div class="col-md-6 d-flex d-lg-none pl-md-2 ">
          <div class="block ">
             <p> Выбор категории</p> 
          </div>
-         <div class="str"><img src="./assets/arrow.png"> </div>
+         <div class="str">
+          <svg class="icon arrow-sort">
+            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </div>
        </div>
       <div class="col-md pr-0 pl-0">
         <div class="row align-items-center justify-content-center no-gutters">
@@ -336,8 +344,8 @@
         <div class="title_product p-2">
           <p>Товаров</p>
         </div>
-        <div class="number_product p-1">
-            <p>12</p>
+        <div class="number_product p-1 productsOnPage">
+            <p>6</p>
         </div>
         <div class="dropdown d-flex align-items-start">
           <button type="button" class="btn d-flex align-items-start" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
@@ -348,24 +356,24 @@
             <div class="d-flex">
               <div class="nc">
                 <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadio1">6</label>
+                  <input type="radio" id="cardLength1" name="customRadio" value="6" class="custom-control-input" checked="">
+                  <label class="custom-control-label" for="cardLength1">6</label>
                 </div>
               </div>
             </div>
             <div class="d-flex">
               <div class="nc mt-2">
                 <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadio2">12</label>
+                  <input type="radio" id="cardLength2" name="customRadio" value="12" class="custom-control-input">
+                  <label class="custom-control-label" for="cardLength2">12</label>
                 </div>
               </div>
             </div>
             <div class="d-flex">
               <div class="nc mt-2">
                 <div class="custom-control custom-radio">
-                  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                  <label class="custom-control-label" for="customRadio3">24</label>
+                  <input type="radio" id="cardLength3" name="customRadio" value="24" class="custom-control-input">
+                  <label class="custom-control-label" for="cardLength3">24</label>
                 </div>
               </div>
             </div>
@@ -382,7 +390,7 @@
       <div class="page-item page d-flex align-items-center justify-content-center">
         <button class="btn">
           <svg class="icon icon-package arrow"> 
-            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use> 
           </svg>
         </button>
       </div>
@@ -393,7 +401,7 @@
       <div class="page-item page d-flex align-items-center justify-content-center">
         <button class="btn">
           <svg class="icon icon-package arrow1"> 
-            <use xlink:href="assets/symbol-defs.svg#icon-Arrow"></use> 
+            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use> 
           </svg>
         </button>
       </div>

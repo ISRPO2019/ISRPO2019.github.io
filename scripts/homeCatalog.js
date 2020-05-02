@@ -63,11 +63,16 @@ function removeList(mainDiv) {
 	}
 }
 
-function cardListCreate(products, mainDiv) {
+function cardListCreate(products, mainDiv, cardLength) {
+	if (!cardLength || cardLength > products.length) {
+		cardLength = products.length;
+	}
 	removeList(mainDiv);
-	for (var i = 0; i < products.length; i++) {
+	for (var i = 0; i < cardLength; i++) {
 		productCreate(i, products, mainDiv);
 	}
 }
 
-cardListCreate(filteredArr, 'productCard');
+var productsOnPage = 6;
+
+cardListCreate(filteredArr, 'productCard', productsOnPage);
