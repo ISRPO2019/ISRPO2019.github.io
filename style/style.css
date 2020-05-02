@@ -3191,12 +3191,21 @@ box-sizing: border-box;
 
 @media screen and (max-width: 767px) {
 	.add_num {
-		font-size: 2.3vw;
-		padding: 0.01vw 1vw;
-		top: 6vw;
-		margin-left: 93.2vw;
-		margin-right: 2vw;
+		font-size: 4vw;
+		padding: 0.01vw 1.5vw;
+		top: 4.5vw;
+		margin-left: 92vw;
+		margin-right: 3vw;
 		position: absolute;
+	}	
+}
+
+@media screen and (max-width: 561px) {
+	.add_num {
+		font-size: 4.3vw;
+		margin-left: 91vw;
+		padding: 0.01vw 1.6vw;
+		top: 4.3vw;
 	}	
 }
 
