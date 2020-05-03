@@ -103,5 +103,3 @@ function replyToComment(replyButton) {
 		form.elements.replyTo.value = replyId[1];
 	}
 }
-
-commentsListCreate(catalog.find(product => parseInt(product.id) == parseInt(params["id"])));

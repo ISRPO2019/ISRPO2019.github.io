@@ -975,7 +975,7 @@ var params = window
 
 
 // Отдельный открытый товар
-//var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
+var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
 
 
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
