@@ -511,7 +511,23 @@ button:active > .arrow1{
 
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
+    .product-main-description .carousel {
+        padding-top: calc(1rem / (22/70));
+        padding-right: calc(1rem / (22/30));
+        padding-left: calc(1rem / (22/30));
+     }
 
+     .product-main-description .carousel-control-prev {
+      left: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next {
+      right: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next, .product-main-description .carousel-control-prev {
+        top: calc(1rem / (22/82));
+     }
     .container_products .dropdown-menu{
         position: relative;
         margin-left: -570%;
