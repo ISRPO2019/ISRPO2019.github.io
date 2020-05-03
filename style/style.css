@@ -3175,7 +3175,6 @@ box-sizing: border-box;
 		top: 0.3rem;
 		margin-left: 72vw;
 		margin-right: 0rem;
-		position: absolute;
 		z-index: 9999;
 	}	
 	#add_num2 {
@@ -3194,16 +3193,14 @@ box-sizing: border-box;
 		font-size: 4vw;
 		padding: 0.01vw 1.5vw;
 		top: 4.5vw;
-		margin-left: 92vw;
+		margin-left: 85vw;
 		margin-right: 3vw;
-		position: absolute;
 	}	
 }
 
 @media screen and (max-width: 561px) {
 	.add_num {
 		font-size: 4.3vw;
-		margin-left: 91vw;
 		padding: 0.01vw 1.6vw;
 		top: 4.3vw;
 	}	
