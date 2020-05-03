@@ -3173,18 +3173,12 @@ box-sizing: border-box;
 		font-size: 0.5rem;
 		padding: .01rem .19rem;
 		top: 0.3rem;
-		margin-left: 72vw;
+		margin-left: 71.5vw;
 		margin-right: 0rem;
 		z-index: 9999;
 	}	
 	#add_num2 {
 		margin-left: 40vw;
-	}
-}
-
-@media screen and (min-width: 834px) and (max-width: 991px){
-	.add_num {
-		margin-left: 71.3vw;
 	}
 }
 
