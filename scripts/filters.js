@@ -3,9 +3,46 @@ include("./scripts/localStorage.js");
 //filteringReset - функция для сброса фильтров
 function filteringReset() {
     filteredArr=catalog;
-    cardList(filteredArr);
+    cardListCreate(filteredArr, 'productCard', productsOnPage);
     return filteredArr;
 };
+
+function checkedFiltersListCreate(filters, checkedList) {
+    removeList(checkedList);
+    var listDiv = document.getElementById(checkedList);
+
+    filterArr = [];
+    var count = 0;
+    for (let key in filters) {
+        if (filters[key] != 0) {
+            for (var i = 0; i < filters[key].length; i++) {
+                var list = document.createElement('div');
+                list.className = "d-flex";
+                var closeImageWrapper = document.createElement('div');
+                closeImageWrapper.className = "ml-2";
+                var closeImage = document.createElement('img');
+                closeImage.className = "cross filter-cross";
+                closeImage.setAttribute('src', 'assets/cross.png');
+                closeImage.setAttribute('data-filter', filters[key][i]);
+                closeImage.setAttribute('data-filter-name', key);
+                closeImageWrapper.appendChild(closeImage);
+                list.appendChild(closeImageWrapper);
+
+                var nameWrapper = document.createElement('div');
+                nameWrapper.className = "ml-3";
+                var name = document.createElement('p');
+                name.textContent = filters[key][i];
+
+                nameWrapper.appendChild(name);
+                list.appendChild(nameWrapper);
+                listDiv.appendChild(list);
+                count++;
+            }
+        }
+    }
+
+    $('.filter_count p').text(count);
+}
 
 //filtering - функция для фильтрации
 function filtering(filter, filterArr) {
@@ -20,13 +57,171 @@ function filtering(filter, filterArr) {
         if ((filter.colour.length != 0) && (filter.colour.includes(item.colour) == false)) continue;
         filterArr.push(item);
     };
-    cardList(filterArr);
+    if (sort != null) {
+        sortCardList(sort, filterArr);
+    }
+    cardListCreate(filterArr, 'productCard', productsOnPage);
     filteredArr = filterArr;
     return filteredArr;
 };
 
+function removeElementAtCheckedFiltersList(el, filters) {
+    var name = $(el).attr('data-filter-name');
+    var filter = $(el).attr('data-filter');
+    
+    filters[name] = jQuery.grep(filters[name], function(value) {
+        return value != filter;
+    });
+    
+    filtering(productFilters,filteredArr);
+    checkedFiltersListCreate(productFilters, 'filters-dropdown-menu');
+    $("input[value='"+ filter +"']").prop("checked", false);
+}
+
+function sortCardList(sort, productList) {
+    switch(sort) {
+        case 'asc':
+            productList.sort(function (a, b) {
+                if (parseInt(a.price) > parseInt(b.price)) {
+                    return 1;
+                }
+                if (parseInt(a.price) < parseInt(b.price)) {
+                    return -1;
+                }
+                return 0;
+            });
+            break;
+        case 'desc':
+            productList.sort(function (a, b) {
+                if (parseInt(a.price) < parseInt(b.price)) {
+                    return 1;
+                }
+                if (parseInt(a.price) > parseInt(b.price)) {
+                    return -1;
+                }
+                return 0;
+            });
+            break;
+        case 'brand':
+            productList.sort(function (a, b) {
+                if (a.brand > b.brand) {
+                    return 1;
+                }
+                if (a.brand < b.brand) {
+                    return -1;
+                }
+                return 0;
+            });
+            break;
+        default:
+            filtering(productFilters, filteredArr);
+            break;
+    }
+}
+
+var productFilters = {
+  'brand': [],
+  'gender': [],
+  'mechanism': [],
+  'colour': [],
+  'material': [],
+  'price': [],
+  'country': []
+}
+
+var sort = null;
+var sortBackUp = null;
+$('#sort1, #sort2, #sort3').on('click', function() {
+    if (sort == $(this).val()) {
+        $(this).prop("checked", false);
+        sort = null;
+        filteredArr = sortBackUp;
+    }
+    else {
+        sort = $(this).val();
+    }
+    sortBackUp = filteredArr;
+    sortCardList(sort, filteredArr);
+    filtering(productFilters, filteredArr);
+});
+
+$('#cardLength1, #cardLength2, #cardLength3').on('click', function() {
+    if (parseInt($(this).val()) != productsOnPage) {
+        productsOnPage = parseInt($(this).val());
+        $('.productsOnPage p').text(productsOnPage);
+        filtering(productFilters, filteredArr);
+    }
+});
+
+$('.checkbox').on('click', function() {
+    var checkboxName = $(this).attr('name');
+
+    switch(checkboxName) {
+        case 'brand[]':
+            productFilters.brand = [];
+            $("input[name='brand[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.brand.push($(this).val());
+                }
+            });
+            break;
+        case 'gender[]':
+            productFilters.gender = [];
+            $("input[name='gender[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.gender.push($(this).val());
+                }
+            });
+            break;
+        case 'mechanism[]':
+            productFilters.mechanism = [];
+            $("input[name='mechanism[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.mechanism.push($(this).val());
+                }
+            });
+            break;
+        case 'colour[]':
+            productFilters.colour = [];
+            $("input[name='colour[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.colour.push($(this).val());
+                }
+            });
+            break;
+        case 'material[]':
+            productFilters.material = [];
+            $("input[name='material[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.material.push($(this).val());
+                }
+            });
+            break;
+        case 'price[]':
+            productFilters.price = [];
+            $("input[name='price[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.price.push($(this).val());
+                }
+            });
+            break;
+        case 'country[]':
+            productFilters.country = [];
+            $("input[name='country[]']").each(function () {
+                if ($(this).is(":checked")) {
+                    productFilters.country.push($(this).val());
+                }
+            });
+            break;
+    }
+    filtering(productFilters,filteredArr);
+    checkedFiltersListCreate(productFilters, 'filters-dropdown-menu');
+});
+
+$(document).on('click', '.filter-cross', function() {
+    removeElementAtCheckedFiltersList($(this), productFilters);
+});
+
 
 //filtering(filters,filteredArr); <--- вызов функции с передачей фильтра и массива для сортировки
 //filteringReset(filteredArr); <--- вызов функции с передачей фильтра и массива для сортировки
-
-

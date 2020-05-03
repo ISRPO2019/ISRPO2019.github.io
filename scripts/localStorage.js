@@ -1,3 +1,4 @@
+
 var catalog = [{
     'id': '1',
     'brand': 'Rolex',
@@ -8,6 +9,10 @@ var catalog = [{
     'material': 'платина',
     'price': '30000',
     'country': 'Швейцария',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/ROLEX - SKY-DWELLER/rolex - sky-dw3eller11.jpg',
     images: [
       './assets/product/ROLEX - SKY-DWELLER/ROLEX - SKY-DWELLER.jpg',
@@ -18,7 +23,14 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
+    },{
+      'authors_name': 'name',
+      'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'date': '01.01.2000',
+      'phone': '88005553535',
+      'reply_to': 0
     }],
     reviews: [{
       'authors_name': 'name',
@@ -39,6 +51,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '20000',
     'country': 'Китай',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Orient - AA02005D/orient_db0c001b_fdb0c001b30_11.jpg',
     images: [
       './assets/product/Orient - AA02005D/Orient - AA02005D.jpg',
@@ -51,7 +67,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -72,6 +89,10 @@ var catalog = [{
     'material': 'пластик',
     'price': '3000',
     'country': 'Япония',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Casio - G-SHOCK GMW-B5000D-1E/100.jpg',
     images: [
       './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E 2.jpg',
@@ -82,7 +103,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -103,6 +125,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '43000',
     'country': 'Германия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Fossil - ES3712/wwfo00154m_a211.jpg',
     images: [
       './assets/product/Fossil - ES3712/4053858900516_1_org_zoom.jpg',
@@ -114,7 +140,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -135,6 +162,10 @@ var catalog = [{
     'material': 'серебро',
     'price': '9000',
     'country': 'США',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Guess W0443L4/177412621.3.jpg',
     images: [
       './assets/product/Guess W0443L4/Guess W0443L4.jpg',
@@ -146,7 +177,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -167,6 +199,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '37000',
     'country': 'США',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Michael Kors MKT5090/i-img1200x21200-15624693945alxmh2989601.jpg',
     images: [
       './assets/product/Michael Kors MKT5090/Michael Kors MKT5090.jpg',
@@ -178,7 +214,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -199,6 +236,10 @@ var catalog = [{
     'material': 'серебро',
     'price': '11000',
     'country': 'Япония',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Seiko SNKE61K1/seiko snk4e61k111.jpg',
     images: [
       './assets/product/Seiko SNKE61K1/Seiko SNKE61K1.jpg',
@@ -210,7 +251,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -231,6 +273,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '6000',
     'country': 'Великобритания',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Ben Sherman WB026T/ben sherman wb026t21.jpg',
     images: [
       './assets/product/Ben Sherman WB026T/Ben Sherman WB026T.jpg',
@@ -242,7 +288,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -263,6 +310,10 @@ var catalog = [{
     'material': 'золото',
     'price': '17000',
     'country': 'Италия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Diesel DZ5551/dz5551-3-1000x100011.jpg',
     images: [
       './assets/product/Diesel DZ5551/Diesel DZ5551.jpg',
@@ -274,7 +325,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -295,6 +347,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '31000',
     'country': 'Россия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Штурманские 2432-4571790/zegarek-me4ski-szturmanskie-gagarin-24-hours-automatic-2432-4571790-11.jpg',
     images: [
       './assets/product/Штурманские 2432-4571790/Штурманские 2432-4571790.jpg',
@@ -306,7 +362,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -327,6 +384,10 @@ var catalog = [{
     'material': 'керамика',
     'price': '40000',
     'country': 'США',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Michael Kors MKT5050/i-img1200x21200-15624693945alxmh2989601.jpg',
     images: [
       './assets/product/Michael Kors MKT5050/Michael Kors MKT5050.jpg',
@@ -338,7 +399,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -359,6 +421,10 @@ var catalog = [{
     'material': 'алюминий',
     'price': '19000',
     'country': 'Германия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Fossil FTW4019/wwfo00154m_a211.jpg',
     images: [
       './assets/product/Fossil FTW4019/Fossil FTW4019.jpg',
@@ -370,7 +436,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -391,6 +458,10 @@ var catalog = [{
     'material': 'титан',
     'price': '24000',
     'country': 'Швейцария',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Adriatica A8281.42G4CH/3_a8281.42g4ch1_211.jpg',
     images: [
       './assets/product/Adriatica A8281.42G4CH/Adriatica A8281.42G4CH.jpg',
@@ -402,7 +473,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -423,6 +495,10 @@ var catalog = [{
     'material': 'алюминий',
     'price': '6000',
     'country': 'Великобритания',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Daisy Dixon DD073PRG/logo_daisy_dixon.jpg',
     images: [
       './assets/product/Daisy Dixon DD073PRG/Daisy Dixon DD073PRG.jpg',
@@ -433,7 +509,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -454,6 +531,10 @@ var catalog = [{
     'material': 'керамика',
     'price': '39000',
     'country': 'Италия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Emporio Armani AR1451/emporio arfmani ar1451.jpg',
     images: [
       './assets/product/Emporio Armani AR1451/Emporio Armani AR1451.jpg',
@@ -465,7 +546,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -486,6 +568,10 @@ var catalog = [{
     'material': 'алюминий',
     'price': '4000',
     'country': 'Россия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Слава 1409731-2115-300/слава 15409731-2115-30011.jpg',
     images: [
       './assets/product/Слава 1409731-2115-300/Слава 1409731-2115-300.jpg',
@@ -497,7 +583,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -518,6 +605,10 @@ var catalog = [{
     'material': 'золото',
     'price': '90000',
     'country': 'Швейцария',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Rolex Lady-Datejust/rolex - sky-dw3eller11.jpg',
     images: [
       './assets/product/Rolex Lady-Datejust/Rolex Lady-Datejust.jpg',
@@ -529,7 +620,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -550,6 +642,10 @@ var catalog = [{
     'material': 'платина',
     'price': '88000',
     'country': 'Япония',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Casio G-SHOCK GMW-B5000V-1ER/100.jpg',
     images: [
       './assets/product/Casio G-SHOCK GMW-B5000V-1ER/Casio G-SHOCK GMW-B5000V-1ER.jpg',
@@ -561,7 +657,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -582,6 +679,10 @@ var catalog = [{
     'material': 'титан',
     'price': '30000',
     'country': 'Италия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Diesel DZT2011/dz5551-3-1000x100011.jpg',
     images: [
       './assets/product/Diesel DZT2011/Diesel DZT2011.jpg',
@@ -593,7 +694,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -614,6 +716,10 @@ var catalog = [{
     'material': 'сталь',
     'price': '17000',
     'country': 'Китай',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Orient DB0C001B/orient_db0c001b_fdb0c001b30_11.jpg',
     images: [
       './assets/product/Orient DB0C001B/Orient DB0C001B.jpg',
@@ -625,7 +731,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -646,6 +753,10 @@ var catalog = [{
     'material': 'золото',
     'price': '13000',
     'country': 'Япония',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Seiko SKK686P1/seiko snk4e61k111.jpg',
     images: [
       './assets/product/Seiko SKK686P1/Seiko SUP870P1.jpg',
@@ -657,7 +768,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -678,6 +790,10 @@ var catalog = [{
     'material': 'платина',
     'price': '180000',
     'country': 'Швейцария',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Rolex Datejust 31/rolex - sky-dw3eller11.jpg',
     images: [
       './assets/product/Rolex Datejust 31/Rolex Datejust 31.jpg',
@@ -688,7 +804,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -709,6 +826,10 @@ var catalog = [{
     'material': 'алюминий',
     'price': '10000',
     'country': 'Италия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Diesel DZ1895/dz5551-3-1000x100011.jpg',
     images: [
       './assets/product/Diesel DZ1895/Diesel DZ1895.jpg',
@@ -719,7 +840,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -740,6 +862,10 @@ var catalog = [{
     'material': 'керамика',
     'price': '35000',
     'country': 'США',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Michael Kors MK6620/i-img1200x21200-15624693945alxmh2989601.jpg',
     images: [
       './assets/product/Michael Kors MK6620/TAG-Heuer-CAR2A91.BH0742-lionel-meylan-horlogerie-joaillerie-vevey-2017.jpg',
@@ -752,7 +878,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -773,6 +900,10 @@ var catalog = [{
     'material': 'алюминий',
     'price': '9000',
     'country': 'германия',
+    'width': '128',
+    'height': '508',
+    'depth': '85',
+    'weight': '52',
     'slide': './assets/product/Fossil FS5448/wwfo00154m_a211.jpg',
     images: [
       './assets/product/Fossil FS5448/Fossil FS5448.jpg',
@@ -784,7 +915,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -795,6 +927,23 @@ var catalog = [{
     }]
   }
 ]
+var buyCount = 0;
+var elem = document.getElementsByClassName('add_num');
+if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}
+
+function addNum()
+{
+	var count = 1;
+	if(document.getElementById('amount') != null ) {count = parseInt(document.getElementById('amount').value);}
+	
+	for (var i = 0; i < elem.length; i++) {	
+		if(isNaN(count)) {count = 0;}
+		buyCount = parseInt( elem[i].innerHTML ) + count;
+		elem[i].innerHTML = buyCount;
+		if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
+		localStorage.setItem('buyCount', buyCount);	
+	}		
+}
 
 // filteredArr - массив для вывода отсортированных и/или отфильтрованных значений
 var filteredArr = catalog;
@@ -809,5 +958,32 @@ var filters = {
   'country': []
 }
 
+var params = window
+  .location
+  .search
+  .replace('?','')
+  .split('&')
+  .reduce(
+      function(p,e){
+          var a = e.split('=');
+          p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+          return p;
+      },
+      {}
+);
+
+
+
+// Отдельный открытый товар
+//var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
+
+
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
 else localStorage.setItem('catalog', JSON.stringify(catalog));
+if (localStorage.getItem('buyCount')) buyCount = localStorage.getItem('buyCount');
+
+for (var i = 0; i < elem.length; i++) {
+	elem[i].innerHTML = buyCount;
+	if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}	
+	if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
+}
