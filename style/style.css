@@ -2196,7 +2196,6 @@ p.grey {
     }
 
     .product-main-description form button {
-        font-size: calc(1rem / (22/36)) !important;
         display: block;
         margin: 0 auto;
         margin-top: calc(1rem / (22/63));
