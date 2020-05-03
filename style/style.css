@@ -2538,7 +2538,7 @@ footer button {
 
 @media screen and (min-width: 575px) and (max-width: 718px) {
     footer button{
-        font-size: calc(1rem/(22/10));
+        font-size: calc(1rem/(22/15));
         line-height: calc(1rem/(22/20));
     }
 
@@ -2554,7 +2554,7 @@ footer button {
 
 @media screen and (min-width: 575px) and (max-width: 641px) {
     footer button {
-        font-size: calc(1rem/(22/17));
+        font-size: calc(1rem/(22/15));
         line-height: calc(1rem/(22/23));
     }
 }
