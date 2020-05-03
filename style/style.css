@@ -512,9 +512,9 @@ button:active > .arrow1{
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
     .product-main-description .carousel {
-        padding-top: calc(1rem / (22/70));
-        padding-right: calc(1rem / (22/30));
-        padding-left: calc(1rem / (22/30));
+        padding-top: calc(1rem / (22/34));
+        padding-right: calc(1rem / (22/19));
+        padding-left: calc(1rem / (22/19));
      }
 
      .product-main-description .carousel-control-prev {
