@@ -235,4 +235,21 @@
      .column > .add_review {
          display: none !important;
      }
+     .product-main-description .carousel {
+        padding-top: calc(1rem / (22/59));
+        padding-right: calc(1rem / (22/26));
+        padding-left: calc(1rem / (22/26));
+     }
+
+     .product-main-description .carousel-control-prev {
+      left: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next {
+      right: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next, .product-main-description .carousel-control-prev {
+        top: calc(1rem / (22/60));
+     }
 }

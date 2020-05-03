@@ -511,7 +511,23 @@ button:active > .arrow1{
 
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
+    .product-main-description .carousel {
+        padding-top: calc(1rem / (22/34));
+        padding-right: calc(1rem / (22/19));
+        padding-left: calc(1rem / (22/19));
+     }
 
+     .product-main-description .carousel-control-prev {
+      left: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next {
+      right: calc(1rem / (22/30));
+     }
+
+     .product-main-description .carousel-control-next, .product-main-description .carousel-control-prev {
+        top: calc(1rem / (22/82));
+     }
     .container_products .dropdown-menu{
         position: relative;
         margin-left: -570%;
@@ -2196,7 +2212,6 @@ p.grey {
     }
 
     .product-main-description form button {
-        font-size: calc(1rem / (22/36)) !important;
         display: block;
         margin: 0 auto;
         margin-top: calc(1rem / (22/63));
