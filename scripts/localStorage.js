@@ -17,7 +17,7 @@ var catalog = [{
     images: [
       './assets/product/ROLEX - SKY-DWELLER/ROLEX - SKY-DWELLER.jpg',
       './assets/product/ROLEX - SKY-DWELLER/DATE 34-1-800x800.jpg',
-      './assets/product/ROLEX - SKY-DWELLER/ROLEX - 19449089499d.jpg'
+      './assets/product/ROLEX - SKY-DWELLER/19449089499d.jpg'
     ],
     comments: [{
       'authors_name': 'name',
@@ -61,7 +61,7 @@ var catalog = [{
       './assets/product/Orient - AA02005D/12763420_xxl_v1572367577173.jpg',
       './assets/product/Orient - AA02005D/armand-nicolet-l16-small-seconds-limited-edition-a132aaaagp713mr2-1.jpg',
       './assets/product/Orient - AA02005D/armand-nicolet-l16-white-skeleton-dial-mens-hand-wound-watch-a132aaa-ag-p713mr2--_3.jpg',
-      './assets/product/Orient - AA02005D/Orient - Orient - AA02005D1.jpg'
+      './assets/product/Orient - AA02005D/Orient - AA02005D1.jpg'
     ],
     comments: [{
       'authors_name': 'name',
@@ -96,7 +96,7 @@ var catalog = [{
     'slide': './assets/product/Casio - G-SHOCK GMW-B5000D-1E/100.jpg',
     images: [
       './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E 2.jpg',
-      './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E1.jpg',
+      './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E1 .jpg',
       './assets/product/Casio - G-SHOCK GMW-B5000D-1E/fnew_casio-la-20wh-4a1ef-1.jpg'
     ],
     comments: [{
@@ -243,7 +243,7 @@ var catalog = [{
     'slide': './assets/product/Seiko SNKE61K1/seiko snk4e61k111.jpg',
     images: [
       './assets/product/Seiko SNKE61K1/Seiko SNKE61K1.jpg',
-      './assets/product/Seiko SNKE61K1/6c783cbd4a6df56511df7be23b5aa1f2.jpg',
+      './assets/product/Seiko SNKE61K1/6c783cbd4a6df56511df7be23b5aa1f2.jpeg',
       './assets/product/Seiko SNKE61K1/Seiko SNKE61K11.jpg',
       './assets/product/Seiko SNKE61K1/seiko-men-5-automatic-classic-watch-snke61k1-citytime86-1402-17-citytime86@9.jpg'
     ],
@@ -576,7 +576,7 @@ var catalog = [{
     images: [
       './assets/product/Слава 1409731-2115-300/Слава 1409731-2115-300.jpg',
       './assets/product/Слава 1409731-2115-300/59ae93f241ee0.jpg',
-      './assets/product/Слава 1409731-2115-300/600000421441b4.jpg',
+      './assets/product/Слава 1409731-2115-300/600000421441b4.jpeg',
       './assets/product/Слава 1409731-2115-300/Слава 1409731-2115-3001.jpg'
     ],
     comments: [{
