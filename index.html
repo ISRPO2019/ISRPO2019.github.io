@@ -19,7 +19,7 @@
 <body>
   
   <!-- Шапка сайта -->
-  <nav class="header navbar navbar-expand-lg navbar-light sticky-top">
+  <nav class="header navbar navbar-expand-lg navbar-light sticky-top">	  
     <a class="d-none d-lg-block d-md-none float-right p-2 navbar-brand logo" href="/index.html">
       <img class="logo" src="./assets/logo.png" alt="">
     </a>
@@ -30,6 +30,7 @@
         </a>
   
       </div>
+		<span class="add_num">0</span>
       <div class="col-md-2 col align-self-center">
         <button type="button" class="float-md-left shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
       </div>
@@ -63,7 +64,10 @@
         </li>
       </ul>
      
-      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
+      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block">
+		  <img class="shop" src="./assets/shopping-kart.png" alt="">
+		  <span class="add_num">0</span>
+		</button>	
       <form class="form-inline my-2 my-lg-0 search">
         <input class="form-control search" type="search" placeholder="Поиск" aria-label="Search">
         <button class="btn my-2 my-sm-0 search" type="submit"><img class="search" src="./assets/search.png"

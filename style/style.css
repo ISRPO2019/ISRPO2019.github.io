@@ -3155,3 +3155,48 @@ box-sizing: border-box;
 .titleView {
     font-size: 1.64rem;
 }
+
+.add_num {
+	text-align: center;
+	font-size: 0.7rem;
+	border-radius: 50%;
+	background-color: #3D3A3A;
+	padding: 0.1rem 0.4rem;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0.3rem;
+	margin-left: 0.7rem;	
+}
+
+@media screen and (max-width: 991px) {
+	.add_num {
+		font-size: 0.5rem;
+		padding: .01rem .19rem;
+		top: 0.3rem;
+		margin-left: 71.5vw;
+		margin-right: 0rem;
+		z-index: 9999;
+	}	
+	#add_num2 {
+		margin-left: 40vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.add_num {
+		font-size: 4vw;
+		padding: 0.01vw 1.5vw;
+		top: 4.5vw;
+		margin-left: 85vw;
+		margin-right: 3vw;
+	}	
+}
+
+@media screen and (max-width: 561px) {
+	.add_num {
+		font-size: 4.3vw;
+		padding: 0.01vw 1.6vw;
+		top: 4.3vw;
+	}	
+}
+

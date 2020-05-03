@@ -17,6 +17,7 @@
 </head>
 
 <body>
+	
   <!-- Шапка сайта -->
   <nav class="header navbar navbar-expand-lg navbar-light sticky-top">
     <a class="d-none d-lg-block d-md-none float-right p-2 navbar-brand logo my-auto" href="/index.html">
@@ -29,8 +30,9 @@
         </a>
   
       </div>
+		<span class="add_num">0</span>
       <div class="col-md-2 col-2 align-self-center">
-        <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
+        <button type="button" class="float-md-left float-sm-right shop d-lg-none"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>		  
       </div>
       <button class="d-none d-md-block arrow-header mx-auto mt-auto col-md-2 col-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +64,9 @@
         </li>
       </ul>
      
-      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt=""></button>
+      <button type="button" class="ml-auto shop d-none d-lg-block d-xl-block"><img class="shop" src="./assets/shopping-kart.png" alt="">
+		  <span class="add_num">0</span>	
+		</button>		
       <form class="form-inline my-2 my-lg-0 search">
         <input class="form-control search" type="search" placeholder="Поиск" aria-label="Search">
         <button class="btn my-2 my-sm-0 search" type="submit"><img class="search" src="./assets/search.png"
@@ -118,8 +122,8 @@
           <div>
             <form method="GET">
               <label for="amount">Количество:</label>
-              <input type="text" name="amount" id="amount">
-              <button type="submit">Добавить в<br>корзину</button>
+              <input type="text" name="amount" id="amount" value="1" class="add_col">
+              <button  type="button" value="+1" onclick="addNum()">Добавить в<br> корзину</button>
             </form>
           </div>
         </div>
@@ -557,8 +561,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
+	<script src="scripts/localStorage.js"></script>
   <script type="text/javascript" src="scripts/localStorage.js"></script>
   <script type="text/javascript" src="scripts/productComments.js"></script>
+
 </body>
 
 </html>
