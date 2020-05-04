@@ -5,6 +5,84 @@
     html{
         font-size: 15px !important;
     }
+
+    .itt{
+        padding-left: 30px;
+    }
+      
+    .utt{
+        margin-left: 160px;
+    }
+      
+    .eb{
+        justify-content: center;
+    }
+    
+    .range {
+        width:260px;
+        height:2px;
+        background-color: #B32020;
+        margin-left: 39px;
+    }
+      
+    .range__button_1, .range__button_2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        cursor: move;
+        transform: translateY(-50%);
+        border: none;
+        border-radius: 50%;
+        border: 1px solid #B32020;
+        background-color:#FFFFFF;
+    }
+    
+    .range__between{
+        position: absolute;
+        height: 0px;
+        width:0px;
+        border: none;
+        background-color:#B32020;
+    }
+      
+    .io1{
+        margin-left: 20px !important;
+    }
+
+    .io{
+        margin-top: -12px !important;
+    }
+    
+    .range_inpt1, .range_inpt2{
+        margin-top: -15px !important;
+        width: 117px;
+        height: 30px;
+        border: 2px solid #E8E8E8;
+    }
+      
+    .zbz-input-clearable {
+        /* ставим инпуту фоновую картинку, но отображаем ее за пределами инпута - 150% в background-position */
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+        background-position: 150% 50%;
+        background-repeat: no-repeat;
+        transition: background 0.4s;
+        /* добавляем справа небольшой padding, чтоб текст не залазил поверх крестика */
+        padding-right: 27px;
+    }
+      .zbz-input-clearable--x {
+        /* когда нужно отобразить крестик, перемещаем в правый конец инпута */
+        background-position: 100% 50%;
+      }
+      .zbz-input-clearable--x-over {
+        /* и подготовим стиль для ховера по крестику */
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+        cursor: pointer;
+      }
+      .zbz-input-clearable::-ms-clear {
+        /* убираем родной крестик очистки в IE */
+        display: none;
+      }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -14,6 +92,80 @@
     .justify-content-center {
         justify-content: unset !important;
     }
+
+    .itt{
+        padding-left: 30px;
+    }
+      
+    .utt{
+        margin-left: 160px;
+    }
+      
+    .eb{
+        justify-content: center;
+    }
+    
+    .range {
+        width:260px;
+        height:2px;
+        background-color: #B32020;
+        margin-left: 39px;
+    }
+      
+    .range__button_1, .range__button_2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        cursor: move;
+        transform: translateY(-50%);
+        border: none;
+        border-radius: 50%;
+        border: 1px solid #B32020;
+        background-color:#FFFFFF;
+    }
+    
+    .range__between{
+        position: absolute;
+        height: 0px;
+        width:0px;
+        border: none;
+        background-color:#B32020;
+    }
+      
+    .io{
+        margin-top: -15px !important;
+    }
+    
+    .range_inpt1, .range_inpt2{
+        margin-top: -15px !important;
+        width: 117px;
+        height: 30px;
+        border: 2px solid #E8E8E8;
+    }
+      
+    .zbz-input-clearable {
+        /* ставим инпуту фоновую картинку, но отображаем ее за пределами инпута - 150% в background-position */
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+        background-position: 150% 50%;
+        background-repeat: no-repeat;
+        transition: background 0.4s;
+        /* добавляем справа небольшой padding, чтоб текст не залазил поверх крестика */
+        padding-right: 27px;
+    }
+      .zbz-input-clearable--x {
+        /* когда нужно отобразить крестик, перемещаем в правый конец инпута */
+        background-position: 100% 50%;
+      }
+      .zbz-input-clearable--x-over {
+        /* и подготовим стиль для ховера по крестику */
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+        cursor: pointer;
+      }
+      .zbz-input-clearable::-ms-clear {
+        /* убираем родной крестик очистки в IE */
+        display: none;
+      }
+
 }
 
 @media (min-width: 992px){
@@ -630,9 +782,6 @@ button:active > .arrow1{
         max-height: 1.5rem;
     }
 
-    /* My element */
-    /*  //////////////////////////
-    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
     .about-buttons {
         background: #FFF5F5;
         padding-top: calc(1rem / (22/15)) !important;
@@ -667,8 +816,6 @@ button:active > .arrow1{
         display: none;        
     }
 
-    /* Close my element */
-
     .fon{
         font-size: 22px;
     }
@@ -694,6 +841,10 @@ button:active > .arrow1{
     
     #info-block .col-1{
         box-shadow: 0 0 0 0 !important;
+    }
+
+    .mod{
+        display: none !important;
     }
 
 }
@@ -839,9 +990,6 @@ button:active > .arrow1{
         display: flex !important;
     }
 
-        /* My element */
-    /*  //////////////////////////
-    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
     .about-buttons {
         display: none;
     }
@@ -897,9 +1045,6 @@ button:active > .arrow1{
         color: #454545;
     }
 
-
-    /* Close my element */
-
     .fon{
         font-size: 22px;
         margin-bottom: calc(1rem / (22/120));
@@ -953,6 +1098,9 @@ button:active > .arrow1{
         display: none !important;
     }
 
+    .mod{
+        display: none !important;
+    }
 
 }
 
@@ -1198,6 +1346,10 @@ button:active > .arrow1{
         display: none !important;
     }
 
+    .mod{
+        display: none !important;
+    }
+
 }
 
 @media(min-width: 386px) and (max-width: 485px){
@@ -1438,6 +1590,10 @@ button:active > .arrow1{
     }
 
     .ophar{
+        display: none !important;
+    }
+
+    .mod{
         display: none !important;
     }
 
@@ -1685,6 +1841,9 @@ button:active > .arrow1{
         display: none !important;
     }
 
+    .mod{
+        display: none !important;
+    }
 
 }
 
@@ -3214,4 +3373,77 @@ box-sizing: border-box;
 		top: 4.3vw;
 	}	
 }
+
+.itt{
+    padding-left: 30px;
+}
+  
+.utt{
+    margin-left: 160px;
+}
+  
+.eb{
+    justify-content: center;
+}
+
+.range {
+    width:260px;
+    height:2px;
+    background-color: #B32020;
+    margin-left: 39px;
+}
+  
+.range__button_1, .range__button_2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: move;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 50%;
+    border: 1px solid #B32020;
+    background-color:#FFFFFF;
+}
+
+.range__between{
+    position: absolute;
+    height: 0px;
+    width:0px;
+    border: none;
+    background-color:#B32020;
+}
+  
+.io{
+    margin-top: -19px;
+}
+
+.range_inpt1, .range_inpt2{
+    margin-top: -19px;
+    width: 117px;
+    height: 30px;
+    border: 2px solid #E8E8E8;
+}
+  
+.zbz-input-clearable {
+    /* ставим инпуту фоновую картинку, но отображаем ее за пределами инпута - 150% в background-position */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+    background-position: 150% 50%;
+    background-repeat: no-repeat;
+    transition: background 0.4s;
+    /* добавляем справа небольшой padding, чтоб текст не залазил поверх крестика */
+    padding-right: 27px;
+}
+  .zbz-input-clearable--x {
+    /* когда нужно отобразить крестик, перемещаем в правый конец инпута */
+    background-position: 100% 50%;
+  }
+  .zbz-input-clearable--x-over {
+    /* и подготовим стиль для ховера по крестику */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTQzOEVEQkZFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTQzOEVEQzBFMjRDMTFFM0JDMDVDMjFEMDk4MTc0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNDM4RURCREUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNDM4RURCRUUyNEMxMUUzQkMwNUMyMUQwOTgxNzRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqwf5ocAAACpSURBVHjaYvT09GRjYGAQAuIXDISBBBC/3rZt219cCpighq0GYjkChslB1YniU8QEdVk0EC/FY6gcVD6akE+YoPQjPIYiG/aIUJgwIbGxGUqSYegGohtqQ6phIMCCRQykuRKIDwOxLSmGYXMhzJvtUMPaiYh9vAYih9kRImIfr4HYIuARqYYyERGbJBnKBM1OhGIT2VAJQrH8DohDicjLj6DqXuNTBBBgAL/OL+VnHD9pAAAAAElFTkSuQmCC");
+    cursor: pointer;
+  }
+  .zbz-input-clearable::-ms-clear {
+    /* убираем родной крестик очистки в IE */
+    display: none;
+  }
 
