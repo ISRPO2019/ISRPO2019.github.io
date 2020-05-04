@@ -50,6 +50,16 @@ body {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
+.product-banner {
+    margin-bottom: calc(1rem / (22/109));
+}
+
+.product-banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 345px;
+}
+
 img.logo{
     height: 2.27rem;
 }
@@ -2704,6 +2714,11 @@ footer button {
 .product-main-description h1 {
     margin-top: calc(1rem / (22/36));
     font-size: calc(1rem / (22/48));
+}
+
+#car-inner .carousel-inner img {
+    max-width: 650px;
+    max-height: 650px;
 }
 
 .product-main-description p {
