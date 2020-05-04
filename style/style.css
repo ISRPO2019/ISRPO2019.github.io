@@ -854,10 +854,6 @@ button:active > .arrow1{
         color: #B32020 !important;
     }
 
-    .container{
-        width: 100% !important;
-    }
-
     img.col.imc.mt-3{
         max-width: 10.5% !important;
         height: 18px !important;
@@ -2279,15 +2275,13 @@ footer {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
 }
 
 footer img {
-    width: calc(1rem/(22/320));
-    height: calc(1rem/(22/70));
+    width: calc(1em/(22/320));
+    height: calc(1em/(22/70));
     background: #FFFFFF;
-    border-width: calc(1rem/(22/11)) calc(1rem/(22/40));
+    border-width: calc(1em/(22/11)) calc(1em/(22/40));
 	border-color: #ffffff;
 	border-style: solid;
 	
@@ -2296,17 +2290,17 @@ footer img {
 footer a {
     display: block;
     color: #421D1D;
-    padding-bottom: calc(1rem/(22/15));
-    font-size: calc(1rem/(22/28));
-    line-height: calc(1rem/(22/28));
+    padding-bottom: calc(1em/(22/15));
+    font-size: calc(1em/(22/24));
+    line-height: 1.14;
 
 }
 
 footer h3 {
     color: #ffffff;
-    padding-bottom: calc(1rem/(22/20));
-    font-size: calc(1rem/(22/36));
-    line-height: calc(1rem/(22/41));
+    padding-bottom: calc(1em/(22/20));
+    font-size: calc(1em/(22/36));
+    line-height: 1.14;
 }
 
 footer span {
@@ -2314,32 +2308,34 @@ footer span {
 }
 
 .basement1 {
-    padding-left: calc(1rem/(22/170));
+    padding-left: calc(1em/(22/170));
     color: #FFFFFF;
 }
 
 .basement1 p {
-    width: calc(1rem/(22/320)) ;
-    padding-top: calc(1rem/(22/15)) ;
+    width: calc(1em/(22/320)) ;
+    padding-top: calc(1em/(22/15)) ;
 }
 
 .basement2 {
-    padding-left: calc(1rem/(22/100));
+    padding-left: calc(1em/(22/100));
 }
 
 .basement3 {
-    padding-right: calc(1rem/(22/100));
+    padding-right: calc(1em/(22/100));
 }
 
 .basement3 textarea{
-    margin-top: calc(1rem/(22/15));
-    margin-bottom: calc(1rem/(22/15));
-    height: calc(1rem/(22/95));
-    width: calc(1rem/(22/320));
+    margin-top: calc(1em/(22/15));
+    margin-bottom: calc(1em/(22/15));
+    height: calc(1em/(22/95));
+    width: calc(1em/(22/320));
+	border: none;
 }
 
 .basement3 input{
-    width: calc(1rem/(22/320));
+    width: calc(1em/(22/320));
+	border: none;
 }
 
 ::placeholder {
@@ -2351,73 +2347,61 @@ footer textarea::placeholder {
 }
 
 .basement4 {
-    padding-right: calc(1rem/(22/170));
+    padding-right: calc(1em/(22/170));
 }
 
 footer {
-    padding-top: calc(1rem/(22/35));
+    padding-top: calc(1em/(22/35));
 }
 
 footer button {
-
-
-
+	border: none;
     text-align: center;
     background: #FFFFFF;
 }
 
 .under {
-    margin-top: calc(1rem/(22/60)) ;
-    height: calc(1rem/(22/40));    
+    margin-top: calc(1em/(22/60)) ;
+    height: calc(1em/(22/40));    
     text-align: center;
     color: #ffffff;
 	background: #8E1F1F;
 }
 
 .under p {
-    margin-bottom: 0rem;	
+    margin-bottom: 0em;	
 }
 
 
 @media screen and (min-width: 992px) and (max-width: 1686px) {
 
     .basement1 {
-        padding-left: calc(1rem/(22/50));
+        padding-left: calc(1em/(22/50));
         color: #FFFFFF;
     }
 
     .basement2 {
-        padding-left: calc(1rem/(22/100));
+        padding-left: calc(1em/(22/100));
 
     }
 
     .basement3 {
-        padding-right: calc(1rem/(22/10));
+        padding-right: calc(1em/(22/10));
     }
 
     .basement4 {
-        padding-left: calc(1rem/(22/50));
-        padding-right: calc(1rem/(22/50));
+        padding-left: calc(1em/(22/50));
+        padding-right: calc(1em/(22/50));
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1240px) {
-    .basement3 textarea {
-        width: calc(1rem/(22/270));
-    }
 
-    .basement3 input {
-        width: calc(1rem/(22/270));
-    }
-}
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
 
-
-
     footer {
-        font-size: 22px !important;
-        line-height: calc(1rem/(22/28));
+        font-size: 24px !important;
+        line-height: 1.14;
     }
 
     footer img {
@@ -2427,31 +2411,31 @@ footer button {
 
 
     footer.container {
-        padding-top: calc(1rem/(22/40));
+        padding-top: calc(1em/(22/40));
     }
 
     .basement1 {
-        padding-left: calc(1rem/(22/44));
+        padding-left: calc(1em/(22/44));
         padding-right: 0rem;
 
     }
 
     .basement1 p {
-        max-width: calc(1rem/(22/320));
+        max-width: 40vw;
         width: 100%;
 
     }
 
 
     .basement2 {
-        padding-bottom: calc(1rem/(22/40));
-        padding-left: calc(1rem/(22/44));
-        padding-right: calc(1rem/(22/44));
+        padding-bottom: calc(1em/(22/40));
+        padding-left: calc(1em/(22/44));
+        padding-right: calc(1em/(22/44));
     }
     .basement2 a {
-        padding-right: 0rem;
-        padding-bottom: 0rem ;
-        margin-left: 0rem ;
+        padding-right: 0em;
+        padding-bottom: 0em ;
+        margin-left: 0em ;
         text-align: center;
     }
 
@@ -2460,117 +2444,91 @@ footer button {
     }
 
     .basement3 {
-        padding-left: calc(1rem/(22/44));
-        padding-right: calc(1rem/(22/44));
+        padding-left: calc(1em/(22/44));
+        padding-right: calc(1em/(22/44));
     }
 
     .basement3 h3 {
-        margin: 0rem;
+        margin: 0em;
     }
 
     .basement3 textarea{
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        height: calc(1rem/(22/95));
-        padding: 0rem;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        height: calc(1em/(22/95));
+        padding: 0em;
         width: 100%;
+		font-size: calc(1em/(22/24));
+    	line-height: 1.14;
     }
 
     .basement3 .box_textarea {
-        padding-top: calc(1rem/(22/15));
+        padding-top: calc(1em/(22/15));
     }
 
     .basement3 input {
-        height: calc(1rem/(22/40));
+        height: calc(1em/(22/40));
         width: 100%;
-
+		font-size: calc(1em/(22/24));
+    	line-height: 1.14;
     }
 
     footer button {
-        width: 100%;
-        height: calc(1rem/(22/40));
+		font-size: calc(1em/(22/24));
+
+        height: calc(1em/(22/60));
         text-align: center;
     }
 
-    .box_button {
-        padding-left: calc(1rem/(22/15));
-    }
-
     .basement4 {
-        padding-left: calc(1rem/(22/40));
-        padding-right: 0rem;
+        padding-left: calc(1em/(22/40));
+        padding-right: 0em;
     }
 
     .under {
-        margin-top: calc(1rem/(22/59)) ;
+        margin-top: calc(1em/(22/59)) ;
 	
     }
 }
 
-@media screen and (min-width: 575px) and (max-width: 991px) {
 
 
-    footer a {
-        font-size: calc(1rem/(22/28));
-        line-height: calc(1rem/(22/32));
-    }
-}
-
-@media screen and (max-width: 991px) {
-    footer h3 {
-        color: #ffffff;
-        padding-bottom: calc(1rem/(22/20));
-        font-size: calc(1rem/(22/30));
-        line-height: calc(1rem/(22/41));
-    }
-}
-
-@media screen and (max-width: 765px) {
-    footer .container {
-       	padding-right: 15px !important;
-    	padding-left: 15px !important;
-    }
-}
-
-@media screen and (min-width: 575px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
     footer button{
-        font-size: calc(1rem/(22/14));
-        line-height: calc(1rem/(22/20));
+        font-size: calc(1em/(22/24));
+        line-height: 1.14;
+		margin-left: auto;
+        margin-right: auto;
+		display: block;
+		height: calc(1em/(22/50));
+		width: calc(1em/(22/230))
     }
+	
+	footer h3 {
+		
+	}
+	
+	.basement3 input {
 
-    footer a{
-        font-size: calc(1rem/(22/17));
-        line-height: calc(1rem/(22/20));
-    }
-
-    footer .box_input {
-        padding-right: 0rem;
-    }
+	}
 	
 	.under {
-        margin-top: calc(1rem/(22/59)) ;
+        margin-top: calc(1em/(22/59)) ;
 		padding-left: 0px !important;
 	
-    }
-}
-
-@media screen and (min-width: 575px) and (max-width: 641px) {
-    footer button {
-        font-size: calc(1rem/(22/13));
-        line-height: calc(1rem/(22/23));
     }
 }
 
 @media screen and (max-width: 575px) {
 
     footer {
-        font-size: calc(1rem/(22/36));
-        line-height: calc(1rem/(22/41));
+        font-size: 22px !important;
+        line-height: 1.14;
     }
 
     footer h3 {
-        font-size: calc(1rem/(22/48));
-        line-height: calc(1rem/(22/55));
+        font-size: calc(1em/(22/48));
+        line-height: 1.14;
     }
 
     footer .row div {
@@ -2580,9 +2538,9 @@ footer button {
         display: block;
     }
     footer a {
-        font-size: calc(1rem/(22/48));
-        line-height: calc(1rem/(22/55));
-        margin-left: calc(1rem/(22/0));
+        font-size: calc(1em/(22/48));
+        line-height: 1.14;
+        margin-left: calc(1em/(22/0));
     }
 
     footer img {
@@ -2592,75 +2550,75 @@ footer button {
     }
 
     .basement1 {
-        padding-right: calc(1rem/(22/44));
-        padding-left: calc(1rem/(22/44));		
-        padding-bottom: calc(1rem/(22/70));
+        padding-right: calc(1em/(22/44));
+        padding-left: calc(1em/(22/44));		
+        padding-bottom: calc(1em/(22/70));
     }
 
     .basement1 p {
-        padding-right: calc(1rem/(22/44));
-        padding-left: calc(1rem/(22/44));
-		font-size: calc(1rem/(22/36));
-        line-height: calc(1rem/(22/41));
+        padding-right: calc(1em/(22/44));
+        padding-left: calc(1em/(22/44));
+		font-size: calc(1em/(22/36));
+        line-height: 1.14;
         width: 100%;
     }
 	
 	.basement2 {
-        margin-bottom: calc(1rem/(22/53));;
+        margin-bottom: calc(1em/(22/53));;
     }
 
     .basement3 {
-        padding-bottom: calc(1rem/(22/70));
+        padding-bottom: calc(1em/(22/70));
     }
 	
 	.basement3 h3 {
-        padding-right: calc(1rem/(22/44));
-        padding-left: calc(1rem/(22/44));
+        padding-right: calc(1em/(22/44));
+        padding-left: calc(1em/(22/44));
     }
 
     .basement3 input {
-        height: calc(1rem/(22/56));
+        height: calc(1em/(22/56));
 		width: 80vw;
     }
 
     .basement3 textarea{
-        height: calc(1rem/(22/154));
+        height: calc(1em/(22/154));
 		width: 80vw;
     }
 
     .basement4 p {
-        font-size: calc(1rem/(22/25));
-        line-height: calc(1rem/(22/20));
-		padding-right: calc(1rem/(22/44));
-        padding-left: calc(1rem/(22/44));
+        font-size: calc(1em/(22/24));
+        line-height: 1.14;
+		padding-right: calc(1em/(22/44));
+        padding-left: calc(1em/(22/44));
     }
 
     footer textarea::placeholder {
-        font-size: 36px;
-        line-height: 41px;
+        font-size: calc(1em/(22/36));
+        line-height: 1.14;
     }
 
     footer button {
         display: block;
-        width: 80vw;
-        height: calc(1rem/(22/50));
+        width: calc(1em/(22/230));
+        height: calc(1em/(22/50));
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: calc(1rem/(22/55));
+        
     }
 
-    .under {
-        height: calc(1rem/(22/80));
-		margin-right: 15px;
+    .under {    
+		margin-right: calc(1em/(22/15));			
     }
 
     .under p{
-        font-size: 24px;
-        line-height: 28px;
-        padding: calc(1rem/(22/10)) calc(1rem/(22/82));
+        font-size: calc(1em/(22/24));
+        line-height: 1.14;
+        padding: 1vw 10vw;
 		margin-right: 0px;
-
+		text-align: center;
+		background: #8E1F1F;
     }
 }
 
