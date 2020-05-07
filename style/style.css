@@ -2317,7 +2317,7 @@ footer a {
     display: block;
     color: #421D1D;
     padding-bottom: calc(1rem/(22/15));
-    font-size: calc(1rem/(22/28));
+    font-size: calc(1rem/(22/24));
     line-height: calc(1rem/(22/28));
 
 }
@@ -3299,3 +3299,6 @@ box-sizing: border-box;
     display: none;
   }
 
+.ab:hover{
+    color: #FFFFFF;;
+}
