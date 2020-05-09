@@ -1093,13 +1093,7 @@ button:active > .arrow1{
     .text-col:active{
         color: #B32020 !important;
     }
-
-    .container{
-        width: 100% !important;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-    }
-
+	
     img.col.imc{
         max-width: 12% !important;
         height: 20px !important;
@@ -1338,12 +1332,6 @@ button:active > .arrow1{
         color: #B32020 !important;
     }
 
-    .container{
-        width: 100% !important;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-    }
-
     img.col.imc{
         max-width: 15% !important;
         height: 15px !important;
@@ -1579,12 +1567,6 @@ button:active > .arrow1{
 
     .text-col:active{
         color: #B32020 !important;
-    }
-
-    .container{
-        width: 100% !important;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
     }
 
     img.col.imc.mt-3{
@@ -2308,21 +2290,12 @@ footer span {
 }
 
 .basement1 {
-    padding-left: calc(1rem/(22/170));
     color: #FFFFFF;
 }
 
 .basement1 p {
     width: calc(1rem/(22/320)) ;
     padding-top: calc(1rem/(22/15)) ;
-}
-
-.basement2 {
-    padding-left: calc(1rem/(22/100));
-}
-
-.basement3 {
-    padding-right: calc(1rem/(22/100));
 }
 
 .basement3 textarea{
@@ -2346,10 +2319,6 @@ footer textarea::placeholder {
     color: #D1CECE;
 }
 
-.basement4 {
-    padding-right: calc(1rem/(22/170));
-}
-
 footer {
     padding-top: calc(1rem/(22/35));
 }
@@ -2371,6 +2340,25 @@ footer button {
 .under p {
     margin-bottom: 0rem;	
 }
+
+@media screen and (min-width: 992px) {
+	.basement1 {
+    padding-left: calc(1rem/(22/170));
+    color: #FFFFFF;
+}
+	.basement4 {
+    	padding-right: calc(1rem/(22/170));
+	}
+	.basement2 {
+    	padding-left: calc(1rem/(22/100));
+	}
+
+	.basement3 {
+    	padding-right: calc(1rem/(22/100));
+	}
+	
+}
+	
 
 @media screen and (min-width: 992px) and (max-width: 1686px) {
 
@@ -2463,8 +2451,6 @@ footer button {
     }
 
     .basement3 textarea{
-        margin-top: 0rem;
-        margin-bottom: 0rem;
         height: calc(1em/(22/95));
         padding: 0rem;
         width: 100%;
@@ -2517,10 +2503,6 @@ footer button {
 		
 	}
 	
-	.basement3 input {
-
-	}
-	
 	.under {
         margin-top: calc(1rem/(22/59)) ;
 		padding-left: 0px !important;
@@ -2532,8 +2514,11 @@ footer button {
 
     footer {
         font-size: 22px !important;
-        line-height: 1.14;
+        line-height: 1.14;	
     }
+	
+	footer .container {
+	}
 
     footer h3 {
         font-size: calc(1em/(22/48));
@@ -2541,8 +2526,7 @@ footer button {
     }
 
     footer .row div {
-        padding-right: 0px;
-        padding-left: 0px;
+        
         text-align: center;
         display: block;
     }
@@ -2558,22 +2542,20 @@ footer button {
 		
     }
 
-    .basement1 {
-        padding-right: calc(1em/(22/44));
-        padding-left: calc(1em/(22/44));		
+    .basement1 {		
         padding-bottom: calc(1em/(22/70));
     }
 
-    .basement1 p {
-        padding-right: calc(1em/(22/44));
-        padding-left: calc(1em/(22/44));
+    .basement1 p {      
 		font-size: calc(1em/(22/36));
         line-height: 1.14;
         width: 100%;
+		padding-right: 7vw;
+        padding-left: 7vw;
     }
 	
 	.basement2 {
-        margin-bottom: calc(1em/(22/53));;
+        margin-bottom: calc(1em/(22/53));
     }
 
     .basement3 {
@@ -2581,8 +2563,8 @@ footer button {
     }
 	
 	.basement3 h3 {
-        padding-right: calc(1em/(22/44));
-        padding-left: calc(1em/(22/44));
+        padding-right: 10vw;
+        padding-left: 10vw;
     }
 
     .basement3 input {
@@ -2591,15 +2573,15 @@ footer button {
     }
 
     .basement3 textarea{
+		margin-top: calc(1em/(22/21));
+		margin-bottom: calc(1em/(22/21));
         height: calc(1em/(22/154));
 		width: 80vw;
     }
-
+	
     .basement4 p {
         font-size: calc(1em/(22/36));
         line-height: 1.14;
-		padding-right: 10vw;
-        padding-left: 10vw;
     }
 
     footer textarea::placeholder {
@@ -2609,23 +2591,22 @@ footer button {
 
     footer button {
         display: block;
-        width: calc(1em/(22/230));
-        height: calc(1em/(22/50));
-        text-align: center;
+        width: calc(1em/(22/140));
+        height: calc(1em/(22/30));
         margin-left: auto;
         margin-right: auto;
-        
+		font-size: calc(1em/(22/36));
     }
-
-    .under {    
-		margin-right: calc(1em/(22/15));			
-    }
+	
+	.under {
+		height: 100%;
+	}
 
     .under p{
         font-size: calc(1em/(22/24));
         line-height: 1.14;
         padding: 2vw 10vw;
-		margin-right: 0px;
+
 		text-align: center;
 		background: #8E1F1F;
     }
