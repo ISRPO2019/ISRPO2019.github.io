@@ -225,3 +225,16 @@ $(document).on('click', '.filter-cross', function() {
 
 //filtering(filters,filteredArr); <--- вызов функции с передачей фильтра и массива для сортировки
 //filteringReset(filteredArr); <--- вызов функции с передачей фильтра и массива для сортировки
+$('.dropdown-menu .dropdown-tog').on('click', function(e) {
+    $(this).toggleClass('active');
+    if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+    }
+    var $subMenu = $(this).next(".dropdown-menu");
+    $subMenu.toggleClass('show');
+    $('.dropdown-submenu').not($(this).parents('.dropdown-submenu')).toggleClass('hide');
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass("show");
+    });
+return false;
+});
