@@ -93,6 +93,7 @@
     /* Блок фильтрации и сортировки */
    
     .arrow-sort{
+       margin-top: -0.25rem;
        width:calc(1rem - 10px);
        height:calc(1rem - 10px);
        transform: rotate(-90deg);
@@ -139,7 +140,7 @@
 
   }
   .sort-container > .row >.col-md-6 > .str {
-      display: flex;
+      display: flex !important;
       justify-content: center;
       align-items: center;
       width: calc(2rem - 12px);
@@ -156,7 +157,197 @@
       align-items: center;
 
    }
+   .form-check > .form-check-input {
+    width:calc(0.5rem + 5px) !important;
+    height:calc(0.5rem + 5px) !important;
+    position: unset;
+    padding-left: 0.3rem;
+ }
+ .form-check > .form-check-label {
+    line-height: none !important;
+   padding-left: calc(0.5rem - 3px);
+ }
 
+ .drop_filter{
+  transform: translate3d(-280px, 36px, 0px) !important;
+  width: calc(12rem + 8px)!important;
+  border-radius: 0!important;
+  padding: 0.5rem calc(1rem - 5px) calc(1rem - 1px) calc(1rem - 2px)!important;
+}
+
+.nc_filter_1{
+  font-size:calc(1rem - 4px);
+  width: calc(10.5rem + 2px);
+  line-height: calc(1rem + 8px);
+  height:calc(2rem - 13px); 
+  
+}
+
+
+.nc_filter{
+  font-size:calc(1rem - 4px);
+  width: calc(10.5rem + 2px);
+  line-height: calc(1rem + 15px);
+  height:calc(2rem - 13px); 
+  
+}
+.nc_filter a{
+   color: black;
+}
+
+.filter{
+  border-bottom: 1px solid #D32424 ;
+  width:calc(10.5rem + 2px);
+  cursor: pointer;
+  position: relative;
+
+
+}
+.dropdown-submenu {
+  position: relative;
+} 
+ .hide {
+    display: none;
+}
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+
+}
+
+
+   .icon_filter{
+   display: flex;
+   align-items: center;
+   }
+   .arrow-filter{
+      float: right;
+      
+      width:calc(1rem - 10px);
+      height:calc(1rem - 10px);
+      transform: rotate(-180deg);
+      color: black !important;
+   }
+.dropdown-item{
+  padding: 0;
+  font-size:calc(1rem - 4px);
+ 
+  width: calc(10.5rem + 2px);
+}
+.filter ul{
+  position: unset;
+  width:calc(10.5rem + 2px);
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border: none;
+}
+.form_filter{
+  
+  width: calc(1rem + 4px);
+  height: calc(1rem + 4px);
+  font-size:calc(1rem - 4px);
+
+}
+input[type='radio'] {
+  position: relative;
+  height: calc(1rem - 6px);
+  width: calc(1rem - 6px);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width:calc(1rem - 6px);
+  height: calc(1rem - 6px);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #421D1D;
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width:calc(0.5rem - 5px);
+  height: calc(0.5rem - 5px);
+  border-radius: 50%;
+  background-color: #B32020;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
+
+.form-check > .form-check-input{
+  width: 1rem;
+  height: 1rem;
+}
+
+.dropdown-item.active,.dropdown-item:active{
+  background-color: unset;
+}
+
+.form-number{
+display: flex;
+justify-content: center;
+
+}
+
+.left{
+margin-left:  calc(-2rem + 4px);
+}
+
+.dropdown-tog.active {
+ flex-direction: row-reverse;
+}
+.dropdown-tog.active > .icon_filter {
+  transform: rotate(-180deg);
+}
+.dropdown-tog.active > .nc_filter {
+ padding-left: 0.3rem;
+}
+.checkmark{
+    width:calc(1rem + 4px) !important ;
+    height: calc(1rem + 4px) !important;
+}
+.check-cont{
+    line-height: calc(1rem - 1px);
+    font-size: calc(1rem - 4px) !important;
+    margin-bottom: calc(1rem - 1px);
+    padding-left: calc(2rem - 2px) !important;
+   
+}
+.check-cont .checkmark:after {
+  width:calc(1rem - 8px) !important ;
+  height: calc(1rem - 8px) !important;
+}
+
+.dropdown-tog:hover{
+background-color: unset;
+}
+.num_fil{
+  max-width: calc(4rem - 4px);
+  height: calc(1rem + 10px);
+    }
+    .num_fil_2{
+      max-width: calc(4rem - 4px);
+      height: calc(1rem + 10px);
+      margin-left: calc(-0.5rem + 11px);
+      margin-top: calc(0.5rem - 3px);;
+    }
     /*обзоры*/
 
 .review_card{
