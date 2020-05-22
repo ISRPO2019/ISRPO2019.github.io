@@ -2382,15 +2382,7 @@ footer button {
     }	
 }	
 
-@media screen and (min-width: 1200px) and (max-width: 1240px) {	
-    .basement3 textarea {	
-        width: calc(1rem/(22/270));	
-    }	
 
-    .basement3 input {	
-        width: calc(1rem/(22/270));	
-    }	
-}
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
 
