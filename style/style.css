@@ -2358,10 +2358,6 @@ footer button {
 	background: #8E1F1F;
 }
 
-.under p {
-    margin-bottom: 0rem;
-}
-
 @media screen and (min-width: 992px) {
 	.basement1 {
     padding-left: calc(1rem/(22/170));
@@ -2512,10 +2508,6 @@ footer button {
 		width: calc(1rem/(22/230))
     }
 
-	footer h3 {
-
-	}
-
 	.under {
         margin-top: calc(1rem/(22/59)) ;
 		padding-left: 0px !important;
@@ -2529,9 +2521,6 @@ footer button {
         font-size: 22px !important;
         line-height: 1.14;
     }
-
-	footer .container {
-	}
 
     footer h3 {
         font-size: calc(1em/(22/48));
@@ -2619,7 +2608,6 @@ footer button {
         font-size: calc(1em/(22/24));
         line-height: 1.14;
         padding: 2vw 10vw;
-
 		text-align: center;
 		background: #8E1F1F;
     }
