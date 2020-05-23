@@ -1881,8 +1881,7 @@ p.grey {
     }
 }
 
-@media(min-width: 576px) and (max-width: 767px){
-
+@media(max-width: 767px){
     div.popular > .row > .col-md{
         width: 100%;
     }
@@ -1968,6 +1967,9 @@ p.grey {
         margin-right: 1rem;
         margin-left: 1rem;
     }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
 
     .product-main-description .carousel .carousel-item img {
         width: 100%;
@@ -2079,92 +2081,6 @@ p.grey {
 }
 
 @media(max-width: 575px){
-
-    div.popular > .row > .col-md{
-        width: 100%;
-    }
-
-    body > div.container.container_products > div > div{
-        max-width: 480px;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between{
-        margin: 0 !important;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div > div{
-        padding-left: 0 !important;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div:nth-child(1)
-    {
-        margin-right: 0 !important;
-        border: none;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div > div{
-        flex-direction: column;
-    }
-
-    .pop-head{
-        padding: 1rem 1rem;
-    }
-
-    div.pop-head > h1{
-        font-size: 1.35rem !important;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div:nth-child(2)
-    {
-        padding-top: 3rem;
-        margin-right: 0 !important;
-        border-top: none;
-        padding-bottom: 2rem;
-    }
-
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div:nth-child(3)
-    {
-        display: none;
-    }
-    body > div.container-fluid.popular > div.row.no-gutters.justify-content-between > div:nth-child(4)
-    {
-        display: none;
-    }
-
-    div.popular{
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    div.pop-head{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-        margin:0 !important;
-        border-top: 1px solid #DEDEDE;
-        background: white;
-        padding-left: 3%;
-    }
-
-    .p-pad{
-        font-size: 0.85rem;
-        padding: 0;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    body > div.container-fluid.popular.mb-3.mt-3 > div.row.no-gutters.justify-content-between{
-        margin:0;
-    }
-
-    div.popular img {
-        width:47vw;
-        height:47vw;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
 
     .mt-pop-items {
         margin-top: 1rem;
