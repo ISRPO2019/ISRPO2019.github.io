@@ -1886,10 +1886,6 @@ p.grey {
         width: 100%;
     }
 
-    body > div.container.container_products > div > div{
-        max-width: 480px;
-    }
-
     body > div.container-fluid.popular > div.row.no-gutters.justify-content-between{
         margin: 0 !important;
     }
@@ -1970,6 +1966,9 @@ p.grey {
 }
 
 @media(min-width: 576px) and (max-width: 767px){
+    body > div.container.container_products > div > div{
+        max-width: 480px;
+    }
 
     .product-main-description .carousel .carousel-item img {
         width: 100%;
