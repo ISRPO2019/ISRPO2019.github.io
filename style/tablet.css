@@ -31,6 +31,10 @@
         transform: rotate(270deg);
     }
 
+    .product-banner {
+      display: none;
+    }
+
 }
 
 /* Планшетная версия */
@@ -87,6 +91,13 @@
     }
 
     /* Блок фильтрации и сортировки */
+   
+    .arrow-sort{
+       width:calc(1rem - 10px);
+       height:calc(1rem - 10px);
+       transform: rotate(-90deg);
+       color: #FFFFFF !important;
+    }
     div.align-items-center.justify-content-center.no-gutters{
         display: none;
 
@@ -96,37 +107,34 @@
       }
       .sort-container {
           width: 100%;
-          height: 3rem;
+          height: calc(4rem - 4px);
           padding:0;
 
       }
   .sort-container > .row >.col-md-6  {
       background: #FFEFEF;
-      margin:calc(1rem - 6px) 0 calc(1rem - 6px) 0;
+      margin:calc(1rem + 4px) 0 calc(1rem + 4px) 0;
       justify-content: center;
       align-items: center;
+      padding-right: .5rem!important;
   }
 
   .sort-container > .row {
       min-width: auto;
   }
 
-  .sort-container > .row >.col-md-6 {
 
-    padding-right: .5rem!important;
-
-}
   .sort-container > .row >.col-md-6 > .block {
-      width: calc(8rem - 8px);
-      height: calc(1rem + 4px);
+      width: calc(11rem - 6px);
+      height: calc(2rem - 12px);
       background: #D32424;
   }
 
   .sort-container > .row >.col-md-6 > .block p{
 
-      line-height: calc(1rem - 1px);
+      line-height: calc(1rem - 5px);
       margin: 0;
-      height: calc(1rem + 3px);
+      font-size:  calc(1rem - 8px);
       color: #FFFFFF;
 
   }
@@ -134,8 +142,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: calc(1rem + 4px);
-      height: calc(1rem + 4px);
+      width: calc(2rem - 12px);
+      height: calc(2rem - 12px);
       background: #B32020;
 
       }

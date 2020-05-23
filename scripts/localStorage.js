@@ -1,3 +1,4 @@
+
 var catalog = [{
     'id': '1',
     'brand': 'Rolex',
@@ -16,13 +17,20 @@ var catalog = [{
     images: [
       './assets/product/ROLEX - SKY-DWELLER/ROLEX - SKY-DWELLER.jpg',
       './assets/product/ROLEX - SKY-DWELLER/DATE 34-1-800x800.jpg',
-      './assets/product/ROLEX - SKY-DWELLER/ROLEX - 19449089499d.jpg'
+      './assets/product/ROLEX - SKY-DWELLER/19449089499d.jpg'
     ],
     comments: [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
+    },{
+      'authors_name': 'name',
+      'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'date': '01.01.2000',
+      'phone': '88005553535',
+      'reply_to': 0
     }],
     reviews: [{
       'authors_name': 'name',
@@ -53,13 +61,14 @@ var catalog = [{
       './assets/product/Orient - AA02005D/12763420_xxl_v1572367577173.jpg',
       './assets/product/Orient - AA02005D/armand-nicolet-l16-small-seconds-limited-edition-a132aaaagp713mr2-1.jpg',
       './assets/product/Orient - AA02005D/armand-nicolet-l16-white-skeleton-dial-mens-hand-wound-watch-a132aaa-ag-p713mr2--_3.jpg',
-      './assets/product/Orient - AA02005D/Orient - Orient - AA02005D1.jpg'
+      './assets/product/Orient - AA02005D/Orient - AA02005D1.jpg'
     ],
     comments: [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -87,14 +96,15 @@ var catalog = [{
     'slide': './assets/product/Casio - G-SHOCK GMW-B5000D-1E/100.jpg',
     images: [
       './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E 2.jpg',
-      './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E1.jpg',
+      './assets/product/Casio - G-SHOCK GMW-B5000D-1E/Casio - G-SHOCK GMW-B5000D-1E1 .jpg',
       './assets/product/Casio - G-SHOCK GMW-B5000D-1E/fnew_casio-la-20wh-4a1ef-1.jpg'
     ],
     comments: [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -130,7 +140,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -166,7 +177,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -202,7 +214,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -230,7 +243,7 @@ var catalog = [{
     'slide': './assets/product/Seiko SNKE61K1/seiko snk4e61k111.jpg',
     images: [
       './assets/product/Seiko SNKE61K1/Seiko SNKE61K1.jpg',
-      './assets/product/Seiko SNKE61K1/6c783cbd4a6df56511df7be23b5aa1f2.jpg',
+      './assets/product/Seiko SNKE61K1/6c783cbd4a6df56511df7be23b5aa1f2.jpeg',
       './assets/product/Seiko SNKE61K1/Seiko SNKE61K11.jpg',
       './assets/product/Seiko SNKE61K1/seiko-men-5-automatic-classic-watch-snke61k1-citytime86-1402-17-citytime86@9.jpg'
     ],
@@ -238,7 +251,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -274,7 +288,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -310,7 +325,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -346,7 +362,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -382,7 +399,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -418,7 +436,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -454,7 +473,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -489,7 +509,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -525,7 +546,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -554,14 +576,15 @@ var catalog = [{
     images: [
       './assets/product/Слава 1409731-2115-300/Слава 1409731-2115-300.jpg',
       './assets/product/Слава 1409731-2115-300/59ae93f241ee0.jpg',
-      './assets/product/Слава 1409731-2115-300/600000421441b4.jpg',
+      './assets/product/Слава 1409731-2115-300/600000421441b4.jpeg',
       './assets/product/Слава 1409731-2115-300/Слава 1409731-2115-3001.jpg'
     ],
     comments: [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -597,7 +620,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -633,7 +657,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -669,7 +694,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -705,7 +731,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -741,7 +768,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -776,7 +804,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -811,7 +840,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -848,7 +878,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -884,7 +915,8 @@ var catalog = [{
       'authors_name': 'name',
       'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       'date': '01.01.2000',
-      'phone': '88005553535'
+      'phone': '88005553535',
+      'reply_to': null
     }],
     reviews: [{
       'authors_name': 'name',
@@ -895,6 +927,23 @@ var catalog = [{
     }]
   }
 ]
+var buyCount = 0;
+var elem = document.getElementsByClassName('add_num');
+if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}
+
+function addNum()
+{
+	var count = 1;
+	if(document.getElementById('amount') != null ) {count = parseInt(document.getElementById('amount').value);}
+	
+	for (var i = 0; i < elem.length; i++) {	
+		if(isNaN(count)) {count = 0;}
+		buyCount = parseInt( elem[i].innerHTML ) + count;
+		elem[i].innerHTML = buyCount;
+		if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
+		localStorage.setItem('buyCount', buyCount);	
+	}		
+}
 
 // filteredArr - массив для вывода отсортированных и/или отфильтрованных значений
 var filteredArr = catalog;
@@ -909,5 +958,32 @@ var filters = {
   'country': []
 }
 
+var params = window
+  .location
+  .search
+  .replace('?','')
+  .split('&')
+  .reduce(
+      function(p,e){
+          var a = e.split('=');
+          p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+          return p;
+      },
+      {}
+);
+
+
+
+// Отдельный открытый товар
+var productById = catalog.find(product => parseInt(product.id) == parseInt(params["id"]));
+
+
 if (localStorage.getItem('catalog')) catalog = JSON.parse(localStorage.getItem('catalog'));
 else localStorage.setItem('catalog', JSON.stringify(catalog));
+if (localStorage.getItem('buyCount')) buyCount = localStorage.getItem('buyCount');
+
+for (var i = 0; i < elem.length; i++) {
+	elem[i].innerHTML = buyCount;
+	if(parseInt($('.add_num').text()) == 0) {$('.add_num').hide();}	
+	if(parseInt($('.add_num').text()) > 0) {$('.add_num').show();}
+}

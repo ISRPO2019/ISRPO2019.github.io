@@ -3,7 +3,7 @@ include("./scripts/localStorage.js");
 //filteringReset - функция для сброса фильтров
 function filteringReset() {
     filteredArr=catalog;
-    cardListCreate(filteredArr, 'productCard');
+    cardListCreate(filteredArr, 'productCard', productsOnPage);
     return filteredArr;
 };
 
@@ -60,7 +60,7 @@ function filtering(filter, filterArr) {
     if (sort != null) {
         sortCardList(sort, filterArr);
     }
-    cardListCreate(filterArr, 'productCard');
+    cardListCreate(filterArr, 'productCard', productsOnPage);
     filteredArr = filterArr;
     return filteredArr;
 };
@@ -90,7 +90,6 @@ function sortCardList(sort, productList) {
                 }
                 return 0;
             });
-            console.log("работает аск");
             break;
         case 'desc':
             productList.sort(function (a, b) {
@@ -102,7 +101,6 @@ function sortCardList(sort, productList) {
                 }
                 return 0;
             });
-            console.log("работает desc");
             break;
         case 'brand':
             productList.sort(function (a, b) {
@@ -114,7 +112,9 @@ function sortCardList(sort, productList) {
                 }
                 return 0;
             });
-            console.log("работает brand");
+            break;
+        default:
+            filtering(productFilters, filteredArr);
             break;
     }
 }
@@ -130,12 +130,27 @@ var productFilters = {
 }
 
 var sort = null;
-
+var sortBackUp = null;
 $('#sort1, #sort2, #sort3').on('click', function() {
-    sort = $(this).val();
+    if (sort == $(this).val()) {
+        $(this).prop("checked", false);
+        sort = null;
+        filteredArr = sortBackUp;
+    }
+    else {
+        sort = $(this).val();
+    }
+    sortBackUp = filteredArr;
     sortCardList(sort, filteredArr);
     filtering(productFilters, filteredArr);
-    console.log(sort);
+});
+
+$('#cardLength1, #cardLength2, #cardLength3').on('click', function() {
+    if (parseInt($(this).val()) != productsOnPage) {
+        productsOnPage = parseInt($(this).val());
+        $('.productsOnPage p').text(productsOnPage);
+        filtering(productFilters, filteredArr);
+    }
 });
 
 $('.checkbox').on('click', function() {
@@ -199,7 +214,6 @@ $('.checkbox').on('click', function() {
             });
             break;
     }
-    console.log(productFilters);
     filtering(productFilters,filteredArr);
     checkedFiltersListCreate(productFilters, 'filters-dropdown-menu');
 });

@@ -41,6 +41,9 @@ function productCreate(id, products, mainDiv) {
 	cardIconDivLink.className = "card_package";
 	var cardIconSvg = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
 	cardIconSvg.setAttribute('class', 'icon icon-package');
+	cardIconSvg.setAttribute('type', 'button');
+	cardIconSvg.setAttribute('onclick', 'addNum()');
+	cardIconSvg.setAttribute('value', '+1');
 	var cardIconSvgUse = document.createElementNS("http://www.w3.org/2000/svg", 'use');
 	cardIconSvgUse.setAttributeNS("http://www.w3.org/1999/xlink", 'xlink:href', 'assets/square-shopping-bag-with-handle.svg#Capa_1');
 
@@ -60,11 +63,16 @@ function removeList(mainDiv) {
 	}
 }
 
-function cardListCreate(products, mainDiv) {
+function cardListCreate(products, mainDiv, cardLength) {
+	if (!cardLength || cardLength > products.length) {
+		cardLength = products.length;
+	}
 	removeList(mainDiv);
-	for (var i = 0; i < products.length; i++) {
+	for (var i = 0; i < cardLength; i++) {
 		productCreate(i, products, mainDiv);
 	}
 }
 
-cardListCreate(filteredArr, 'productCard');
+var productsOnPage = 6;
+
+cardListCreate(filteredArr, 'productCard', productsOnPage);
