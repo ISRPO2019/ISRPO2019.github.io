@@ -464,7 +464,7 @@ div.page>:active{
 }
 
 body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
-    max-width: 80% !important;
+    max-width: 75% !important;
 }
 
 .card-price{
@@ -714,7 +714,7 @@ button:active > .arrow1{
 
 @media screen and (min-width:767px)and (max-width:5000px) {#accordion{display: none;}}
 
-@media screen and (max-width: 767px) and (min-width: 567px) {
+@media screen and (max-width: 767px){
     .filters{
         display: none;
     }
@@ -744,18 +744,9 @@ button:active > .arrow1{
         box-shadow: none;
     }
 
-
-    .card_icon{
-        padding-left: 88%;
-    }
-
     body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
         justify-content: space-between !important;
         padding-bottom: 7%;
-    }
-
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
-        margin: 0 !important;
     }
 
     body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
@@ -765,7 +756,6 @@ button:active > .arrow1{
     body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
         width: fit-content !important;
     }
-
     body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
         display: none;
     }
@@ -773,10 +763,6 @@ button:active > .arrow1{
     body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
         width: fit-content !important;
         align-items: flex-start !important;
-    }
-
-    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row{
-        align-items: unset !important;
     }
 
     body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
@@ -815,12 +801,7 @@ button:active > .arrow1{
         width: 2.2rem;
         height: 2.2rem;
     }
-
-    .card_package > svg{
-        height: 2rem !important;
-        width: 80%;
-    }
-
+    
     .page{
         display: none;
     }
@@ -837,6 +818,11 @@ button:active > .arrow1{
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 36px;
+    }
+
+    .card_package > svg{
+        height: 2rem !important;
+        width: 80%;
     }
 
     div>button.show_btn>:active{
@@ -864,26 +850,8 @@ button:active > .arrow1{
         border-radius: 0px !important;
     }
 
-    .card-body {
-        background: #FFFFFF;
-    }
-
-    .text-col{
-        font-size: calc(1rem / (22/36));
-        color: #454545;
-        text-decoration: none !important;
-    }
-
-    .text-col:hover{
-        color: #B32020;
-    }
     .text-col:active{
         color: #B32020 !important;
-    }
-
-    img.col.imc.mt-3{
-        max-width: 10.5% !important;
-        height: 18px !important;
     }
 
     div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
@@ -900,6 +868,41 @@ button:active > .arrow1{
 
     div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
         color: #454545;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 567px) {
+
+    .card_icon{
+        padding-left: 88%;
+    }
+    
+
+    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
+        margin: 0 !important;
+    }
+
+    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row{
+        align-items: unset !important;
+    }
+    
+    .card-body {
+        background: #FFFFFF;
+    }
+
+    .text-col{
+        font-size: calc(1rem / (22/36));
+        color: #454545;
+        text-decoration: none !important;
+    }
+
+    .text-col:hover{
+        color: #B32020;
+    }
+
+    img.col.imc.mt-3{
+        max-width: 10.5% !important;
+        height: 18px !important;
     }
 
     .fon{
@@ -958,149 +961,14 @@ button:active > .arrow1{
 }
 
 @media(min-width: 486px) and (max-width: 575px) {
-    .filters{
-        display: none;
-    }
-
-    .page-selection{
-        display: none !important;
-    }
-
-    .title_product {
-      display: none;
-    }
-
-    .number_product {
-        display: none;
-    }
-
-    .dropdown{
-        display: none;
-    }
-
-    .card {
-        background: none;
-        padding: 0;
-    }
-
-    .card:hover {
-        box-shadow: none;
-    }
 
     .card_icon{
         padding-left: 75%;
     }
 
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        justify-content: space-between !important;
-        padding-bottom: 7%;
-    }
-
     body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
         margin: 0 !important;
         padding-left: 10%;
-    }
-
-    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
-        width: fit-content !important
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
-        width: fit-content !important;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
-        display: none;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
-        width: fit-content !important;
-        align-items: flex-start !important;
-    }
-
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        align-items: unset !important;
-        text-align: unset !important;
-    }
-
-    .card_icon{
-        margin-left: 0 !important;
-        width: 100%;
-    }
-
-    .card_img {
-        width: 84.66vw;
-        background: #C4C4C4;
-        margin-top: 0;
-    }
-
-    .card-title{
-        font-size: 24px;
-        color: #000000;
-    }
-
-    .card-price{
-        font-size: 24px;
-        line-height: 21px;
-        text-align: center;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .card_package{
-        display: inline-block;
-        stroke-width: 0;
-        color:#B32020;
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-
-    .card_package > svg{
-        height: 2rem !important;
-        width: 80%;
-    }
-
-    .page{
-        display: none;
-    }
-
-    .number_btn{
-        display: none;
-    }
-
-    .show_btn{
-    width: 488px;
-    height: 80px;
-    background: #FFEFEF;
-    border: 1px solid #9E0808;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 36px;
-    }
-
-    div>button.show_btn>:active{
-        width: 488px;
-        height: 80px;
-        background: #EC8A8A;
-        border: 1px solid #9E0808;
-        box-sizing: border-box;
-        border-radius: 5px;
-        font-size: 36px;
-    }
-
-    .show_next{
-        display: flex !important;
-    }
-
-    .about-buttons {
-        display: none;
-    }
-
-    .card-header{
-        background: #FFF5F5;
-        border-top: calc(1rem / (22/2)) solid #454545 !important;
-        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
-        border-radius: 0px !important;
     }
 
     .card-body {
@@ -1113,32 +981,11 @@ button:active > .arrow1{
         text-decoration: none !important;
     }
 
-    .text-col:active{
-        color: #B32020 !important;
-    }
-
     img.col.imc{
         max-width: 12% !important;
         height: 20px !important;
         margin-top: 20px !important;
     }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
-        transform: rotate(0deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
-        transform: rotate(180deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
-        color: #B32020;
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
-        color: #454545;
-    }
-
 
     .fon{
         font-size: 22px;
@@ -1196,149 +1043,14 @@ button:active > .arrow1{
 }
 
 @media(min-width: 386px) and (max-width: 485px){
-    .filters{
-        display: none;
-    }
-
-    .page-selection{
-        display: none !important;
-    }
-
-    .title_product {
-      display: none;
-    }
-
-    .number_product {
-        display: none;
-    }
-
-    .dropdown{
-        display: none;
-    }
-
-    .card {
-        background: none;
-        padding: 0;
-    }
-
-    .card:hover {
-        box-shadow: none;
-    }
 
     .card_icon{
         padding-left: 75%;
     }
 
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        justify-content: space-between !important;
-        padding-bottom: 7%;
-    }
-
     body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
         margin: 0 !important;
         padding-left: 10%;
-    }
-
-    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
-        width: fit-content !important
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
-        width: fit-content !important;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
-        display: none;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
-        width: fit-content !important;
-        align-items: flex-start !important;
-    }
-
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        align-items: unset !important;
-        text-align: unset !important;
-    }
-
-    .card_icon{
-        margin-left: 0 !important;
-        width: 100%;
-    }
-
-    .card_img {
-        width: 84.66vw;
-        background: #C4C4C4;
-        margin-top: 0;
-    }
-
-    .card-title{
-        font-size: 24px;
-        color: #000000;
-    }
-
-    .card-price{
-        font-size: 24px;
-        line-height: 21px;
-        text-align: center;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .card_package{
-        display: inline-block;
-        stroke-width: 0;
-        color:#B32020;
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-
-    .card_package > svg{
-        height: 2rem !important;
-        width: 80%;
-    }
-
-    .page{
-        display: none;
-    }
-
-    .number_btn{
-        display: none;
-    }
-
-    .show_btn{
-    width: 488px;
-    height: 80px;
-    background: #FFEFEF;
-    border: 1px solid #9E0808;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 36px;
-    }
-
-    div>button.show_btn>:active{
-        width: 488px;
-        height: 80px;
-        background: #EC8A8A;
-        border: 1px solid #9E0808;
-        box-sizing: border-box;
-        border-radius: 5px;
-        font-size: 36px;
-    }
-
-    .show_next{
-        display: flex !important;
-    }
-
-    .about-buttons {
-        display: none;
-    }
-
-    .card-header{
-        background: #FFF5F5;
-        border-top: calc(1rem / (22/2)) solid #454545 !important;
-        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
-        border-radius: 0px !important;
     }
 
     .card-body {
@@ -1351,30 +1063,10 @@ button:active > .arrow1{
         text-decoration: none !important;
     }
 
-    .text-col:active{
-        color: #B32020 !important;
-    }
-
     img.col.imc{
         max-width: 15% !important;
         height: 15px !important;
         margin-top: 18px !important;
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
-        transform: rotate(0deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
-        transform: rotate(180deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
-        color: #B32020;
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
-        color: #454545;
     }
 
     .fon{
@@ -1433,149 +1125,14 @@ button:active > .arrow1{
 }
 
 @media(max-width: 385px){
-    .filters{
-        display: none;
-    }
-
-    .page-selection{
-        display: none !important;
-    }
-
-    .title_product {
-      display: none;
-    }
-
-    .number_product {
-        display: none;
-    }
-
-    .dropdown{
-        display: none;
-    }
-
-    .card {
-        background: none;
-        padding: 0;
-    }
-
-    .card:hover {
-        box-shadow: none;
-    }
 
     .card_icon{
         padding-left: 75%;
     }
 
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        justify-content: space-between !important;
-        padding-bottom: 7%;
-    }
-
     body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center > div.mx-auto{
         margin: 0 !important;
         padding-left: 10%;
-    }
-
-    body > div.container.container_products > div.row > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-md-2{
-        width: fit-content !important
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-between.align-items-center.flex-row > div.ml-auto.col-md-2.card_icon{
-        width: fit-content !important;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div:nth-child(1){
-        display: none;
-    }
-
-    body > div.container.container_products > div > div > div > div.row.justify-content-center.align-items-center.flex-row > div.col-lg-6.col-md-4.d-flex.flex-column.align-items-center{
-        width: fit-content !important;
-        align-items: flex-start !important;
-    }
-
-    body > div.container.container_products > div.row.justify-content-center > div > div > div.d-flex.align-items-center.flex-row.text-center{
-        align-items: unset !important;
-        text-align: unset !important;
-    }
-
-    .card_icon{
-        margin-left: 0 !important;
-        width: 100%;
-    }
-
-    .card_img {
-        width: 84.66vw;
-        background: #C4C4C4;
-        margin-top: 0;
-    }
-
-    .card-title{
-        font-size: 24px;
-        color: #000000;
-    }
-
-    .card-price{
-        font-size: 24px;
-        line-height: 21px;
-        text-align: center;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .card_package{
-        display: inline-block;
-        stroke-width: 0;
-        color:#B32020;
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-
-    .card_package > svg{
-        height: 2rem !important;
-        width: 80%;
-    }
-
-    .page{
-        display: none;
-    }
-
-    .number_btn{
-        display: none;
-    }
-
-    .show_btn{
-    width: 488px;
-    height: 80px;
-    background: #FFEFEF;
-    border: 1px solid #9E0808;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 36px;
-    }
-
-    div>button.show_btn>:active{
-        width: 488px;
-        height: 80px;
-        background: #EC8A8A;
-        border: 1px solid #9E0808;
-        box-sizing: border-box;
-        border-radius: 5px;
-        font-size: 36px;
-    }
-
-    .show_next{
-        display: flex !important;
-    }
-
-    .about-buttons {
-        display: none;
-    }
-
-    .card-header{
-        background: #FFF5F5;
-        border-top: calc(1rem / (22/2)) solid #454545 !important;
-        border-bottom: calc(1rem / (22/2)) solid #454545 !important;
-        border-radius: 0px !important;
     }
 
     .card-body {
@@ -1588,30 +1145,10 @@ button:active > .arrow1{
         text-decoration: none !important;
     }
 
-    .text-col:active{
-        color: #B32020 !important;
-    }
-
     img.col.imc.mt-3{
         max-width: 17% !important;
         height: 17px !important;
         margin-top: 15px !important;
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed > div.row > img{
-        transform: rotate(0deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot > div.row > img{
-        transform: rotate(180deg);
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot{
-        color: #B32020;
-    }
-
-    div#accordion > div.card > div.card-header > h5.mb-0.text-center > button.col-12.btn.btn-link.text-col.tcolot.collapsed{
-        color: #454545;
     }
 
     .fon{
