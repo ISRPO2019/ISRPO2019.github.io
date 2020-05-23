@@ -2489,16 +2489,6 @@ footer button {
 
 }
 
-@media screen and (max-width: 749px) {
-    footer img {
-        width: 100%;
-        height: calc(1rem/(22/30));
-        padding: calc(1rem/(22/11)) calc(1rem/(22/20));
-    }
-}
-
-
-
 @media screen and (min-width: 576px) and (max-width: 767px) {
     footer button{
 		margin-left: auto;
@@ -3243,5 +3233,9 @@ box-sizing: border-box;
   }
 
 .ab:hover{
-    color: #FFFFFF;;
+    color: #FFFFFF;
+}
+
+.ab{
+    margin-left: 1rem;
 }
