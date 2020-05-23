@@ -3138,7 +3138,12 @@ box-sizing: border-box;
 	}
 	#add_num2 {
 		margin-left: 40vw;
-	}
+    }
+    
+    .ab{
+        margin-left: 0rem !important;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -3149,11 +3154,6 @@ box-sizing: border-box;
 		margin-left: 85vw;
 		margin-right: 3vw;
     }
-    
-    .ab{
-        margin-left: 0rem !important;
-    }
-
 }
 
 @media screen and (max-width: 561px) {
