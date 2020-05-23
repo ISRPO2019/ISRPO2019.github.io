@@ -3148,7 +3148,12 @@ box-sizing: border-box;
 		top: 4.5vw;
 		margin-left: 85vw;
 		margin-right: 3vw;
-	}
+    }
+    
+    .ab{
+        margin-left: 0rem !important;
+    }
+
 }
 
 @media screen and (max-width: 561px) {
@@ -3156,7 +3161,12 @@ box-sizing: border-box;
 		font-size: 4.3vw;
 		padding: 0.01vw 1.6vw;
 		top: 4.3vw;
-	}
+    }
+    
+    .ab{
+        margin-left: 0rem !important;
+    }
+    
 }
 
 .itt{
