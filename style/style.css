@@ -2403,8 +2403,6 @@ footer button {
     }	
 }	
 
-
-
 @media screen and (min-width: 576px) and (max-width: 991px) {
 
     footer {
@@ -2581,7 +2579,8 @@ footer button {
     }
 
     .basement3 input {
-        height: calc(1em/(22/56));
+		height: calc(1em/(22/34.5));
+        font-size: calc(1em/(22/36));
 		width: 80vw;
     }
 
@@ -2590,6 +2589,7 @@ footer button {
 		margin-bottom: calc(1em/(22/21));
         height: calc(1em/(22/154));
 		width: 80vw;
+		
     }
 	
     .basement4 p {
