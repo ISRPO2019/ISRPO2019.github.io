@@ -86,20 +86,383 @@
            <div class="block">
                <p> Сортировать по..</p>
              </div>
-             <div class="str">
-               <svg class="icon arrow-sort">
-                 <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
-               </svg>
-             </div>
+             <div class="str dropdown">
+              <button type="button" class="btn d-flex align-items-start" id="dropdown_filter_1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                <svg class="icon arrow-sort">
+                  <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <ul class="dropdown-menu drop_filter" aria-labelledby="dropdown_filter_1">
+    
+                <li class="d-flex">
+                  <div class="nc_filter_1">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="Radios_fil_1" value="option1"
+                        checked>
+                      <label class="form-check-label" for="Radios_fil_1">
+                        По возрастанию цены
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="nc_filter_1">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="Radios_fil_2" value="option1"
+                        checked>
+                      <label class="form-check-label" for="Radios_fil_2">
+                        По убыванию цены
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="nc_filter_1">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="Radios_fil_3" value="option1"
+                        checked>
+                      <label class="form-check-label" for="Radios_fil_3">
+                        По производителю
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
         </div>
       <div class="col-md-6 d-flex d-lg-none pl-md-2 ">
          <div class="block ">
             <p> Выбор категории</p>
          </div>
-         <div class="str">
-          <svg class="icon arrow-sort">
-            <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
-          </svg>
+         <div class="str dropdown">
+          <button type="button" class="btn d-flex align-items-start" id="dropdown_filter_2" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+            <svg class="icon arrow-sort">
+              <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </button>
+          <ul class="dropdown-menu drop_filter" aria-labelledby="dropdown_filter_2">
+
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Пол</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Женские" class="checkbox" name="gender[]" type="checkbox">Женские
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Мужские" class="checkbox" name="gender[]" type="checkbox">Мужские
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Унисекс" class="checkbox" name="gender[]" type="checkbox">Унисекс
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Страна</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Швейцария" class="checkbox" name="country[]" type="checkbox">Швейцария
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Япония" class="checkbox" name="country[]" type="checkbox">Япония
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Германия" class="checkbox" name="country[]" type="checkbox">Германия
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Великобритания" class="checkbox" name="country[]" type="checkbox">Великобритания
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Италия" class="checkbox" name="country[]" type="checkbox">Италия
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="США" class="checkbox" name="country[]" type="checkbox">США
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Россия" class="checkbox" name="country[]" type="checkbox">Россия
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Другое" class="checkbox" name="country[]" type="checkbox">Другое
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Бренд</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Rolex" class="checkbox" name="brand[]" type="checkbox">Rolex
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Casio" class="checkbox" name="brand[]" type="checkbox">Casio
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Diesel" class="checkbox" name="brand[]" type="checkbox">Diesel
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Fossil" class="checkbox" name="brand[]" type="checkbox">Fossil
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Michael Kors" class="checkbox" name="brand[]" type="checkbox">Michael Kors
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Orient" class="checkbox" name="brand[]" type="checkbox">Orient
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Seiko" class="checkbox" name="brand[]" type="checkbox">Seiko
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Другое" class="checkbox" name="brand[]" type="checkbox">Другое
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Механизм</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Аналоговые" class="checkbox" name="mechanism[]" type="checkbox">Аналоговые
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Цифровые" class="checkbox" name="mechanism[]" type="checkbox">Цифровые
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Материал</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Серебро" class="checkbox" name="material[]" type="checkbox">Серебро
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Золото" class="checkbox" name="material[]" type="checkbox">Золото
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Платина" class="checkbox" name="material[]" type="checkbox">Платина
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Сталь" class="checkbox" name="material[]" type="checkbox">Сталь
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Алюминий" class="checkbox" name="material[]" type="checkbox">Алюминий
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Керамика" class="checkbox" name="material[]" type="checkbox">Керамика
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Другое" class="checkbox" name="material[]" type="checkbox">Другое
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0" href="#">Цвет</a>
+                </div>
+                <div class="icon_filter">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Синий" class="checkbox" name="colour[]" type="checkbox">Синий
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Розовый" class="checkbox" name="colour[]" type="checkbox">Розовый
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Серебряный" class="checkbox" name="colour[]" type="checkbox">Серебряный
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Коричневый" class="checkbox" name="colour[]" type="checkbox">Коричневый
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Черный" class="checkbox" name="colour[]" type="checkbox">Черный
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+                <li class="form-check left">
+                  <label class="check-cont">
+                    <input value="Другое" class="checkbox" name="colour[]" type="checkbox">Другое
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu filter ">
+              <div class="dropdown-item dropdown-tog d-flex" href="#">
+                <div class="nc_filter">
+                  <a class="p-0 " href="#">Цена</a>
+                </div>
+                <div class="icon_filter ">
+                  <svg class="icon arrow-filter">
+                    <use xlink:href="assets/symbol-defs.svg#icon-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <ul class="dropdown-menu ">
+                <div class="d-block">
+                  <li class="form-number">
+                    <output class="mr-1 ">От</output>
+                    <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" id="id6" maxlength="7"
+                      class="num_fil zbz-input-clearable zbz-input-clearable--x" min="0" max="1000000">
+                  </li>
+                  <li class="form-number">
+                    <output class="mr-1 mt-1  ">До</output>
+                    <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" id="id6" maxlength="7"
+                      class="num_fil_2 zbz-input-clearable zbz-input-clearable--x" min="" max="">
+                  </li>
+                </div>
+              </ul>
+            </li>
+          </ul>
         </div>
        </div>
       <div class="col-md pr-0 pl-0">
